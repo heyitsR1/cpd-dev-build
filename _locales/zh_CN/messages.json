@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "导出 Claude 对话和项目，用文件夹整理对话，搜索每条消息，批量删除，查看用量限额。100% 本地运行。",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "从 claude.ai 下载聊天记录和项目文件",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? 使用方法",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "如何使用此扩展程序",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "状态",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "空闲",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "加载中…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "导出中…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "成功",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "错误",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "准备中…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "项目",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "聊天",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "今日剩余 $1 / $2 次免费导出",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "今日免费导出次数已用完",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ 刷新",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ 刷新文件",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "当前聊天",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "聊天",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 条消息 · $2 个附件",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "导出格式",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 包含附件的 ZIP (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (原始 .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ 下载此聊天",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 提示：您也可以在聊天页面上使用“分享”旁边的“下载”按钮直接下载。",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ 下载所有文件",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 下载所有聊天",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ 下载整个项目",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "项目 ZIP 名称",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "将保存为 name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "文件导出格式",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "原生格式 (保留原扩展名)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "项目聊天导出格式",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (原始数据)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "文件",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "聊天",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "尚未加载任何文件。",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "打开 Claude 项目或聊天，然后点击刷新。",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "尚未加载任何聊天。",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "打开 Claude 项目，然后点击刷新。",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "下载",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "下载聊天记录 (按住 Shift 点击可切换格式)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "下载聊天",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "选择单条聊天的首选导出格式：",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "推荐",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "完整的 Markdown 聊天记录 + 所有上传的附件（图片、PDF、文档）打包。",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "格式整洁的文本记录，适用于 Obsidian、Notion 或个人笔记。",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "包含完整 API 结构的原始无损对话数据。",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "记住我的选择，以便将来一键下载",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "取消",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ 下载",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 提示：随时按住 Shift 点击下载按钮可更改此格式。",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "使用方法",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "在浏览器中打开 claude.ai",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "点击侧边栏中的“项目”",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "打开您想要导出的项目",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "点击工具栏中的扩展图标打开此侧边栏",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "点击“↺ 刷新”加载文件和聊天",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "单独下载、批量下载或将整个项目打包为 ZIP 下载",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ 观看视频教程",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "故障排除",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "文件没有显示？请尝试以下操作：",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "点击“↺ 刷新文件”并稍候片刻",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "刷新页面，然后重试",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "确保 URL 为 claude.ai/project/[id] — 而不是普通聊天",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "强制刷新：CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "退出 Claude，重新登录并重新打开项目",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "如果您使用其他浏览器，请尝试使用 Chrome",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "阅读完整的故障排除指南 →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "仍有问题？",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ 备用方案：询问 Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "某些文件（电子表格等）无法通过 API 直接下载。复制以下提示词并将其粘贴到 Claude 聊天中即可获取可下载的 ZIP。",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 复制提示词到剪贴板",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ 已复制！",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "将其粘贴到项目页面的 Claude 聊天中。",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "已经购买？在此粘贴您的密钥：",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "激活",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "一键导出项目文件和聊天记录",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ 核心功能",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "导出文件",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "单独下载或一键打包下载所有项目知识库文档。",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "导出聊天",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "将项目中的每段对话下载为 Markdown 或 JSON 格式。",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "整个项目",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "一键将文件和聊天整合到一个整洁的归档中。",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "格式转换",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "保留原始文件格式或转换为 Markdown — 由您决定。",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token 统计",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "直接查看预估 Token 数量和文件创建时间。",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "安全私密",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "完全在浏览器中运行，使用您现有的 Claude 会话。无外部服务器，不上传数据。",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 快速入门指南",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "前往 claude.ai 并打开任意项目工作区。",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "点击浏览器工具栏中的扩展图标以加载项目文件和聊天。",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "选择您的格式，然后点击“下载所有文件”、“下载所有聊天”或“下载整个项目”。",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "刚刚安装或更新？刷新已打开的 Claude 标签页以便重新连接。",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "升级到 Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ 升级到 Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "免费版每天可用 5 次单个下载和 1 次完整项目导出。Pro 取消这两项限制，并新增备份所有内容功能——所有项目和对话打包成一个 ZIP，可手动或自动完成——还提供 claude.ai 上的实时 Claude 用量表。",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "升级到 Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "通过 Freemius 安全结账",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 已经购买？",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · 无限使用",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "包含聊天附件（ZIP 更大）",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "将在 $1 后重置",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "登录 claude.ai 以查看你的限额。",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "目前无法读取你的限额。请打开 claude.ai 后重试。",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5 小时会话",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "每周",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "每周 · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "正在导出 $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "正在开始…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro 功能。文件将保存到下载 › Claude Backups。",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "你可以关闭此面板——备份会继续进行。",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "上次备份失败：请登录 claude.ai 后重试。",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "上次备份失败：$1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "上次备份 $1 · $2 个项目，$3 个对话 · 下载 › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "尚未备份。已保存到下载 › Claude Backups。",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "按月",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "终身",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "将于 $1 续订。无限导出、备份，以及页面内的用量表。",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "无限导出、备份，以及页面内的用量表。",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "管理许可证",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "你的 Pro 订阅已到期",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "此 Pro 许可证已取消",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "你已恢复到免费计划。此前的导出和备份仍归你所有。",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "续订 Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "当前会话（5 小时）",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "每周限额",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "隐藏",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "已达会话限额",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "已使用 $1% 的会话额度",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "将在 $1 后重置。",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude 用量——点击查看详情",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "今天的 5 次免费下载已用完。Pro 取消每日限制——无限次单个下载和无限次完整项目导出。",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "你已用掉免费的完整项目导出次数。Pro 可解锁无限次完整导出——一键导出所有对话和文件，随时可用。",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "备份所有内容是 Pro 功能：每个项目的说明、文件和对话，以及你所有其他对话，打包成一个 ZIP——可手动触发，也可每天或每周自动运行。",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "页面内用量表是 Pro 功能：在 claude.ai 角落显示你的 5 小时和每周 Claude 限额，并在达到 80% 和 100% 时提醒。",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "你的 Pro 订阅已到期。续订即可重新开启无限导出、备份和页面用量表。你的密钥保持不变。",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "你的 Claude 限额",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "在 claude.ai 上显示用量表",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "备份所有内容",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "你的项目——说明、文件和对话——以及你的其他所有对话，都保存为一个 ZIP。即使关闭此面板也会自动运行。",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ 立即备份",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "自动备份：关闭",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "自动备份：每天",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "自动备份：每周",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "取消",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "刷新",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "你的 Claude 成果，保存在你自己的电脑上。",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "从你自己的 Claude 账户导出项目、对话和文件，把对话整理进文件夹，搜索每条消息的内容，并随时查看用量限额。",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "打开 claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "然后点击扩展图标打开侧边栏。提示：可在 Chrome 的拼图菜单中固定它。",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "导出",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "项目文件、对话记录和 Artifacts——或把整个项目打包成一个 ZIP，支持 Markdown 或 JSON。",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "所有项目和所有对话打包成一个 ZIP——随时手动，或每天、每周自动备份，关闭侧边栏也照常运行。",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "用量计",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Claude 的 5 小时和每周限额及重置时间——显示在侧边栏和 claude.ai 的模型选择器旁。",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free 与 Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "单个文件和对话下载",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "每天 5 次",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "无限制",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "导出整个项目",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "免费 1 次",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON、Artifacts 和附件",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "侧边栏中的用量限额",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "claude.ai 上的用量计，80% / 100% 时提醒",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "每天或每周自动备份",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "按月或终身——方案和价格请见我们的网站。",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro 已启用",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "打开侧边栏即可备份全部内容或开启自动备份。",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "按月 · $1 续订",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "终身许可——所有 Pro 功能，永久可用。",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "粘贴购买邮件中的许可证密钥。",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "开始使用",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "打开 claude.ai，进入任意项目或对话。",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "点击扩展图标打开侧边栏。固定后一键即可打开。",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "下载文件、对话或整个项目——或一次性备份全部内容。",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "刚安装或更新？请刷新已打开的 Claude 标签页以重新连接。",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "只会导出你已登录的 Claude 账户本来就能打开的内容。你的 Claude 内容不会离开你的浏览器。",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "需要帮助？",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "打开 claude.ai 即可导出项目或对话。用量限额和备份在任何标签页都可用。",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "导出设置",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "一切都在这台计算机上进行——不会上传到任何云端。备份会以 ZIP 文件的形式保存到下载 › Claude Backups。自动备份会在你的计算机开机、Chrome 打开且你已登录 claude.ai 时运行；如果错过一次，会在下次满足这些条件时运行。",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "备份的工作原理",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "正在加载你的项目…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "也包括项目外的对话",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "请至少选择一个项目，或勾选项目外的对话。",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "此账户中还没有项目。",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "备份：所有项目",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "备份：我选择的项目",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "登录 claude.ai 以查看你的项目列表。",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "备份",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 密钥",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "打开一个项目(Claude 侧边栏中的\"项目\")或任意对话——此面板会显示你可以从中下载的内容。",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "打开 claude.ai 即可导出项目或对话。用量限额和备份在任何标签页都可用。",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "打开我的 Claude 项目",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 点击列表中的任意项目。此面板会显示其文件和对话，随时可以下载。",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "告诉我怎么做——打开我的项目",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "管理 / 取消 ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "买断终身版",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "侧边栏",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "弹出窗口",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 输入许可证密钥",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "已购买 Pro？粘贴购买邮件中的密钥。",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "请先粘贴密钥。",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "正在检查密钥…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro 已开启，正在重新加载…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "按年",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "帮助 ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "你选择了 $1 个。Pro 可一次移动、导出和删除任意数量的对话。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "免费版：每次批量操作最多 $1 个对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "取消",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 个对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "删除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "删除文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "删除文件夹“$1”？其中的对话仍保留在 Claude 中。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "删除 $1 个对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "这些对话将在 claude.ai 上删除，且无法恢复。如果之后可能需要，请先导出。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "已删除 $1 个。$2 个无法删除，仍保持选中。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "从你的 Claude 账户中删除 $1 个对话？",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "已删除 $1 个对话。重新加载 claude.ai 即可看到变化。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "正在删除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "请检查网络连接，然后重试。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "无法连接到 claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "导出",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "每导出一个对话计为一次下载。Pro 每天可导出任意数量的对话。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "今日还剩 $1 / 5 次免费下载",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "已导出 $1 个。$2 个无法读取。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "已将 $1 个对话导出到“下载”文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "正在导出",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "已将 $1 个对话移至“$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "全部对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "已删除文件夹“$1”。其中的对话已变为未归类。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "在“全部对话”中选择对话并点按“文件夹”，或将它们拖到此文件夹。在 claude.ai 上，点按文件夹旁的 + 可添加当前打开的对话。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "“$1”中还没有内容",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "已有同名文件夹。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro 可创建无限个文件夹。你的对话和文件夹会保持原样。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "你已用完 3 个免费文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "文件夹名称",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "未归类",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 个未能建立索引",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "搜索已暂停：请登录 claude.ai。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "更新",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 个对话 · 在本机上搜索",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "正在为搜索建立索引：$1 / $2 个对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "使用前 $1 个",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 个匹配的对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "这会更改 claude.ai 上的对话，与在 claude.ai 上直接移动相同。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "已移动 $1 个。$2 个无法移动，仍保持选中。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "将 $1 个对话移至文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "将 $1 个对话移至 Claude 项目",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "已将 $1 个对话移至“$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "正在移动",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "新建文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "新建文件夹…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "新建文件夹 (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "你在 claude.ai 上开始的对话会显示在这里。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "还没有对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "搜索会匹配你输入的每个词。将短语放在引号中可精确匹配。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "仍在建立索引，还剩 $1 个对话。结果会随读取进度陆续显示。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "没有对话提到“$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "此账户中还没有项目。请先在 claude.ai 上创建一个。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "移动和删除操作在 claude.ai 页面上以你的登录身份执行。请保持一个 claude.ai 标签页打开，然后重试。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "请先在标签页中打开 claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "以后再说",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "打开 claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "在标签页中打开",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "免费版",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · 无限制",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "项目",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "从文件夹中移除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "重命名",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "重试",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "免费版显示前 5 个匹配结果。Pro 显示所有对话中的全部匹配结果。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "还有 $1 个对话匹配",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "搜索所有消息",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "全选",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "选择“$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "已选择 $1 个",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "再显示 $1 个",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "在 claude.ai 侧边栏中显示文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "资料库列出的是你自己 Claude 账户中的对话，因此需要先登录。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "登录 claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "清除选择 (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "删除 (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "导出为 Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "移至文件夹 (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "移至项目 (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "资料库 — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "已将 $1 个对话移出文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "所有对话都已在文件夹中。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "全部已归类",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "解锁批量操作",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "解锁无限导出",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "解锁无限文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "解锁完整搜索",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "无标题对话",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "无标题项目",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "将此对话添加到 $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "将此项目添加到 $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "将对话和项目分组到文件夹中。点按 + 开始。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "空文件夹。打开一个对话，然后点按此文件夹上的 +。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "已在 $1 中",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "免费版包含 3 个文件夹。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "新建文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "在资料库中显示 $1 的全部内容",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "解锁无限文件夹",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "导出",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "资料库",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 条消息 · 估算",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "长对话：每发送一条消息都会重新发送全部内容。开始新对话可让你的额度用得更久。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "此对话的上下文",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "文件夹与搜索",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "直接在 Claude 侧边栏把对话整理进文件夹，搜索每条消息的内容，并批量移动、导出或删除对话。",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "对话和项目的文件夹",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "搜索每个对话的内容",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "前 5 条结果",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "全部结果",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "批量移动、导出和删除",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "每次 5 个",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "当前对话每次重新发送的上下文量",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

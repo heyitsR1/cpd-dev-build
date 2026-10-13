@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "ייצוא צ'אטים ופרויקטים מ-Claude, תיקיות לצ'אטים, חיפוש בכל ההודעות, מחיקה מרובה ומעקב אחר מגבלות שימוש. 100% מקומי.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "הורד שיחות וקבצי פרויקטים מ-claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? כיצד להשתמש",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "כיצד להשתמש בתוסף זה",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "סטטוס",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "ממתין",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "טוען…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "מייצא…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "הושלם",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "שגיאה",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "מכין…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "פרויקט",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "שיחה",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "נותרו $1 מתוך $2 ייצואים חינם היום",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "הגעת למגבלת הייצוא היומי בחינם",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ רענן",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ רענן קבצים",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "שיחה נוכחית",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "שיחה",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 הודעות · $2 קבצים מצורפים",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "פורמט ייצוא",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP עם קבצים מצורפים (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (.json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ הורד שיחה זו",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 טיפ: ניתן להוריד ישירות מעמוד השיחה בעזרת כפתור ההורדה לצד שיתוף.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ הורד את כל הקבצים",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 הורד את כל השיחות",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ הורד פרויקט שלם",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "שם קובץ ה-ZIP של הפרויקט",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "יישמר בתור name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "פורמט ייצוא קבצים",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "מקורי (שמור סיומת מקורית)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "פורמט ייצוא שיחות",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (נתונים גולמיים)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "קבצים",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "שיחות",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "טרם נטענו קבצים.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "פתח פרויקט או שיחה ב-Claude ולחץ על רענן.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "טרם נטענו שיחות.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "פתח פרויקט ב-Claude ולחץ על רענן.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "הורד",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "הורד שיחה (Shift+Click לשינוי פורמט)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "הורדת שיחה",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "בחר את פורמט הייצוא המועדף:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "מומלץ",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "תמליל Markdown מלא + כל הקבצים המצורפים (תמונות, PDF, מסמכים) בקובץ ZIP.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "טקסט נקי ומעוצב, מושלם עבור Obsidian, Notion או פתקים אישיים.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "נתוני שיחה גולמיים ומלאים עם מבנה ה-API.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "זכור את בחירתי להורדות עתידיות בלחיצה אחת",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "ביטול",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ הורד",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 טיפ: החזק Shift בעת לחיצה על הורד כדי לשנות פורמט בכל עת.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "כיצד להשתמש",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "פתח את claude.ai בדפדפן",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "לחץ על Projects בסרגל הצד",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "פתח את הפרויקט שברצונך לייצא",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "לחץ על סמל התוסף בסרגל הכלים כדי לפתוח את החלונית הצדדית הזו",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "לחץ על «↺ רענן» כדי לטעון קבצים ושיחות",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "הורד קבצים או שיחות בנפרד או את הפרויקט כולו כ-ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ צפה בסרטון הדרכה",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "פתרון בעיות",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "קבצים אינם מופיעים? נסה את הפעולות הבאות:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "לחץ על «↺ רענן קבצים» והמתן רגע",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "רענן את העמוד ונסה שוב",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "וודא שהכתובת היא claude.ai/project/[id]",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "רענון מאולץ: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "התנתק מ-Claude, התחבר מחדש ופתח את הפרויקט",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "נסה להשתמש ב-Google Chrome אם אתה בדפדפן אחר",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "קרא את המדריך המלא לפתרון בעיות →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "עדיין נתקל בבעיה?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ חלופה: בקש מ-Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "חלק מהקבצים אינם ניתנים להורדה ישירה דרך ה-API. העתק את הפרומפט הבא והדבק אותו בשיחת Claude כדי לקבל קובץ ZIP:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 העתק פרומפט ללוח",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ הועתק!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "הדבק זאת בצ'אט של Claude בעמוד הפרויקט.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "כבר רכשתם? הדביקו כאן את המפתח:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "הפעל",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "ייצוא קבצי פרויקטים ושיחות בלחיצה אחת",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ תכונות עיקריות",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "ייצוא קבצים",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "הורד כל מסמך בנפרד או כקובץ ZIP מסודר מיידית.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "ייצוא שיחות",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "שמור את כל השיחות בפרויקט בפורמט Markdown או JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "פרויקט שלם",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "איחוד קבצים ושיחות לארכיון מסודר אחד בלחיצה אחת.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "המרת פורמטים",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "שמור על פורמט מקורי או המר ל-Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "ספירת טוקנים",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "צפה בהערכת מספר הטוקנים ובתאריכי יצירת הקבצים.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "פרטי ובטוח",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "פועל כולו בדפדפן שלך עם החיבור הקיים שלך ל-Claude. ללא שרתים חיצוניים.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 מדריך התחלה מהירה",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "היכנס ל-claude.ai ופתח פרויקט.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "לחץ על סמל התוסף כדי לטעון קבצים ושיחות.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "בחר פורמט ולחץ על הורד.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "התקנת הרגע? רענן את כרטיסיות Claude הפתוחות.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. כל הזכויות שמורות.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "שדרוג ל-Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ שדרוג ל-Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "בתוכנית החינמית יש 5 הורדות בודדות ביום וייצוא פרויקט מלא אחד. Pro מסיר את שתי המגבלות, ומוסיף גיבוי של הכול — כל פרויקט ושיחה בקובץ ZIP אחד, לפי דרישה או באופן אוטומטי — וגם מד שימוש חי ל-Claude באתר claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "שדרוג ל-Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "תשלום מאובטח דרך Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 כבר רכשתם?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · גישה ללא הגבלה",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "כלול קבצים מצורפים מהצ׳אט (ZIP גדול יותר)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "מתאפס בעוד $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "התחבר ל-claude.ai כדי לראות את המגבלות שלך.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "לא הצלחנו לקרוא את המגבלות שלך כרגע. פתח את claude.ai ונסה שוב.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "סשן של 5 שעות",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "שבועי",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "שבועי · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "מייצא את $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "מתחיל…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "תכונת Pro. הקבצים שלך נשמרים בתיקייה הורדות › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "אפשר לסגור את החלונית — הגיבוי ממשיך.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "הגיבוי האחרון נכשל: יש להתחבר ל-claude.ai ולנסות שוב.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "הגיבוי האחרון נכשל: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "גיבוי אחרון $1 · $2 פרויקטים, $3 שיחות · הורדות › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "אין עדיין גיבוי. נשמר בתיקייה הורדות › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "חודשי",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "לכל החיים",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "מתחדש ב-$1. ייצואים וגיבויים ללא הגבלה, וגם מד השימוש בעמוד.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "ייצואים וגיבויים ללא הגבלה, וגם מד השימוש בעמוד.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "ניהול הרישיון",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "המנוי ל-Pro שלך הסתיים",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "רישיון ה-Pro הזה בוטל",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "חזרת לתוכנית החינמית. הייצואים והגיבויים הקודמים שלך עדיין שייכים לך.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "חידוש Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "הסשן הנוכחי (5 שעות)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "מגבלה שבועית",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "הסתרה",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "מגבלת הסשן הושגה",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% מהסשן שלך נוצל",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "מתאפס בעוד $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "שימוש ב-Claude — לחץ לפרטים",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "אלה היו 5 ההורדות החינמיות שלך להיום. Pro מסיר את המגבלה היומית — הורדות בודדות וייצואי פרויקט מלאים ללא הגבלה.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "השתמשת בייצוא הפרויקט המלא החינמי שלך. Pro פותח ייצואים מלאים ללא הגבלה — כל שיחה וקובץ בלחיצה אחת, בכל זמן שתרצה.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "גיבוי של הכול היא תכונת Pro: ההנחיות, הקבצים והשיחות של כל פרויקט, וגם כל שאר השיחות שלך, בקובץ ZIP אחד — לפי דרישה או באופן אוטומטי כל יום או כל שבוע.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "המד בעמוד הוא תכונת Pro: המגבלות שלך ב-Claude לחמש שעות ולשבוע, בפינת claude.ai, עם התראה ב-80% וב-100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "המנוי שלך ל-Pro הסתיים. חדש אותו כדי להחזיר ייצואים וגיבויים ללא הגבלה ואת המד בעמוד. המפתח שלך נשאר אותו דבר.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "המגבלות שלך ב-Claude",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "הצגת המד באתר claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "גיבוי של הכול",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "הפרויקטים שלך — הנחיות, קבצים ושיחות — וכל שאר השיחות שלך, נשמרים ב-ZIP אחד. פועל בעצמו, גם כשהחלונית הזו סגורה.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ גיבוי עכשיו",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "גיבוי אוטומטי: כבוי",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "גיבוי אוטומטי: יומי",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "גיבוי אוטומטי: שבועי",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "ביטול",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "רענון",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "העבודה שלך ב-Claude, שמורה במחשב שלך.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "ייצאו פרויקטים, צ'אטים וקבצים מחשבון Claude שלכם, מיינו צ'אטים לתיקיות, חפשו בתוך כל הודעה ועקבו אחרי מגבלות השימוש.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "פתח את claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "לאחר מכן לחץ על סמל התוסף כדי לפתוח את החלונית הצדדית. טיפ: הצמד אותו מתפריט חלק הפאזל של Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "ייצוא",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "קבצי פרויקט, תמלילי צ'אטים ותוצרים — או הפרויקט כולו ב-ZIP אחד, כ-Markdown או JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "כל הפרויקטים וכל הצ'אטים ב-ZIP אחד — לפי דרישה או אוטומטית כל יום או שבוע, גם כשהחלונית סגורה.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "מד שימוש",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "מגבלות ה-5 שעות והמגבלות השבועיות שלך ב-Claude עם זמני האיפוס — בחלונית הצדדית וליד בורר המודל ב-claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free מול Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "הורדות של קבצים וצ'אטים בודדים",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 ביום",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "ללא הגבלה",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "ייצוא פרויקט שלם",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 חינם",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, תוצרים וקבצים מצורפים",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "מגבלות שימוש בחלונית הצדדית",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "מד שימוש ב-claude.ai, עם התראות ב-80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "גיבויים אוטומטיים יומיים או שבועיים",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "חודשי או לכל החיים — תוכניות ומחירים באתר שלנו.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro פעיל",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "פתח את החלונית הצדדית כדי לגבות הכול או להפעיל גיבויים אוטומטיים.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "חודשי · מתחדש ב-$1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "רישיון לכל החיים — כל תכונות Pro, לתמיד.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "הדבק את מפתח הרישיון מהמייל של הרכישה.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "מתחילים",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "פתח את claude.ai ועבור לפרויקט או צ'אט כלשהו.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "לחץ על סמל התוסף כדי לפתוח את החלונית הצדדית. הצמד אותו לגישה בלחיצה אחת.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "הורד קבצים, צ'אטים או את הפרויקט כולו — או גבה הכול בבת אחת.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "התקנת או עדכנת זה עתה? רענן לשוניות Claude שכבר היו פתוחות כדי שיתחברו מחדש.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "מייצא רק את מה שחשבון Claude המחובר שלך כבר יכול לפתוח. התוכן שלך מ-Claude לעולם לא יוצא מהדפדפן.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "צריך עזרה?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "פתח את claude.ai כדי לייצא פרויקט או צ'אט. המגבלות והגיבויים עובדים מכל לשונית.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "הגדרות ייצוא",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "הכול קורה על המחשב הזה — שום דבר לא מועלה לאף שירות אחסון בענן. הגיבויים נשמרים כקובצי ZIP בתיקייה הורדות › Claude Backups. גיבויים אוטומטיים פועלים כשהמחשב פועל, Chrome פתוח ואתם מחוברים ל-claude.ai; אם גיבוי אחד פוספס, הוא יתבצע בפעם הבאה שהתנאים האלה מתקיימים.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "איך הגיבויים עובדים",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "טוען את הפרויקטים שלך…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "גם שיחות שמחוץ לפרויקטים",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "בחרו פרויקט אחד לפחות, או סמנו שיחות שמחוץ לפרויקטים.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "אין עדיין פרויקטים בחשבון הזה.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "גיבוי: כל הפרויקטים",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "גיבוי: הפרויקטים שאבחר",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "התחבר ל-claude.ai כדי להציג את רשימת הפרויקטים שלך.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "גיבויים",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 מפתח",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "פתחו פרויקט (Projects בסרגל הצד של Claude) או שיחה כלשהי — החלונית הזו מציגה מה אפשר להוריד ממנו.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "פתח את claude.ai כדי לייצא פרויקט או צ'אט. המגבלות והגיבויים עובדים מכל לשונית.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "פתח את הפרויקטים שלי ב-Claude",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 לחצו על פרויקט כלשהו ברשימה. החלונית הזו תתמלא בקבצים ובשיחות שלו, מוכנים להורדה.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "הראו לי איך — פתיחת הפרויקטים שלי",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "ניהול / ביטול ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "קבלו רישיון לכל החיים",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "חלונית צד",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "חלון קופץ",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 הזינו את מפתח הרישיון",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "קניתם Pro? הדביקו את המפתח ממייל הרכישה.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "הדביקו קודם את המפתח.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "בודקים את המפתח…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro פעיל. טוען מחדש…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "שנתי",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "עזרה ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "נבחרו $1. ב-Pro אפשר להעביר, לייצא ולמחוק כל כמות בבת אחת.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "תוכנית חינמית: עד $1 צ'אטים לכל פעולה מרובה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "ביטול",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "צ'אטים: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "מחיקה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "מחיקת תיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "למחוק את התיקייה „$1”? הצ'אטים שבה יישארו ב-Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "מחיקת צ'אטים ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "הם יימחקו ב-claude.ai ולא ניתן יהיה לשחזר אותם. אם ייתכן שתצטרכו אותם, ייצאו אותם קודם.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "נמחקו: $1. לא ניתן היה למחוק $2, והם עדיין מסומנים.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "למחוק צ'אטים ($1) מחשבון Claude שלכם?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "נמחקו צ'אטים: $1. טענו מחדש את claude.ai כדי לראות את השינוי.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "מוחק",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "בדקו את החיבור ונסו שוב.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "לא ניתן להתחבר ל-claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "ייצוא",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "כל צ'אט שמיוצא נספר כהורדה אחת. Pro מייצא כל מספר של צ'אטים, בכל יום.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "נותרו היום $1 מתוך 5 הורדות חינמיות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "יוצאו: $1. לא ניתן היה לקרוא $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "יוצאו צ'אטים לתיקיית ההורדות: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "מייצא",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "צ'אטים ($1) הועברו אל „$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "תיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "כל הצ'אטים",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "התיקייה „$1” נמחקה. הצ'אטים שבה אינם משויכים עוד לתיקייה.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "סמנו צ'אטים ב„כל הצ'אטים” ובחרו „תיקייה”, או גררו אותם אל התיקייה הזו. ב-claude.ai, השתמשו ב-+ שליד התיקייה כדי להוסיף את הצ'אט הפתוח.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "אין עדיין כלום ב„$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "כבר קיימת תיקייה בשם הזה.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "עם Pro מקבלים תיקיות ללא הגבלה. הצ'אטים והתיקיות שלכם יישארו בדיוק כמו שהם.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "השתמשתם ב-3 מתוך 3 תיקיות חינמיות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "שם התיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "ללא תיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "לא נוספו לאינדקס: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "החיפוש מושהה: התחברו ל-claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "עדכון",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "צ'אטים: $1 · החיפוש מתבצע במחשב הזה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "מוסיף צ'אטים לאינדקס החיפוש: $1 / $2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "להשתמש ב-$1 הראשונים",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "צ'אטים תואמים: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "הפעולה משנה את הצ'אטים ב-claude.ai, בדיוק כמו העברה שם.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "הועברו: $1. לא ניתן היה להעביר $2, והם עדיין מסומנים.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "העברת צ'אטים ($1) לתיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "העברת צ'אטים ($1) לפרויקט Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "צ'אטים ($1) הועברו אל „$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "מעביר",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "תיקייה חדשה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "תיקייה חדשה…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "תיקייה חדשה (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "צ'אטים שתתחילו ב-claude.ai יופיעו כאן.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "אין עדיין צ'אטים",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "החיפוש מתאים לכל מילה שתקלידו. הקיפו ביטוי במירכאות כדי לחפש אותו במדויק.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "האינדוקס עדיין פועל — נותרו $1 צ'אטים. התוצאות מופיעות תוך כדי קריאה.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "אף צ'אט לא מזכיר את „$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "אין עדיין פרויקטים בחשבון הזה. צרו קודם פרויקט ב-claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "העברה ומחיקה מתבצעות ב-claude.ai עצמו, בשם החשבון שלכם. השאירו לשונית claude.ai פתוחה ונסו שוב.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "פתחו קודם את claude.ai בלשונית",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "לא עכשיו",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "פתיחת claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "פתיחה בלשונית",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "תוכנית חינמית",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · ללא הגבלות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "פרויקט",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "הסרה מהתיקייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "שינוי שם",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "ניסיון חוזר",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "התוכנית החינמית מציגה את 5 ההתאמות המובילות. Pro מציג כל התאמה, בכל צ'אט.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "צ'אטים תואמים נוספים: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "חיפוש בכל ההודעות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "בחירת הכול",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "בחירת „$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "נבחרו: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "הצגת $1 נוספים",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "הצגת תיקיות בסרגל הצד של claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "הספרייה מציגה את הצ'אטים בחשבון Claude שלכם, ולכן יש להתחבר.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "התחברו ל-claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "ניקוי הבחירה (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "מחיקה (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "ייצוא כ-Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "העברה לתיקייה (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "העברה לפרויקט (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "ספרייה — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "צ'אטים ($1) הוסרו מהתיקייה שלהם",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "כל צ'אט נמצא בתיקייה.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "הכול מסודר",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "פתיחת פעולות מרובות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "פתיחת ייצוא ללא הגבלה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "פתיחת תיקיות ללא הגבלה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "פתיחת חיפוש מלא",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "צ'אט ללא שם",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "פרויקט ללא שם",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "הוספת הצ'אט הזה אל $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "הוספת הפרויקט הזה אל $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "קבצו צ'אטים ופרויקטים בתיקיות. לחצו על + כדי להתחיל.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "ריקה. פתחו צ'אט ולחצו על + בתיקייה הזו.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "תיקיות",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "כבר נמצא ב-$1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "התוכנית החינמית כוללת 3 תיקיות.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "תיקייה חדשה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "הצגת כל ה-$1 בספרייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "פתיחת תיקיות ללא הגבלה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "ייצוא",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "ספרייה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "הודעות: $1 · הערכה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "צ'אט ארוך: כל הודעה שולחת מחדש את כולו. צ'אט חדש יאריך את המכסה שלכם.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "ההקשר של הצ'אט הזה",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "תיקיות וחיפוש",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "מיינו צ'אטים לתיקיות ישירות בסרגל הצד של Claude, חפשו בתוך כל הודעה, והעבירו, ייצאו או מחקו צ'אטים בבת אחת.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "תיקיות לצ'אטים ולפרויקטים",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "חיפוש בתוך כל צ'אט",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "5 התוצאות המובילות",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "כל התוצאות",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "העברה, ייצוא ומחיקה בכמות",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 בכל פעם",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "כמה הקשר הצ'אט הפתוח שולח מחדש",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Exporteer Claude-chats en -projecten, orden in mappen, doorzoek elk bericht, verwijder in bulk en zie je limieten. 100% lokaal.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Download chats en projectbestanden van claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Handleiding",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Hoe deze extensie te gebruiken",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Status",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Inactief",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Laden…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Exporteren…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Voltooid",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Fout",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Voorbereiden…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Project",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "Vandaag nog $1 van $2 gratis exports over",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Dagelijkse limiet voor gratis exports bereikt",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Vernieuwen",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Bestanden vernieuwen",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Huidige chat",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 berichten · $2 bijlagen",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Exportformaat",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP met bijlagen (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (ruwe .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Deze chat downloaden",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tip: Je kunt ook direct op de chatpagina downloaden via de knop Downloaden naast Delen.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Alle bestanden downloaden",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Alle chats downloaden",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Heel project downloaden",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Project ZIP-naam",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Opgeslagen als name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Bestandsexportformaat",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Origineel (behoud extensie)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Chat-exportformaat",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (ruwe data)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Bestanden",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Nog geen bestanden geladen.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Open een Claude-project of chat en klik op Vernieuwen.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Nog geen chats geladen.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Open een Claude-project en klik op Vernieuwen.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Downloaden",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Chat downloaden (Shift+Klik om formaat te wijzigen)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Chat downloaden",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Kies je gewenste exportformaat:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Aanbevolen",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Volledige Markdown-transcriptie + alle bijlagen (afbeeldingen, pdf's, documenten) in een ZIP-archief.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Netjes opgemaakte tekst, ideaal voor Obsidian, Notion of persoonlijke notities.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Volledige, verliesvrije conversatiegegevens met API-structuur.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Onthoud mijn keuze voor toekomstige één-klik downloads",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Annuleren",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Downloaden",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tip: Houd Shift ingedrukt bij het klikken op Downloaden om het formaat op elk moment te wijzigen.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Handleiding",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Ga naar claude.ai in je browser",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Klik op Projects in de zijbalk",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Open het project dat je wilt exporteren",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Klik op het extensiepictogram in je werkbalk om dit zijpaneel te openen",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Klik op «↺ Vernieuwen» om bestanden en chats te laden",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Download bestanden of chats afzonderlijk of het hele project als ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Bekijk video-instructie",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Problemen oplossen",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Worden bestanden niet weergegeven? Probeer het volgende:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Klik op «↺ Bestanden vernieuwen» en wacht even",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Vernieuw de pagina en probeer opnieuw",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Controleer of de URL claude.ai/project/[id] is",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard vernieuwen: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Log uit bij Claude, log opnieuw in en open het project",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Probeer Google Chrome als je een andere browser gebruikt",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Lees de volledige handleiding voor probleemoplossing →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Nog steeds problemen?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Alternatief: Vraag het aan Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Sommige bestanden kunnen niet rechtstreeks via de API worden gedownload. Kopieer deze prompt naar je Claude-chat:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Prompt kopiëren naar klembord",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Gekopieerd!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Plak dit in de Claude-chat op de projectpagina.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Al gekocht? Plak je sleutel hier:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activeren",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Exporteer projectbestanden en chats in één klik",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Belangrijkste functies",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Bestanden exporteren",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Download elk document afzonderlijk of in een georganiseerd ZIP-bestand.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Chats exporteren",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Sla alle gesprekken op als Markdown of JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Heel project",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Verzamel bestanden en chats in één overzichtelijk archief.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Formaatconversie",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Behoud originele formaten of converteer naar Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Tokenstatistieken",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Bekijk geschatte tokenaantallen en aanmaakdata direct.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Privé & Veilig",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Draait volledig in je browser via je Claude-sessie. Geen externe servers.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Snelstartgids",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Ga naar claude.ai en open een project.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Klik op het extensie-icoon om gegevens te laden.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Kies je formaat en klik op Downloaden.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Net geïnstalleerd? Vernieuw geopende Claude-tabbladen.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Alle rechten voorbehouden.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Upgraden naar Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Upgraden naar Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Gratis omvat 5 losse downloads per dag en één volledige projectexport. Pro heft beide limieten op en voegt Alles backuppen toe — elk project en elke chat in één ZIP, op aanvraag of automatisch — plus een live Claude-gebruiksmeter op claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Upgraden naar Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Veilig afrekenen via Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Al gekocht?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Onbeperkte toegang",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Chatbijlagen toevoegen (grotere ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "reset over $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Log in op claude.ai om je limieten te zien.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Kon je limieten nu niet laden. Open claude.ai en probeer het opnieuw.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5-uurs sessie",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Wekelijks",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Wekelijks · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "$1 exporteren",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Starten…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro-functie. Je bestanden komen in Downloads › Claude Backups terecht.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Je kunt dit paneel sluiten — de back-up gaat door.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Laatste back-up mislukt: log in op claude.ai en probeer het opnieuw.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Laatste back-up mislukt: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Laatste back-up $1 · $2 projecten, $3 chats · Downloads › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Nog geen back-up. Wordt opgeslagen in Downloads › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Maandelijks",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Levenslang",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Wordt verlengd op $1. Onbeperkte exports, back-ups en de gebruiksmeter op de pagina.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Onbeperkte exports, back-ups en de gebruiksmeter op de pagina.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Licentie beheren",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Je Pro-abonnement is verlopen",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Deze Pro-licentie is opgezegd",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Je gebruikt weer het gratis plan. Je eerdere exports en back-ups blijven gewoon van jou.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Pro verlengen",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Huidige sessie (5 uur)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Wekelijkse limiet",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Verbergen",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Sessielimiet bereikt",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% van je sessie gebruikt",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Reset over $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude-gebruik — klik voor details",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Dat waren je 5 gratis downloads voor vandaag. Pro haalt de daglimiet weg — onbeperkte losse downloads en onbeperkte volledige projectexports.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Je hebt je gratis volledige projectexport al gebruikt. Pro geeft onbeperkte volledige exports — alle chats en bestanden met één klik, wanneer je maar wilt.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Alles backuppen is een Pro-functie: instructies, bestanden en chats van elk project, plus al je andere chats, in één ZIP — op aanvraag of automatisch elke dag of week.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "De meter op de pagina is een Pro-functie: je 5-uurs- en wekelijkse Claude-limieten in de hoek van claude.ai, met een melding bij 80% en 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Je Pro-abonnement is verlopen. Verleng om onbeperkte exports, back-ups en de meter op de pagina weer aan te zetten. Je key blijft hetzelfde.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Je Claude-limieten",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Toon de meter op claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Alles backuppen",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Je projecten — instructies, bestanden en chats — en je overige chats, opgeslagen als één ZIP. Werkt zelfstandig, ook als dit paneel gesloten is.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Nu back-uppen",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Automatische back-up: uit",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Automatische back-up: dagelijks",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Automatische back-up: wekelijks",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Annuleren",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Vernieuwen",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Je Claude-werk, opgeslagen op je eigen computer.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Exporteer projecten, chats en bestanden uit je eigen Claude-account, sorteer chats in mappen, zoek in elk bericht en houd je gebruikslimieten in de gaten.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "claude.ai openen",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Klik daarna op het extensiepictogram om het zijpaneel te openen. Tip: zet het vast via het puzzelstukmenu van Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Exporteren",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Projectbestanden, chattranscripties en artefacten — of het hele project in één ZIP, als Markdown of JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Elk project en elke chat in één ZIP — wanneer je wilt of automatisch elke dag of week, ook als het paneel dicht is.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Gebruiksmeter",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Je Claude-limieten per 5 uur en per week, met resettijden — in het zijpaneel en naast de modelkiezer op claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Losse bestands- en chatdownloads",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 per dag",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Onbeperkt",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Volledige projectexport",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 gratis",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artefacten en bijlagen",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Gebruikslimieten in het zijpaneel",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Gebruiksmeter op claude.ai, met waarschuwingen bij 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Automatische dagelijkse of wekelijkse back-ups",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Maandelijks of levenslang — bekijk plannen en prijzen op onze website.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro is actief",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Open het zijpaneel om alles te back-uppen of automatische back-ups aan te zetten.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Maandelijks · verlengt op $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Levenslange licentie — elke Pro-functie, voorgoed.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Plak de licentiesleutel uit je aankoopmail.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Aan de slag",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Open claude.ai en ga naar een project of chat.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Klik op het extensiepictogram om het zijpaneel te openen. Zet het vast voor toegang met één klik.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Download bestanden, chats of het hele project — of back-up alles in één keer.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Net geïnstalleerd of bijgewerkt? Vernieuw Claude-tabbladen die al open waren, zodat ze opnieuw verbinden.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Exporteert alleen wat je eigen ingelogde Claude-account al kan openen. Je Claude-inhoud verlaat nooit je browser.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Hulp nodig?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Open claude.ai om een project of chat te exporteren. Je limieten en back-ups werken vanuit elk tabblad.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Exportinstellingen",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Alles gebeurt op deze computer — er wordt niets geüpload naar een cloud. Back-ups worden als ZIP-bestanden opgeslagen in Downloads › Claude Backups. Automatische back-ups draaien terwijl je computer aan staat, Chrome open is en je bent ingelogd bij claude.ai; als er een wordt gemist, wordt die de volgende keer uitgevoerd dat dit weer klopt.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Hoe back-ups werken",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Je projecten laden…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Ook chats buiten projecten",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Kies minstens één project, of vink chats buiten projecten aan.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Nog geen projecten in dit account.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Back-uppen: alle projecten",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Back-uppen: projecten die ik kies",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Log in op claude.ai om je projecten weer te geven.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Back-ups",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Sleutel",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Open een project (Projects in Claude's zijbalk) of een chat — dit paneel toont wat je daaruit kunt downloaden.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Open claude.ai om een project of chat te exporteren. Je limieten en back-ups werken vanuit elk tabblad.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Mijn Claude-projecten openen",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Klik op een project in de lijst. Dit paneel vult zich met de bestanden en chats ervan, klaar om te downloaden.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Laat me zien hoe — mijn projecten openen",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Beheren / opzeggen ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Levenslang nemen",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Zijpaneel",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Pop-up",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Voer je licentiesleutel in",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Pro gekocht? Plak de sleutel uit je aankoopmail.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Plak eerst je sleutel.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Sleutel controleren…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro staat aan. Opnieuw laden…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Jaarlijks",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Hulp ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Je hebt $1 geselecteerd. Met Pro verplaats, exporteer en verwijder je er zoveel als je wilt in één keer.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Gratis abonnement: $1 chats per bulkactie",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Annuleren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Verwijderen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Map verwijderen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Map ‘$1’ verwijderen? De chats erin blijven in Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "$1 chats verwijderen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Ze worden op claude.ai verwijderd en kunnen niet worden hersteld. Exporteer ze eerst als je ze misschien nog nodig hebt.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1 verwijderd. $2 konden niet worden verwijderd en blijven geselecteerd.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "$1 chats uit je Claude-account verwijderen?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1 chats verwijderd. Herlaad claude.ai om de wijziging te zien.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Verwijderen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Controleer je verbinding en probeer het opnieuw.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Kan claude.ai niet bereiken",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Exporteren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Elke geëxporteerde chat telt als één download. Met Pro exporteer je zoveel chats als je wilt, elke dag.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Vandaag nog $1 van 5 gratis downloads over",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1 geëxporteerd. $2 konden niet worden gelezen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1 chats geëxporteerd naar Downloads",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Exporteren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1 chats verplaatst naar ‘$2’",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Map",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Alle chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Map ‘$1’ verwijderd. De chats erin staan nu zonder map.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Selecteer chats in Alle chats en kies Map, of sleep ze naar deze map. Gebruik op claude.ai de + naast de map om de geopende chat toe te voegen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Nog niets in ‘$1’",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Er bestaat al een map met die naam.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Met Pro krijg je onbeperkt mappen. Je chats en mappen blijven precies zoals ze zijn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Je gebruikt 3 van 3 gratis mappen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Mapnaam",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Zonder map",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 niet geïndexeerd",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Zoeken gepauzeerd: log in op claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Bijwerken",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 chats · doorzocht op deze computer",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "$1 / $2 chats indexeren voor zoeken",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "De eerste $1 gebruiken",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 overeenkomende chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Dit wijzigt de chats op claude.ai, net als wanneer je ze daar verplaatst.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1 verplaatst. $2 konden niet worden verplaatst en blijven geselecteerd.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "$1 chats naar map verplaatsen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "$1 chats naar een Claude-project verplaatsen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1 chats verplaatst naar ‘$2’",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Verplaatsen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Nieuwe map",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Nieuwe map…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Nieuwe map (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Chats die je op claude.ai start, verschijnen hier.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Nog geen chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Zoeken vindt elk woord dat je typt. Zet een woordgroep tussen aanhalingstekens om die exact te vinden.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Nog bezig met indexeren — nog $1 chats te gaan. Resultaten verschijnen zodra ze gelezen zijn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Geen chat noemt ‘$1’",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Dit account heeft nog geen projecten. Maak er eerst een aan op claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Verplaatsen en verwijderen gebeurt op claude.ai zelf, ingelogd als jij. Houd een claude.ai-tabblad open en probeer het opnieuw.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Open claude.ai eerst in een tabblad",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Niet nu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "claude.ai openen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Openen in een tabblad",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Gratis abonnement",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · geen limieten",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Project",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Uit map verwijderen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Naam wijzigen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Opnieuw proberen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Het gratis abonnement toont de beste 5 resultaten. Pro toont elk resultaat, in elke chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Nog $1 chats komen overeen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Doorzoek elk bericht",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Alles selecteren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "‘$1’ selecteren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 geselecteerd",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Nog $1 tonen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Mappen tonen in de zijbalk van claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "De Bibliotheek toont de chats in je eigen Claude-account, dus je moet ingelogd zijn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Log in op claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Selectie wissen (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Verwijderen (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Exporteren als Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Naar map verplaatsen (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Naar project verplaatsen (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Bibliotheek — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1 chats uit hun map gehaald",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Elke chat staat in een map.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Alles is ingedeeld",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Bulkacties ontgrendelen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Onbeperkt exporteren ontgrendelen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Onbeperkt mappen ontgrendelen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Volledig zoeken ontgrendelen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Naamloze chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Naamloos project",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Deze chat toevoegen aan $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Dit project toevoegen aan $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Groepeer chats en projecten in mappen. Druk op + om te beginnen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Leeg. Open een chat en druk op + bij deze map.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Mappen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Staat al in $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Het gratis abonnement bevat 3 mappen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Nieuwe map",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Alle $1 tonen in de Bibliotheek",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Onbeperkt mappen ontgrendelen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Exporteren",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Bibliotheek",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 berichten · schatting",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Lange chat: elk bericht stuurt alles opnieuw mee. Met een nieuwe chat doe je langer met je limiet.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Context van deze chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Mappen en zoeken",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Sorteer chats in mappen direct in de zijbalk van Claude, zoek in elk bericht en verplaats, exporteer of verwijder chats in bulk.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Mappen voor chats en projecten",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Zoeken in elke chat",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "Top 5 resultaten",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Alle resultaten",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "In bulk verplaatsen, exporteren en verwijderen",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 tegelijk",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Hoeveel context de open chat opnieuw verstuurt",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

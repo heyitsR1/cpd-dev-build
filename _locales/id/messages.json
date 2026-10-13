@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Ekspor chat & proyek Claude, atur chat ke folder, cari setiap pesan, hapus massal, dan lihat batas pemakaian. 100% lokal.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Unduh obrolan dan file proyek dari claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Cara Penggunaan",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Cara menggunakan ekstensi ini",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Status",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Siap",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Memuat…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Mengekspor…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Berhasil",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Gagal",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Menyiapkan…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Proyek",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Obrolan",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "Tersisa $1 dari $2 ekspor gratis hari ini",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Batas ekspor gratis harian tercapai",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Segarkan",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Segarkan File",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Obrolan Saat Ini",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Obrolan",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 pesan · $2 lampiran",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Format Ekspor",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP dengan Lampiran (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (data mentah .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Unduh Obrolan Ini",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tips: Anda juga dapat mengunduh langsung dari halaman obrolan menggunakan tombol Unduh di samping Bagikan.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Unduh Semua File",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Unduh Semua Obrolan",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Unduh Seluruh Proyek",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Nama File ZIP Proyek",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Disimpan sebagai name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Format Ekspor File",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Asli (pertahankan ekstensi asli)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Format Ekspor Obrolan",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (mentah)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "File",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Obrolan",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Belum ada file yang dimuat.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Buka proyek atau obrolan Claude, lalu klik Segarkan.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Belum ada obrolan yang dimuat.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Buka proyek Claude, lalu klik Segarkan.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Unduh",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Unduh transkrip obrolan (Shift+Klik untuk ubah format)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Unduh Obrolan",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Pilih format ekspor yang diinginkan:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Direkomendasikan",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Transkrip Markdown lengkap + semua lampiran (gambar, PDF, dokumen) dalam arsip ZIP.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Teks terformat rapi, siap untuk Obsidian, Notion, atau catatan pribadi.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Data percakapan mentah lengkap dengan struktur API.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Ingat pilihan saya untuk unduhan satu klik berikutnya",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Batal",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Unduh",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tips: Tahan tombol Shift saat mengklik Unduh untuk mengubah format kapan saja.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Cara Penggunaan",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Buka claude.ai di browser Anda",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Klik Projects di bilah samping",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Buka proyek yang ingin Anda ekspor",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Klik ikon ekstensi di toolbar untuk membuka panel samping ini",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Klik «↺ Segarkan» untuk memuat file dan obrolan",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Unduh file atau obrolan satu per satu atau seluruh proyek dalam ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Tonton Video Tutorial",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Pemecahan Masalah",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "File tidak muncul? Coba langkah berikut:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Klik «↺ Segarkan File» dan tunggu sebentar",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Muat ulang halaman dan coba lagi",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Pastikan URL adalah claude.ai/project/[id] (bukan obrolan)",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard refresh: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Keluar dari Claude, masuk kembali, dan buka ulang proyek",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Coba gunakan Google Chrome jika Anda memakai browser lain",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Baca panduan pemecahan masalah lengkap →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Masih mengalami kendala?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Alternatif: Minta ke Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Beberapa file tidak dapat diunduh langsung melalui API. Salin prompt berikut dan tempel ke obrolan Claude:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Salin Prompt ke Papan Klip",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Tersalin!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Tempelkan ini ke obrolan Claude di halaman proyek.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Sudah membeli? Tempel kunci Anda di sini:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktifkan",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Ekspor file proyek dan obrolan dalam satu klik",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Fitur Utama",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Ekspor File",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Unduh setiap dokumen proyek secara terpisah atau dalam file ZIP terstruktur.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Ekspor Obrolan",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Simpan semua percakapan proyek dalam format Markdown atau JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Seluruh Proyek",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Satukan file dan obrolan dalam satu arsip rapi dengan satu klik.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Konversi Format",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Pertahankan format asli atau ubah ke Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Metrik Token",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Lihat perkiraan jumlah token dan tanggal pembuatan file.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Pribadi & Aman",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Berjalan sepenuhnya di browser Anda menggunakan sesi Claude Anda. Tanpa server luar.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Panduan Memulai Cepat",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Kunjungi claude.ai dan buka proyek apa saja.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Klik ikon ekstensi untuk memuat file dan obrolan.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Pilih format Anda dan klik Unduh.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Baru saja menginstal? Muat ulang tab Claude yang terbuka untuk menghubungkan kembali.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Hak cipta dilindungi.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Tingkatkan ke Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Tingkatkan ke Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Gratis mencakup 5 unduhan tunggal per hari dan satu ekspor project lengkap. Pro menghapus kedua batas ini, dan menambahkan Backup semuanya — setiap project dan chat dalam satu ZIP, sesuai permintaan atau otomatis — plus meter penggunaan Claude langsung di claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Tingkatkan ke Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Pembayaran aman melalui Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Sudah membeli?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Akses tanpa batas",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Sertakan lampiran obrolan (ZIP lebih besar)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "reset dalam $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Masuk ke claude.ai untuk melihat batas Anda.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Tidak dapat membaca batas Anda sekarang. Buka claude.ai dan coba lagi.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "Sesi 5 jam",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Mingguan",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Mingguan · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Mengekspor $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Memulai…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Fitur Pro. File Anda akan disimpan ke Unduhan › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Anda bisa menutup panel ini — pencadangan tetap berjalan.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Backup terakhir gagal: masuk ke claude.ai, lalu coba lagi.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Backup terakhir gagal: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Backup terakhir $1 · $2 project, $3 chat · Unduhan › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Belum ada backup. Disimpan ke Unduhan › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Bulanan",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Seumur hidup",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Diperpanjang $1. Ekspor dan backup tanpa batas, serta meter penggunaan di halaman.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Ekspor dan backup tanpa batas, serta meter penggunaan di halaman.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Kelola Lisensi",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Langganan Pro Anda telah berakhir",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Lisensi Pro ini telah dibatalkan",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Anda kembali ke paket gratis. Ekspor dan backup Anda sebelumnya tetap menjadi milik Anda.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Perpanjang Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Sesi saat ini (5 jam)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Batas mingguan",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Sembunyikan",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Batas sesi tercapai",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% dari sesi Anda terpakai",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Reset dalam $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Penggunaan Claude — klik untuk detail",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Itu adalah 5 unduhan gratis Anda untuk hari ini. Pro menghapus batas harian — unduhan tunggal tanpa batas dan ekspor project lengkap tanpa batas.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Anda sudah menggunakan ekspor project lengkap gratis. Pro membuka ekspor lengkap tanpa batas — setiap chat dan file dalam satu klik, kapan pun Anda mau.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Backup semuanya adalah fitur Pro: instruksi, file, dan chat setiap project, plus semua chat lainnya, dalam satu ZIP — sesuai permintaan atau otomatis setiap hari atau minggu.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Meter di halaman adalah fitur Pro: batas Claude 5 jam dan mingguan Anda di pojok claude.ai, dengan peringatan di 80% dan 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Langganan Pro Anda telah berakhir. Perpanjang untuk mengaktifkan kembali ekspor tanpa batas, backup, dan meter di halaman. Key Anda tetap sama.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Batas Claude Anda",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Tampilkan meter di claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Backup semuanya",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Proyek Anda — instruksi, file, dan chat — serta chat lainnya, disimpan sebagai satu ZIP. Berjalan sendiri, bahkan saat panel ini ditutup.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Backup sekarang",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Backup otomatis: nonaktif",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Backup otomatis: harian",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Backup otomatis: mingguan",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Batal",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Muat ulang",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Pekerjaan Claude Anda, tersimpan di komputer Anda sendiri.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Ekspor proyek, chat, dan file dari akun Claude Anda sendiri, kelompokkan chat ke folder, cari di dalam setiap pesan, dan pantau batas penggunaan Anda.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Buka claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Lalu klik ikon ekstensi untuk membuka panel samping. Tips: sematkan dari menu kepingan puzzle di Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Ekspor",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "File proyek, transkrip chat, dan artefak — atau seluruh proyek dalam satu ZIP, sebagai Markdown atau JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Semua proyek dan semua chat dalam satu ZIP — kapan saja atau otomatis setiap hari atau minggu, bahkan saat panel ditutup.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Pengukur penggunaan",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Batas Claude 5 jam dan mingguan Anda beserta waktu reset — di panel samping dan di sebelah pemilih model di claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Unduhan file & chat satuan",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 per hari",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Tanpa batas",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Ekspor seluruh proyek",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 gratis",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artefak & lampiran",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Batas penggunaan di panel samping",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Pengukur penggunaan di claude.ai, dengan peringatan 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Cadangan otomatis harian atau mingguan",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Bulanan atau seumur hidup — lihat paket dan harga di situs kami.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro aktif",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Buka panel samping untuk mencadangkan semuanya atau menyalakan pencadangan otomatis.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Bulanan · diperpanjang $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Lisensi seumur hidup — semua fitur Pro, selamanya.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Tempel kunci lisensi dari email pembelian Anda.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Mulai",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Buka claude.ai dan masuk ke proyek atau chat mana pun.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Klik ikon ekstensi untuk membuka panel samping. Sematkan agar bisa dibuka sekali klik.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Unduh file, chat, atau seluruh proyek — atau cadangkan semuanya sekaligus.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Baru memasang atau memperbarui? Muat ulang tab Claude yang sudah terbuka agar tersambung kembali.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Hanya mengekspor yang memang bisa dibuka akun Claude Anda yang sedang masuk. Konten Claude Anda tidak pernah keluar dari browser.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Butuh bantuan?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Buka claude.ai untuk mengekspor proyek atau chat. Batas dan cadangan berfungsi dari tab mana pun.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Pengaturan ekspor",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Semuanya terjadi di komputer ini — tidak ada yang diunggah ke cloud mana pun. Backup disimpan sebagai file ZIP di Unduhan › Claude Backups. Backup otomatis berjalan saat komputer Anda menyala, Chrome terbuka, dan Anda masuk ke claude.ai; jika terlewat, backup akan berjalan saat kondisi ini terpenuhi lagi.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Cara kerja backup",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Memuat proyek Anda…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Juga chat di luar proyek",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Pilih minimal satu proyek, atau centang chat di luar proyek.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Belum ada proyek di akun ini.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Backup: semua proyek",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Backup: proyek yang saya pilih",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Masuk ke claude.ai untuk melihat daftar proyek Anda.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Backup",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Kunci",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Buka proyek (Projects di bilah samping Claude) atau chat apa pun — panel ini menunjukkan apa yang bisa Anda unduh darinya.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Buka claude.ai untuk mengekspor proyek atau chat. Batas dan cadangan berfungsi dari tab mana pun.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Buka proyek Claude saya",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Klik proyek mana pun di daftar. Panel ini akan terisi dengan file dan chat-nya, siap diunduh.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Tunjukkan caranya — buka proyek saya",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Kelola / batalkan ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Dapatkan Seumur Hidup",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Panel samping",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Popup",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Masukkan kunci lisensi",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Sudah beli Pro? Tempel kunci dari email pembelian.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Tempel kunci Anda dulu.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Memeriksa kunci Anda…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro aktif. Memuat ulang…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Tahunan",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Bantuan ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Anda memilih $1. Pro memindahkan, mengekspor, dan menghapus berapa pun sekaligus.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Paket gratis: $1 chat per tindakan massal",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Batal",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Hapus",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Hapus folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Hapus folder “$1”? Chat di dalamnya tetap ada di Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Hapus $1 chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Chat akan dihapus di claude.ai dan tidak bisa dipulihkan. Ekspor dulu jika mungkin Anda perlukan.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1 dihapus. $2 tidak dapat dihapus dan masih dipilih.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Hapus $1 chat dari akun Claude Anda?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1 chat dihapus. Muat ulang claude.ai untuk melihat perubahannya.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Menghapus",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Periksa koneksi Anda, lalu coba lagi.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Tidak dapat terhubung ke claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Ekspor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Setiap chat yang diekspor dihitung sebagai satu unduhan. Pro mengekspor berapa pun chat, setiap hari.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Sisa $1 dari 5 unduhan gratis hari ini",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1 diekspor. $2 tidak dapat dibaca.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1 chat diekspor ke Unduhan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Mengekspor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1 chat dipindahkan ke “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Semua chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Folder “$1” dihapus. Chat di dalamnya kini tidak berfolder.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Pilih chat di Semua chat lalu pilih Folder, atau seret ke folder ini. Di claude.ai, gunakan + di samping folder untuk menambahkan chat yang sedang terbuka.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Belum ada isi di “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Sudah ada folder dengan nama itu.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro memberi Anda folder tanpa batas. Chat dan folder Anda tetap seperti sekarang.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Anda sudah memakai 3 dari 3 folder gratis",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Nama folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Tanpa folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 tidak terindeks",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Pencarian dijeda: masuk ke claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Perbarui",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 chat · dicari di komputer ini",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Mengindeks $1 / $2 chat untuk pencarian",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Gunakan $1 yang pertama",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 chat cocok",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Ini mengubah chat di claude.ai, sama seperti memindahkannya di sana.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1 dipindahkan. $2 tidak dapat dipindahkan dan masih dipilih.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Pindahkan $1 chat ke folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Pindahkan $1 chat ke proyek Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1 chat dipindahkan ke “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Memindahkan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Folder baru",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Folder baru…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Folder baru (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Chat yang Anda mulai di claude.ai muncul di sini.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Belum ada chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Pencarian mencocokkan setiap kata yang Anda ketik. Apit frasa dengan tanda kutip untuk pencocokan persis.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Masih mengindeks — tersisa $1 chat. Hasil muncul seiring chat dibaca.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Tidak ada chat yang menyebut “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Akun ini belum memiliki proyek. Buat proyek di claude.ai terlebih dahulu.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Pemindahan dan penghapusan berjalan langsung di claude.ai, masuk sebagai Anda. Biarkan tab claude.ai tetap terbuka, lalu coba lagi.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Buka claude.ai di tab terlebih dahulu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Nanti saja",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Buka claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Buka di tab",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Paket gratis",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · tanpa batas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Proyek",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Keluarkan dari folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Ganti nama",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Coba lagi",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Paket gratis menampilkan 5 hasil teratas. Pro menampilkan semua hasil, di setiap chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "$1 chat lagi cocok",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Cari di semua pesan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Pilih semua",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Pilih “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 dipilih",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Tampilkan $1 lagi",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Tampilkan folder di sidebar claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Pustaka menampilkan chat di akun Claude Anda sendiri, jadi Anda perlu masuk.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Masuk ke claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Hapus pilihan (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Hapus (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Ekspor sebagai Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Pindahkan ke folder (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Pindahkan ke proyek (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Pustaka — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1 chat dikeluarkan dari foldernya",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Setiap chat sudah ada di folder.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Semua sudah tertata",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Buka tindakan massal",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Buka ekspor tanpa batas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Buka folder tanpa batas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Buka pencarian lengkap",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Chat tanpa judul",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Proyek tanpa judul",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Tambahkan chat ini ke $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Tambahkan proyek ini ke $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Kelompokkan chat dan proyek ke dalam folder. Tekan + untuk memulai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Kosong. Buka chat lalu tekan + pada folder ini.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Sudah ada di $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Paket gratis mencakup 3 folder.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Folder baru",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Tampilkan semua isi $1 di Pustaka",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Buka folder tanpa batas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Ekspor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Pustaka",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 pesan · perkiraan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Chat panjang: setiap pesan mengirim ulang seluruh isinya. Chat baru membuat batas Anda bertahan lebih lama.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Konteks chat ini",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Folder & pencarian",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Kelompokkan chat ke folder langsung di sidebar Claude, cari di dalam setiap pesan, dan pindahkan, ekspor, atau hapus chat sekaligus.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Folder untuk chat dan proyek",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Cari di dalam setiap chat",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "5 hasil teratas",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Semua hasil",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Pindah, ekspor & hapus massal",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 sekaligus",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Seberapa banyak konteks yang dikirim ulang chat yang terbuka",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

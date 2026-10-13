@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Claude-এর চ্যাট ও প্রজেক্ট এক্সপোর্ট, চ্যাটের ফোল্ডার, প্রতিটি মেসেজে সার্চ, বাল্ক ডিলিট ও ব্যবহারের সীমা দেখা। ১০০% লোকাল।",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "claude.ai থেকে চ্যাট এবং প্রজেক্ট ফাইল ডাউনলোড করুন",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? ব্যবহারের নিয়ম",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "এই এক্সটেনশনটি কীভাবে ব্যবহার করবেন",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "অবস্থা",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "অপেক্ষারত",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "লোড হচ্ছে…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "ডাউনলোড হচ্ছে…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "সফল",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "ত্রুটি",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "প্রস্তুত হচ্ছে…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "প্রজেক্ট",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "চ্যাট",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "আজকের জন্য $1 / $2টি ফ্রি ডাউনলোড বাকি আছে",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "আজকের ফ্রি ডাউনলোডের সীমা শেষ",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ রিফ্রেশ করুন",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ ফাইল রিফ্রেশ করুন",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "বর্তমান চ্যাট",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "চ্যাট",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1টি মেসেজ · $2টি ফাইল",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "ফরম্যাট নির্বাচন করুন",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ফাইল সহ ZIP (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (.json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ এই চ্যাট ডাউনলোড করুন",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 পরামর্শ: চ্যাট পেজে শেয়ার বাটনের পাশে থাকা ডাউনলোড বাটন দিয়েও সরাসরি ডাউনলোড করতে পারেন।",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ সব ফাইল ডাউনলোড করুন",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 সব চ্যাট ডাউনলোড করুন",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ পুরো প্রজেক্ট ডাউনলোড করুন",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "প্রজেক্ট ZIP ফাইলের নাম",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "name_files.zip / _chats.zip / .zip হিসাবে সেভ হবে",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "ফাইল ফরম্যাট",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "আসল ফরম্যাট (এক্সটেনশন অপরিবর্তিত থাকবে)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "চ্যাট ফরম্যাট",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (র ডেটা)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "ফাইলসমূহ",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "চ্যাটসমূহ",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "এখনও কোনো ফাইল লোড হয়নি।",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Claude প্রজেক্ট বা চ্যাট খুলে রিফ্রেশ বাটনে ক্লিক করুন।",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "এখনও কোনো চ্যাট লোড হয়নি।",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Claude প্রজেক্ট খুলে রিফ্রেশ বাটনে ক্লিক করুন।",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "ডাউনলোড",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "চ্যাট ডাউনলোড করুন (ফরম্যাট পরিবর্তনের জন্য Shift+Click করুন)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "চ্যাট ডাউনলোড করুন",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "আপনার পছন্দের ফরম্যাট বেছে নিন:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "প্রস্তাবিত",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "সম্পূর্ণ Markdown চ্যাট + আপলোড করা সব ফাইল (ছবি, PDF, ডকুমেন্ট) একটি ZIP ফাইলে।",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Obsidian, Notion বা ব্যক্তিগত নোটের জন্য উপযোগী পরিচ্ছন্ন টেক্সট।",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "সম্পূর্ণ API স্ট্রাকচার সহ র ডেটা।",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "ভবিষ্যতে এক ক্লিকে ডাউনলোডের জন্য এটি মনে রাখুন",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "বাতিল",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ ডাউনলোড",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 পরামর্শ: ফরম্যাট পরিবর্তন করতে Shift চেপে ডাউনলোড বাটনে ক্লিক করুন।",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "ব্যবহারের নিয়ম",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "আপনার ব্রাউজারে claude.ai খুলুন",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "সাইডবারে 'Projects' এ ক্লিক করুন",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "যে প্রজেক্টটি ডাউনলোড করতে চান তা খুলুন",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "এই সাইড প্যানেল খুলতে টুলবারে এক্সটেনশনের আইকনে ক্লিক করুন",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "ফাইল ও চ্যাট লোড করতে «↺ রিফ্রেশ» এ ক্লিক করুন",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "আলাদাভাবে, একসাথে বা সম্পূর্ণ প্রজেক্ট ZIP আকারে ডাউনলোড করুন",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ টিউটোরিয়াল ভিডিও দেখুন",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "সমস্যা সমাধান",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "ফাইল দেখা যাচ্ছে না? এগুলো চেষ্টা করে দেখুন:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "«↺ ফাইল রিফ্রেশ করুন» এ ক্লিক করে কিছুক্ষণ অপেক্ষা করুন",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "পেজটি রিফ্রেশ করে আবার চেষ্টা করুন",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "URL টি claude.ai/project/[id] কিনা তা নিশ্চিত করুন",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "হার্ড রিফ্রেশ: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Claude থেকে লগআউট করে পুনরায় লগইন করুন",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "অন্য ব্রাউজারে সমস্যা হলে Google Chrome ব্যবহার করুন",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "পূর্ণাঙ্গ গাইড পড়ুন →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "এখনও সমস্যা হচ্ছে?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ বিকল্প পদ্ধতি: Claude কে বলুন",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "কিছু ফাইল সরাসরি নামানো যায় না। নিচের প্রম্পটটি কপি করে Claude চ্যাটে পেস্ট করে ZIP ফাইল চেয়ে নিন:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 প্রম্পট কপি করুন",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ কপি হয়েছে!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "প্রজেক্টের Claude চ্যাটে এটি পেস্ট করুন।",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "ইতিমধ্যে কিনেছেন? আপনার কী এখানে পেস্ট করুন:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "অ্যাক্টিভেট করুন",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "এক ক্লিকে প্রজেক্ট ফাইল এবং চ্যাট সংরক্ষণ করুন",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ মূল সুবিধাসমূহ",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "ফাইল ডাউনলোড",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "প্রজেক্টের সব ফাইল আলাদাভাবে বা সাজানো ZIP আকারে ডাউনলোড করুন।",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "চ্যাট ডাউনলোড",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "সব কথোপকথন Markdown বা JSON ফরম্যাটে সেভ করুন।",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "সম্পূর্ণ প্রজেক্ট",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "ফাইল ও চ্যাট একসাথে এক ক্লিকে জিপ আকারে পান।",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "ফরম্যাট পরিবর্তন",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "আসল ফরম্যাটে রাখুন বা Markdown এ রূপান্তর করুন।",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "টোকেন সংখ্যা",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "আনুমানিক টোকেন সংখ্যা এবং তারিখ সহজেই দেখুন।",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "নিরাপদ ও প্রাইভেট",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "সম্পূর্ণ ব্রাউজারের ভেতর চলে। কোনো এক্সটারনাল সার্ভার নেই।",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 দ্রুত শুরু করুন",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "claude.ai তে গিয়ে যেকোনো প্রজেক্ট খুলুন।",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "টুলবারে এক্সটেনশন আইকনে ক্লিক করে ফাইল ও চ্যাট লোড করুন।",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "ফরম্যাট নির্বাচন করে ডাউনলোড বাটনে ক্লিক করুন।",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "নতুন ইনস্টল করেছেন? খোলা থাকা Claude ট্যাবটি রিলোড দিন।",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. সর্বস্বত্ব সংরক্ষিত।",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "প্রো-তে আপগ্রেড করুন",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ প্রো-তে আপগ্রেড করুন",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "ফ্রি প্ল্যানে দৈনিক ৫টি সিঙ্গেল ডাউনলোড ও একটি ফুল প্রজেক্ট এক্সপোর্ট পাওয়া যায়। Pro দুটি সীমাই তুলে দেয় এবং যুক্ত করে সবকিছুর ব্যাকআপ — প্রতিটি প্রজেক্ট ও চ্যাট একটি ZIP-এ, চাহিদা অনুযায়ী বা স্বয়ংক্রিয়ভাবে — সাথে claude.ai-তে লাইভ Claude ব্যবহার মিটার।",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "প্রো-তে আপগ্রেড",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Freemius-এর মাধ্যমে নিরাপদ চেকআউট",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 ইতিমধ্যে কিনেছেন?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · সীমাহীন অ্যাক্সেস",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "চ্যাটের সংযুক্তি অন্তর্ভুক্ত করুন (বড় ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "$1-এ রিসেট হবে",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "আপনার সীমা দেখতে claude.ai-তে সাইন ইন করুন।",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "এই মুহূর্তে আপনার সীমা পড়া যাচ্ছে না। claude.ai খুলে আবার চেষ্টা করুন।",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "৫-ঘণ্টা সেশন",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "সাপ্তাহিক",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "সাপ্তাহিক · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "এক্সপোর্ট করা হচ্ছে $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "শুরু হচ্ছে…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro ফিচার। আপনার ফাইল ডাউনলোড › Claude Backups-এ জমা হয়।",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "আপনি এই প্যানেল বন্ধ করতে পারেন — ব্যাকআপ চলতে থাকবে।",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "সর্বশেষ ব্যাকআপ ব্যর্থ হয়েছে: claude.ai-তে সাইন ইন করে আবার চেষ্টা করুন।",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "সর্বশেষ ব্যাকআপ ব্যর্থ হয়েছে: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "সর্বশেষ ব্যাকআপ $1 · $2 প্রজেক্ট, $3 চ্যাট · ডাউনলোড › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "এখনও কোনো ব্যাকআপ নেই। ডাউনলোড › Claude Backups-এ সংরক্ষিত হবে।",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "মাসিক",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "লাইফটাইম",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "$1-এ রিনিউ হবে। আনলিমিটেড এক্সপোর্ট, ব্যাকআপ এবং পেজের ব্যবহার মিটার।",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "আনলিমিটেড এক্সপোর্ট, ব্যাকআপ এবং পেজের ব্যবহার মিটার।",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "লাইসেন্স পরিচালনা করুন",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "আপনার Pro সাবস্ক্রিপশন শেষ হয়ে গেছে",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "এই Pro লাইসেন্স বাতিল করা হয়েছে",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "আপনি আবার ফ্রি প্ল্যানে আছেন। আপনার পূর্বের এক্সপোর্ট ও ব্যাকআপ এখনও আপনার কাছে আছে।",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Pro রিনিউ করুন",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "বর্তমান সেশন (৫ ঘণ্টা)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "সাপ্তাহিক সীমা",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "লুকান",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "সেশন সীমা পূর্ণ হয়েছে",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "আপনার সেশনের $1% ব্যবহৃত হয়েছে",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "$1-এ রিসেট হবে।",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude ব্যবহার — বিস্তারিত জানতে ক্লিক করুন",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "আজকের জন্য আপনার ৫টি ফ্রি ডাউনলোড শেষ। Pro দৈনিক সীমা তুলে দেয় — আনলিমিটেড সিঙ্গেল ডাউনলোড এবং আনলিমিটেড ফুল প্রজেক্ট এক্সপোর্ট।",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "আপনি আপনার ফ্রি ফুল প্রজেক্ট এক্সপোর্ট ব্যবহার করে ফেলেছেন। Pro আনলিমিটেড ফুল এক্সপোর্ট আনলক করে — এক ক্লিকে প্রতিটি চ্যাট ও ফাইল, যখন খুশি।",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "সবকিছুর ব্যাকআপ একটি Pro ফিচার: প্রতিটি প্রজেক্টের নির্দেশনা, ফাইল ও চ্যাট, সেইসাথে আপনার বাকি সব চ্যাট, একটি ZIP-এ — চাহিদা অনুযায়ী বা প্রতিদিন/সপ্তাহে স্বয়ংক্রিয়ভাবে।",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "পেজ মিটার একটি Pro ফিচার: claude.ai-এর কোণে আপনার ৫-ঘণ্টা ও সাপ্তাহিক Claude সীমা, ৮০% ও ১০০%-এ সতর্কবার্তা সহ।",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "আপনার Pro সাবস্ক্রিপশন শেষ হয়ে গেছে। আনলিমিটেড এক্সপোর্ট, ব্যাকআপ ও পেজ মিটার আবার চালু করতে রিনিউ করুন। আপনার কি একই থাকবে।",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "আপনার Claude সীমা",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "claude.ai-তে মিটার দেখান",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "সবকিছুর ব্যাকআপ নিন",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "আপনার প্রজেক্ট — নির্দেশনা, ফাইল ও চ্যাট — এবং আপনার অন্যান্য চ্যাট, সবকিছু একটি ZIP-এ সংরক্ষিত। এই প্যানেল বন্ধ থাকলেও এটি নিজে থেকেই চলে।",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ এখনই ব্যাকআপ করুন",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "অটো-ব্যাকআপ: বন্ধ",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "অটো-ব্যাকআপ: দৈনিক",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "অটো-ব্যাকআপ: সাপ্তাহিক",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "বাতিল",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "রিফ্রেশ",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "আপনার Claude-এর কাজ, আপনার নিজের কম্পিউটারে সংরক্ষিত।",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "আপনার নিজের Claude অ্যাকাউন্ট থেকে প্রজেক্ট, চ্যাট ও ফাইল এক্সপোর্ট করুন, চ্যাট ফোল্ডারে সাজান, প্রতিটি মেসেজের ভেতরে খুঁজুন, আর ব্যবহারের সীমায় নজর রাখুন।",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "claude.ai খুলুন",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "তারপর সাইড প্যানেল খুলতে এক্সটেনশনের আইকনে ক্লিক করুন। টিপ: Chrome-এর পাজল মেনু থেকে এটি পিন করুন।",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "এক্সপোর্ট",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "প্রজেক্টের ফাইল, চ্যাটের ট্রান্সক্রিপ্ট ও আর্টিফ্যাক্ট — অথবা পুরো প্রজেক্ট একটি ZIP-এ, Markdown বা JSON হিসেবে।",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "প্রতিটি প্রজেক্ট ও প্রতিটি চ্যাট একটি ZIP-এ — যখন চান, অথবা প্রতিদিন বা প্রতি সপ্তাহে স্বয়ংক্রিয়ভাবে, প্যানেল বন্ধ থাকলেও।",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "ব্যবহার মিটার",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "আপনার Claude-এর ৫ ঘণ্টা ও সাপ্তাহিক সীমা, রিসেটের সময়সহ — সাইড প্যানেলে এবং claude.ai-তে মডেল বাছাইয়ের পাশে।",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free বনাম Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "একক ফাইল ও চ্যাট ডাউনলোড",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "দিনে ৫টি",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "সীমাহীন",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "পুরো প্রজেক্ট এক্সপোর্ট",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "১টি ফ্রি",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, আর্টিফ্যাক্ট ও সংযুক্তি",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "সাইড প্যানেলে ব্যবহারের সীমা",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "claude.ai-তে ব্যবহার মিটার, 80% / 100%-এ সতর্কতাসহ",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "স্বয়ংক্রিয় দৈনিক বা সাপ্তাহিক ব্যাকআপ",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "মাসিক বা আজীবন — পরিকল্পনা ও মূল্য আমাদের ওয়েবসাইটে দেখুন।",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro সক্রিয়",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "সবকিছু ব্যাকআপ করতে বা স্বয়ংক্রিয় ব্যাকআপ চালু করতে সাইড প্যানেল খুলুন।",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "মাসিক · $1 তারিখে নবায়ন",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "আজীবন লাইসেন্স — Pro-এর সব সুবিধা, চিরকালের জন্য।",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "কেনার ইমেল থেকে লাইসেন্স কী পেস্ট করুন।",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "শুরু করুন",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "claude.ai খুলুন এবং যেকোনো প্রজেক্ট বা চ্যাটে যান।",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "সাইড প্যানেল খুলতে এক্সটেনশনের আইকনে ক্লিক করুন। এক ক্লিকে পেতে এটি পিন করুন।",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "ফাইল, চ্যাট বা পুরো প্রজেক্ট ডাউনলোড করুন — অথবা সবকিছু একসাথে ব্যাকআপ করুন।",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "এইমাত্র ইনস্টল বা আপডেট করেছেন? আগে থেকে খোলা Claude ট্যাবগুলো রিফ্রেশ করুন যাতে আবার সংযুক্ত হয়।",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "শুধু সেটুকুই এক্সপোর্ট করে যা আপনার সাইন-ইন করা Claude অ্যাকাউন্ট আগে থেকেই খুলতে পারে। আপনার Claude-এর কনটেন্ট কখনো ব্রাউজার ছেড়ে যায় না।",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "সাহায্য লাগবে?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "প্রজেক্ট বা চ্যাট এক্সপোর্ট করতে claude.ai খুলুন। সীমা ও ব্যাকআপ যেকোনো ট্যাব থেকে কাজ করে।",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "এক্সপোর্ট সেটিংস",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "সবকিছু এই কম্পিউটারেই ঘটে — কোনো ক্লাউডে কিছু আপলোড হয় না। ব্যাকআপ ZIP ফাইল হিসেবে ডাউনলোড › Claude Backups-এ সংরক্ষিত হয়। অটোমেটিক ব্যাকআপ তখনই চলে যখন আপনার কম্পিউটার চালু, Chrome খোলা, এবং আপনি claude.ai-তে সাইন ইন থাকেন; কোনোটা মিস হলে, পরের বার শর্তগুলো পূরণ হলে এটি চলবে।",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "ব্যাকআপ যেভাবে কাজ করে",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "আপনার প্রজেক্ট লোড হচ্ছে…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "প্রজেক্টের বাইরের চ্যাটও",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "কমপক্ষে একটি প্রজেক্ট বাছুন, বা প্রজেক্টের বাইরের চ্যাট টিক করুন।",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "এই অ্যাকাউন্টে এখনো কোনো প্রজেক্ট নেই।",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "ব্যাকআপ: সব প্রজেক্ট",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "ব্যাকআপ: আমার বাছাই করা প্রজেক্ট",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "আপনার প্রজেক্টের তালিকা দেখতে claude.ai-তে সাইন ইন করুন।",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "ব্যাকআপ",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 কী",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "একটি প্রজেক্ট খুলুন (Claude-এর সাইডবারে Projects) বা কোনো চ্যাট — এই প্যানেলে দেখা যাবে আপনি এখান থেকে কী ডাউনলোড করতে পারবেন।",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "প্রজেক্ট বা চ্যাট এক্সপোর্ট করতে claude.ai খুলুন। সীমা ও ব্যাকআপ যেকোনো ট্যাব থেকে কাজ করে।",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "আমার Claude প্রজেক্ট খুলুন",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 তালিকার যেকোনো প্রজেক্টে ক্লিক করুন। এই প্যানেলে তার ফাইল ও চ্যাট ভরে যাবে, ডাউনলোডের জন্য প্রস্তুত।",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "আমাকে দেখান কীভাবে — আমার প্রজেক্ট খুলুন",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "পরিচালনা / বাতিল ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "লাইফটাইম নিন",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "সাইড প্যানেল",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "পপ-আপ",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 আপনার লাইসেন্স কী দিন",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Pro কিনেছেন? কেনাকাটার ইমেল থেকে কী পেস্ট করুন।",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "আগে আপনার কী পেস্ট করুন।",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "আপনার কী যাচাই করা হচ্ছে…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro চালু হয়েছে। রিলোড হচ্ছে…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "বার্ষিক",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "সাহায্য ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "আপনি $1টি বেছে নিয়েছেন। Pro একবারে যত খুশি চ্যাট সরায়, এক্সপোর্ট করে ও মুছে ফেলে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "ফ্রি প্ল্যান: প্রতি বাল্ক অ্যাকশনে $1টি চ্যাট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "বাতিল",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1টি চ্যাট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "মুছুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "ফোল্ডার মুছুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "“$1” ফোল্ডার মুছবেন? এর চ্যাটগুলো Claude-এ থেকে যাবে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "$1টি চ্যাট মুছুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "এগুলো claude.ai থেকে মুছে যাবে এবং ফেরানো যাবে না। দরকার হতে পারে মনে হলে আগে এক্সপোর্ট করে নিন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1টি মোছা হয়েছে। $2টি মোছা যায়নি এবং এখনো নির্বাচিত আছে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "আপনার Claude অ্যাকাউন্ট থেকে $1টি চ্যাট মুছবেন?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1টি চ্যাট মোছা হয়েছে। পরিবর্তন দেখতে claude.ai রিলোড করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "মোছা হচ্ছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "আপনার সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "claude.ai-তে পৌঁছানো যায়নি",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "এক্সপোর্ট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "প্রতিটি এক্সপোর্ট করা চ্যাট একটি ডাউনলোড হিসেবে গোনা হয়। Pro যেকোনো দিন যত খুশি চ্যাট এক্সপোর্ট করে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "আজ ৫টির মধ্যে $1টি ফ্রি ডাউনলোড বাকি",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1টি এক্সপোর্ট হয়েছে। $2টি পড়া যায়নি।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1টি চ্যাট Downloads-এ এক্সপোর্ট হয়েছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "এক্সপোর্ট হচ্ছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1টি চ্যাট “$2”-এ সরানো হয়েছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "ফোল্ডার",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "সব চ্যাট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "“$1” ফোল্ডার মোছা হয়েছে। এর চ্যাটগুলো এখন কোনো ফোল্ডারে নেই।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "সব চ্যাট-এ চ্যাট বেছে নিয়ে ফোল্ডার চাপুন, অথবা সেগুলো এই ফোল্ডারে টেনে আনুন। claude.ai-তে খোলা চ্যাট যোগ করতে ফোল্ডারের পাশের + ব্যবহার করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "“$1”-এ এখনো কিছু নেই",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "এই নামে একটি ফোল্ডার আগে থেকেই আছে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro-তে সীমাহীন ফোল্ডার পাবেন। আপনার চ্যাট ও ফোল্ডার যেমন আছে তেমনই থাকবে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "আপনি ৩টির মধ্যে ৩টি ফ্রি ফোল্ডার ব্যবহার করেছেন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "ফোল্ডারের নাম",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "ফোল্ডারহীন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1টি ইনডেক্স হয়নি",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "সার্চ থেমে আছে: claude.ai-তে সাইন ইন করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "আপডেট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1টি চ্যাট · এই কম্পিউটারেই সার্চ হয়",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "সার্চের জন্য চ্যাট ইনডেক্স হচ্ছে: $1 / $2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "প্রথম $1টি ব্যবহার করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1টি মিলে যাওয়া চ্যাট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "এতে claude.ai-তে চ্যাটগুলো বদলে যায়, ঠিক সেখানে সরানোর মতোই।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1টি সরানো হয়েছে। $2টি সরানো যায়নি এবং এখনো নির্বাচিত আছে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "$1টি চ্যাট ফোল্ডারে সরান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "$1টি চ্যাট একটি Claude প্রজেক্টে সরান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1টি চ্যাট “$2”-এ সরানো হয়েছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "সরানো হচ্ছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "নতুন ফোল্ডার",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "নতুন ফোল্ডার…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "নতুন ফোল্ডার (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "claude.ai-তে শুরু করা চ্যাটগুলো এখানে দেখা যাবে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "এখনো কোনো চ্যাট নেই",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "সার্চ আপনার লেখা প্রতিটি শব্দ মেলায়। কোনো বাক্যাংশ হুবহু মেলাতে সেটি উদ্ধৃতিচিহ্নের মধ্যে রাখুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "এখনো ইনডেক্স হচ্ছে — আরও $1টি চ্যাট বাকি। পড়া হতে থাকলে ফলাফল দেখা যাবে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "কোনো চ্যাটে “$1” নেই",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "এই অ্যাকাউন্টে এখনো কোনো প্রজেক্ট নেই। আগে claude.ai-তে একটি তৈরি করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "সরানো ও মোছা claude.ai-তেই, আপনার অ্যাকাউন্ট দিয়ে চলে। একটি claude.ai ট্যাব খোলা রেখে আবার চেষ্টা করুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "আগে একটি ট্যাবে claude.ai খুলুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "এখন নয়",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "claude.ai খুলুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "ট্যাবে খুলুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "ফ্রি প্ল্যান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · কোনো সীমা নেই",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "প্রজেক্ট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "ফোল্ডার থেকে সরান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "নাম বদলান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "আবার চেষ্টা করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "ফ্রি প্ল্যানে সেরা ৫টি ফলাফল দেখা যায়। Pro প্রতিটি চ্যাটের সব ফলাফল দেখায়।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "আরও $1টি চ্যাট মিলেছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "সব মেসেজে সার্চ করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "সব নির্বাচন করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "“$1” নির্বাচন করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1টি নির্বাচিত",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "আরও $1টি দেখান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "claude.ai সাইডবারে ফোল্ডার দেখান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "লাইব্রেরি আপনার নিজের Claude অ্যাকাউন্টের চ্যাট দেখায়, তাই সাইন ইন থাকা দরকার।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "claude.ai-তে সাইন ইন করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "নির্বাচন মুছুন (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "মুছুন (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Markdown হিসেবে এক্সপোর্ট করুন (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "ফোল্ডারে সরান (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "প্রজেক্টে সরান (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "লাইব্রেরি — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1টি চ্যাট তাদের ফোল্ডার থেকে সরানো হয়েছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "প্রতিটি চ্যাট কোনো না কোনো ফোল্ডারে আছে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "সব গোছানো আছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "বাল্ক অ্যাকশন আনলক করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "সীমাহীন এক্সপোর্ট আনলক করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "সীমাহীন ফোল্ডার আনলক করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "পূর্ণ সার্চ আনলক করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "শিরোনামহীন চ্যাট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "শিরোনামহীন প্রজেক্ট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "এই চ্যাটটি $1-এ যোগ করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "এই প্রজেক্টটি $1-এ যোগ করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "চ্যাট ও প্রজেক্ট ফোল্ডারে সাজান। শুরু করতে + চাপুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "খালি। একটি চ্যাট খুলে এই ফোল্ডারে + চাপুন।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "ফোল্ডার",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "আগে থেকেই $1-এ আছে",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "ফ্রি প্ল্যানে ৩টি ফোল্ডার আছে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "নতুন ফোল্ডার",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "লাইব্রেরিতে সব $1টি দেখান",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "সীমাহীন ফোল্ডার আনলক করুন",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "এক্সপোর্ট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "লাইব্রেরি",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1টি মেসেজ · আনুমানিক",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "দীর্ঘ চ্যাট: প্রতিটি মেসেজ পুরো চ্যাট আবার পাঠায়। নতুন চ্যাটে আপনার সীমা বেশি দিন চলে।",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "এই চ্যাটের কনটেক্সট",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "ফোল্ডার ও সার্চ",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Claude-এর সাইডবারেই চ্যাট ফোল্ডারে সাজান, প্রতিটি মেসেজের ভেতরে খুঁজুন, আর একসাথে অনেক চ্যাট সরান, এক্সপোর্ট বা ডিলিট করুন।",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "চ্যাট ও প্রজেক্টের জন্য ফোল্ডার",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "প্রতিটি চ্যাটের ভেতরে সার্চ",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "সেরা ৫টি ফলাফল",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "সব ফলাফল",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "একসাথে সরানো, এক্সপোর্ট ও ডিলিট",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "একবারে ৫টি",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "খোলা চ্যাট কতটা কনটেক্সট আবার পাঠায়",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Экспорт чатов и проектов Claude, папки, поиск по всем сообщениям, массовое удаление и лимиты использования. Всё локально.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Скачивание чатов и файлов проектов с claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Инструкция",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Как пользоваться расширением",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Статус",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Ожидание",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Загрузка…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Экспорт…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Готово",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Ошибка",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Подготовка…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Проект",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Чат",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "Осталось бесплатных экспортов сегодня: $1 из $2",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Дневной лимит бесплатных экспортов исчерпан",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Обновить",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Обновить файлы",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Текущий чат",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Чат",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "Сообщений: $1 · Вложений: $2",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Формат экспорта",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP с вложениями (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (исходный .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Скачать этот чат",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Совет: Вы также можете скачивать прямо со страницы чата с помощью кнопки «Скачать» рядом с «Поделиться».",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Скачать все файлы",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Скачать все чаты",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Скачать весь проект",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Имя ZIP-архива проекта",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Будет сохранено как name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Формат экспорта файлов",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Оригинальный (сохранить расширение)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Формат экспорта чатов",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (исходный)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Файлы",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Чаты",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Файлы пока не загружены.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Откройте проект или чат Claude, затем нажмите «Обновить».",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Чаты пока не загружены.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Откройте проект Claude, затем нажмите «Обновить».",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Скачать",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Скачать историю чата (Shift+клик для смены формата)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Скачать чат",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Выберите предпочтительный формат экспорта:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Рекомендуется",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Полный Markdown-чат + все прикрепленные файлы (изображения, PDF, документы) в одном архиве.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Чистый форматированный текст, идеально подходящий для Obsidian, Notion или заметок.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Полные данные диалога без потерь со структурой API.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Запомнить выбор для будущих скачиваний в один клик",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Отмена",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Скачать",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Совет: Удерживайте Shift при нажатии на кнопку «Скачать», чтобы изменить формат.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Инструкция",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Откройте claude.ai в браузере",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Нажмите «Projects» на боковой панели",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Откройте проект, который хотите экспортировать",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Нажмите на значок расширения на панели инструментов, чтобы открыть эту боковую панель",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Нажмите «↺ Обновить», чтобы загрузить файлы и чаты",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Скачивайте файлы или чаты по отдельности или весь проект в ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Смотреть видеоурок",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Устранение неполадок",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Файлы не отображаются? Попробуйте следующее:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Нажмите «↺ Обновить файлы» и подождите",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Обновите страницу и повторите попытку",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Убедитесь, что URL имеет вид claude.ai/project/[id] (не обычный чат)",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Жесткая перезагрузка: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Выйдите из Claude, войдите снова и откройте проект",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Попробуйте Google Chrome, если используете другой браузер",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Читать полное руководство по устранению неполадок →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Остались вопросы?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Альтернатива: Попросить Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Некоторые файлы нельзя скачать через API напрямую. Скопируйте этот промпт и отправьте его в чат Claude:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Скопировать промпт в буфер обмена",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Скопировано!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Вставьте это в чат Claude на странице проекта.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Уже купили? Вставьте ключ сюда:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Активировать",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Экспорт файлов проектов и чатов в один клик",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Основные возможности",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Экспорт файлов",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Скачивайте любые документы проекта по отдельности или структурированным ZIP-архивом.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Экспорт чатов",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Сохраняйте все диалоги проекта в формате Markdown или JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Весь проект целиком",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Объединяйте файлы и чаты в один упорядоченный архив в один клик.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Конвертация форматов",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Сохраняйте исходные расширения файлов или конвертируйте в Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Метрики токенов",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Просматривайте примерное количество токенов и даты создания файлов.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Конфиденциально и безопасно",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Работает полностью в вашем браузере с текущей сессией Claude. Без внешних серверов.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Быстрый старт",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Перейдите на claude.ai и откройте любой проект.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Нажмите на значок расширения, чтобы загрузить файлы и чаты.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Выберите формат и нажмите «Скачать».",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Только что установили? Обновите открытые вкладки Claude для подключения.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Все права защищены.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Перейти на Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Перейти на Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Бесплатный план включает 5 одиночных загрузок в день и один полный экспорт проекта. Pro убирает оба лимита и добавляет резервное копирование всего — каждый проект и чат в одном ZIP, по запросу или автоматически — а также индикатор использования Claude в реальном времени на claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Перейти на Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Безопасная оплата через Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Уже купили?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Неограниченный доступ",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Включить вложения чата (ZIP больше)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "сброс через $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Войдите на claude.ai, чтобы увидеть ваши лимиты.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Не удалось загрузить ваши лимиты. Откройте claude.ai и попробуйте снова.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5-часовая сессия",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Неделя",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Неделя · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Экспорт $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Запуск…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Функция Pro. Файлы сохраняются в Загрузки › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Панель можно закрыть — копирование продолжится.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Последнее резервное копирование не удалось: войдите на claude.ai и попробуйте снова.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Последнее резервное копирование не удалось: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Последняя копия $1 · $2 проектов, $3 чатов · Загрузки › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Резервных копий пока нет. Сохраняются в Загрузки › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Ежемесячно",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Навсегда",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Продление $1. Неограниченные экспорты, резервные копии и индикатор использования на странице.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Неограниченные экспорты, резервные копии и индикатор использования на странице.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Управление лицензией",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Ваша подписка Pro закончилась",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Эта лицензия Pro была отменена",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Вы снова на бесплатном плане. Ваши прежние экспорты и резервные копии остаются с вами.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Продлить Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Текущая сессия (5 часов)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Недельный лимит",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Скрыть",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Лимит сессии достигнут",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1 % сессии использовано",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Сброс через $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Использование Claude — нажмите для подробностей",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Это были ваши 5 бесплатных загрузок на сегодня. Pro убирает дневной лимит — неограниченные одиночные загрузки и неограниченные полные экспорты проектов.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Вы уже использовали бесплатный полный экспорт проекта. Pro открывает неограниченные полные экспорты — все чаты и файлы в один клик, когда захотите.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Резервное копирование всего — функция Pro: инструкции, файлы и чаты каждого проекта, плюс все остальные чаты, в одном ZIP — по запросу или автоматически каждый день или неделю.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Индикатор на странице — функция Pro: ваши 5-часовые и недельные лимиты Claude в углу claude.ai, с предупреждением при 80% и 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Ваша подписка Pro закончилась. Продлите, чтобы снова включить неограниченные экспорты, резервные копии и индикатор на странице. Ваш ключ останется прежним.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Ваши лимиты Claude",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Показывать индикатор на claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Резервное копирование всего",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Ваши проекты — инструкции, файлы и чаты — и все остальные чаты, сохраняются в одном ZIP. Работает самостоятельно, даже если эта панель закрыта.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Создать копию сейчас",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Автокопия: отключена",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Автокопия: ежедневно",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Автокопия: еженедельно",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Отмена",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Обновить",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Ваша работа в Claude — сохранена на вашем компьютере.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Экспортируйте проекты, чаты и файлы из своего аккаунта Claude, раскладывайте чаты по папкам, ищите внутри каждого сообщения и следите за лимитами.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Открыть claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Затем нажмите на значок расширения, чтобы открыть боковую панель. Совет: закрепите его через меню с пазлом в Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Экспорт",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Файлы проекта, расшифровки чатов и артефакты — или весь проект одним ZIP, в Markdown или JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Все проекты и все чаты в одном ZIP — по запросу или автоматически каждый день или неделю, даже при закрытой панели.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Счётчик использования",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Ваши 5-часовые и недельные лимиты Claude со временем сброса — в боковой панели и рядом с выбором модели на claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free и Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Скачивание отдельных файлов и чатов",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 в день",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Без ограничений",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Экспорт всего проекта",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 бесплатно",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, артефакты и вложения",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Лимиты использования в боковой панели",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Счётчик на claude.ai с предупреждениями на 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Автоматические ежедневные или еженедельные резервные копии",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Ежемесячно или навсегда — тарифы и цены на нашем сайте.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro активен",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Откройте боковую панель, чтобы сохранить всё или включить автоматическое резервное копирование.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Ежемесячно · продление $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Бессрочная лицензия — все функции Pro навсегда.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Вставьте лицензионный ключ из письма о покупке.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Начало работы",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Откройте claude.ai и перейдите в любой проект или чат.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Нажмите на значок расширения, чтобы открыть боковую панель. Закрепите его для доступа в один клик.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Скачайте файлы, чаты или весь проект — или сохраните всё сразу.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Только что установили или обновили? Перезагрузите уже открытые вкладки Claude, чтобы они переподключились.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Экспортирует только то, что ваш собственный аккаунт Claude уже может открыть. Ваш контент из Claude никогда не покидает браузер.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Нужна помощь?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Откройте claude.ai, чтобы экспортировать проект или чат. Лимиты и резервные копии работают с любой вкладки.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Настройки экспорта",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Всё происходит на этом компьютере — ничего не загружается в облако. Резервные копии сохраняются как ZIP-файлы в Загрузки › Claude Backups. Автоматическое резервное копирование выполняется, когда компьютер включён, Chrome открыт, а вы вошли в claude.ai; если копия пропущена, она будет создана в следующий раз, когда эти условия совпадут.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Как работает резервное копирование",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Загрузка ваших проектов…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Также чаты вне проектов",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Выберите хотя бы один проект или отметьте чаты вне проектов.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "В этом аккаунте пока нет проектов.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Резервная копия: все проекты",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Резервная копия: выбранные мной проекты",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Войдите на claude.ai, чтобы увидеть список своих проектов.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Резервные копии",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Ключ",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Откройте проект (Projects на боковой панели Claude) или любой чат — эта панель покажет, что из него можно скачать.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Откройте claude.ai, чтобы экспортировать проект или чат. Лимиты и резервные копии работают с любой вкладки.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Открыть мои проекты Claude",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Нажмите на любой проект в списке. Эта панель заполнится его файлами и чатами, готовыми к скачиванию.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Покажите мне как — открыть мои проекты",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Управление / отмена ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Купить навсегда",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Боковая панель",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Всплывающее окно",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Введите лицензионный ключ",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Купили Pro? Вставьте ключ из письма о покупке.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Сначала вставьте ключ.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Проверяем ключ…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro включён. Перезагрузка…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Годовой",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Помощь ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Выбрано: $1. В Pro можно перемещать, экспортировать и удалять сколько угодно чатов за раз.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Бесплатный план: до $1 чатов за одно массовое действие",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Отмена",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "Чатов: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Удалить",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Удалить папку",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Удалить папку «$1»? Её чаты останутся в Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Удалить чаты ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Они будут удалены на claude.ai без возможности восстановления. Если они могут понадобиться, сначала экспортируйте их.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "Удалено: $1. Не удалось удалить: $2 — они остаются выбранными.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Удалить чаты из вашего аккаунта Claude ($1)?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "Удалено чатов: $1. Перезагрузите claude.ai, чтобы увидеть изменения.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Удаление",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Проверьте подключение и попробуйте снова.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Не удалось связаться с claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Экспорт",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Каждый экспортированный чат считается одной загрузкой. Pro экспортирует любое количество чатов в любой день.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Осталось бесплатных загрузок сегодня: $1 из 5",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "Экспортировано: $1. Не удалось прочитать: $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "Экспортировано чатов в «Загрузки»: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Экспорт",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "Чаты ($1) перемещены в «$2»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Папка",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Все чаты",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Папка «$1» удалена. Её чаты остались без папки.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Выберите чаты во вкладке «Все чаты» и нажмите «Папка» или перетащите их на эту папку. На claude.ai нажмите + рядом с папкой, чтобы добавить открытый чат.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "В «$1» пока ничего нет",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Папка с таким названием уже существует.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "В Pro количество папок не ограничено. Ваши чаты и папки останутся без изменений.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Использованы все 3 бесплатные папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Название папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Без папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "Не проиндексировано: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Поиск приостановлен: войдите на claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Обновить",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "Чатов: $1 · поиск на этом компьютере",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Индексация чатов для поиска: $1 / $2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Взять первые $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "Найдено чатов: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Чаты изменятся на claude.ai — так же, как при перемещении там.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "Перемещено: $1. Не удалось переместить: $2 — они остаются выбранными.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Переместить чаты ($1) в папку",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Переместить чаты ($1) в проект Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "Чаты ($1) перемещены в «$2»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Перемещение",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Новая папка",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Новая папка…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Новая папка (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Здесь появятся чаты, которые вы начнёте на claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Чатов пока нет",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Поиск находит все введённые слова. Возьмите фразу в кавычки, чтобы искать её точно.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Индексация продолжается — осталось чатов: $1. Результаты появляются по мере чтения.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Ни один чат не упоминает «$1»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "В этом аккаунте пока нет проектов. Сначала создайте проект на claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Перемещение и удаление выполняются на самом claude.ai от вашего имени. Держите вкладку claude.ai открытой и попробуйте снова.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Сначала откройте claude.ai во вкладке",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Не сейчас",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Открыть claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Открыть во вкладке",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Бесплатный план",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · без ограничений",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Проект",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Убрать из папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Переименовать",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Повторить",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Бесплатный план показывает 5 лучших совпадений. Pro показывает все совпадения во всех чатах.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Ещё совпадений в чатах: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Поиск по всем сообщениям",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Выбрать все",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Выбрать «$1»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "Выбрано: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Показать ещё $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Показывать папки в боковой панели claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Библиотека показывает чаты из вашего аккаунта Claude, поэтому нужно войти.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Войдите на claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Снять выделение (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Удалить (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Экспорт в Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Переместить в папку (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Переместить в проект (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Библиотека — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "Чаты ($1) убраны из папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Все чаты разложены по папкам.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Всё разложено",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Открыть массовые действия",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Открыть безлимитный экспорт",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Открыть безлимитные папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Открыть полный поиск",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Чат без названия",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Проект без названия",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Добавить этот чат в $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Добавить этот проект в $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Группируйте чаты и проекты по папкам. Нажмите +, чтобы начать.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Пусто. Откройте чат и нажмите + у этой папки.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Уже в $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Бесплатный план включает 3 папки.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Новая папка",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Показать все ($1) в Библиотеке",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Открыть безлимитные папки",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Экспорт",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Библиотека",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "Сообщений: $1 · оценка",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Длинный чат: каждое сообщение заново отправляет его целиком. Новый чат растянет ваш лимит.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Контекст этого чата",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Папки и поиск",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Раскладывайте чаты по папкам прямо в боковой панели Claude, ищите внутри каждого сообщения, перемещайте, экспортируйте или удаляйте чаты пачкой.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Папки для чатов и проектов",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Поиск внутри каждого чата",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "Топ-5 результатов",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Все результаты",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Массовое перемещение, экспорт и удаление",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 за раз",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Сколько контекста открытый чат отправляет заново",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

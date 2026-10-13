@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Claude 채팅과 프로젝트 내보내기, 폴더 정리, 전체 메시지 검색, 일괄 삭제, 사용 한도 확인까지. 100% 로컬 처리.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "claude.ai에서 대화 및 프로젝트 파일 다운로드",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? 사용 방법",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "확장 프로그램 사용 방법",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "상태",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "대기 중",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "불러오는 중…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "내보내는 중…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "완료",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "오류",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "준비 중…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "프로젝트",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "채팅",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "오늘 무료 내보내기 $1 / $2회 남음",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "오늘의 무료 내보내기 한도에 도달했습니다",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ 새로고침",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ 파일 새로고침",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "현재 채팅",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "채팅",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "메시지 $1개 · 첨부 파일 $2개",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "내보내기 형식",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 첨부 파일 포함 ZIP (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 마크다운 (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (원시 데이터 .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ 이 채팅 다운로드",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 팁: 채팅 페이지에서 '공유' 옆의 '다운로드' 버튼을 눌러 바로 다운로드할 수도 있습니다.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ 모든 파일 다운로드",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 모든 채팅 다운로드",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ 전체 프로젝트 다운로드",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "프로젝트 ZIP 파일 이름",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "name_files.zip / _chats.zip / .zip 형식으로 저장됩니다",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "파일 내보내기 형식",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "원본 형식 (확장자 유지)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "마크다운 (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "채팅 내보내기 형식",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "마크다운 (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (원시 데이터)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "파일",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "채팅",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "아직 불러온 파일이 없습니다.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Claude 프로젝트 또는 채팅을 연 후 새로고침을 클릭하세요.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "아직 불러온 채팅이 없습니다.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Claude 프로젝트를 연 후 새로고침을 클릭하세요.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "다운로드",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "대화 내용 다운로드 (Shift+클릭 시 형식 변경)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "채팅 다운로드",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "선호하는 내보내기 형식을 선택하세요:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "추천",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "전체 마크다운 대화 내용 + 업로드된 모든 첨부 파일(이미지, PDF, 문서) 압축 파일.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Obsidian, Notion 또는 개인 메모에 적합한 깔끔한 서식의 텍스트.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "완전한 API 구조를 포함한 원시 대화 데이터.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "다음 원클릭 다운로드를 위해 선택 기억",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "취소",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ 다운로드",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 팁: 언제든지 Shift를 누른 채 다운로드 버튼을 클릭하면 형식을 변경할 수 있습니다.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "사용 방법",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "브라우저에서 claude.ai로 이동합니다",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "사이드바에서 'Projects'를 클릭합니다",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "내보내려는 프로젝트를 엽니다",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "도구 모음의 확장 프로그램 아이콘을 클릭해 이 사이드 패널을 여세요",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "«↺ 새로고침»을 클릭하여 파일과 채팅을 불러옵니다",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "개별 다운로드, 일괄 다운로드 또는 전체 프로젝트를 ZIP으로 다운로드합니다",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ 튜토리얼 비디오 시청",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "문제 해결",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "파일이 표시되지 않나요? 다음을 시도해보세요:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "«↺ 파일 새로고침»을 클릭하고 잠시 기다립니다",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "페이지를 새로고침한 후 다시 시도합니다",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "URL이 claude.ai/project/[id] 인지 확인합니다 (일반 채팅창 제외)",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "강력 새로고침: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Claude에서 로그아웃 후 다시 로그인하여 프로젝트를 엽니다",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "다른 브라우저를 사용 중이라면 Chrome에서 시도해보세요",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "전체 문제 해결 가이드 읽기 →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "도움이 더 필요하신가요?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ 대체 방법: Claude에게 요청하기",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "일부 파일은 API를 통해 직접 다운로드할 수 없습니다. 아래 프롬프트를 복사하여 Claude 채팅창에 붙여넣으면 다운로드 가능한 ZIP을 얻을 수 있습니다.",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 클립보드에 프롬프트 복사",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ 복사 완료!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "프로젝트 페이지의 Claude 채팅창에 붙여넣으세요.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "이미 구매하셨나요? 여기에 키를 붙여넣으세요:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "활성화",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "클릭 한 번으로 프로젝트 파일과 대화를 내보내세요",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ 주요 기능",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "파일 내보내기",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "모든 프로젝트 문서를 개별적으로 또는 구조화된 ZIP으로 즉시 저장.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "대화 내보내기",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "프로젝트 내 모든 대화를 마크다운 또는 JSON으로 다운로드.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "전체 프로젝트",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "파일과 채팅을 정리된 단일 아카이브로 한 번에 압축.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "형식 변환",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "원본 형식을 유지하거나 마크다운으로 변환 가능.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "토큰 통계",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "예상 토큰 수와 파일 생성 날짜를 바로 확인.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "안전하고 독립적",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "사용자의 브라우저 내에서 Claude 세션을 통해 실행됩니다. 외부 서버 전송 없음.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 빠른 시작 가이드",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "claude.ai로 이동하여 프로젝트 워크스페이스를 엽니다.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "브라우저 툴바의 확장 프로그램 아이콘을 눌러 파일과 대화를 불러옵니다.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "원하는 형식을 선택하고 '다운로드'를 클릭합니다.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "새로 설치하셨나요? 열려 있는 Claude 탭을 새로고침하여 다시 연결하세요.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Pro로 업그레이드",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Pro로 업그레이드",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "무료 플랜은 하루 5회 단일 다운로드와 전체 프로젝트 내보내기 1회를 제공합니다. Pro는 두 제한을 모두 없애고, 모든 프로젝트와 대화를 하나의 ZIP으로 백업하는 전체 백업 기능과 claude.ai의 실시간 사용량 표시기를 추가합니다.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Pro로 업그레이드",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Freemius를 통한 안전한 결제",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 이미 구매하셨나요?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · 무제한 이용",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "채팅 첨부 파일 포함 (ZIP 용량 증가)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "$1 후 초기화",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "사용 한도를 보려면 claude.ai에 로그인하세요.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "지금은 사용 한도를 불러올 수 없습니다. claude.ai를 열고 다시 시도하세요.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5시간 세션",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "주간",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "주간 · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "$1 내보내는 중",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "시작 중…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro 기능입니다. 파일은 다운로드 › Claude Backups에 저장됩니다.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "이 패널을 닫아도 백업은 계속돼요.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "마지막 백업 실패: claude.ai에 로그인한 후 다시 시도하세요.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "마지막 백업 실패: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "마지막 백업 $1 · 프로젝트 $2개, 대화 $3개 · 다운로드 › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "아직 백업 없음. 다운로드 › Claude Backups에 저장됩니다.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "월간",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "평생 이용권",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "$1에 갱신됩니다. 무제한 내보내기, 백업, 페이지 내 사용량 표시기.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "무제한 내보내기, 백업, 페이지 내 사용량 표시기.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "라이선스 관리",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Pro 구독이 종료되었습니다",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "이 Pro 라이선스는 취소되었습니다",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "다시 무료 플랜을 사용 중입니다. 이전에 내보낸 파일과 백업은 그대로 유지됩니다.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Pro 갱신",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "현재 세션(5시간)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "주간 한도",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "숨기기",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "세션 한도 도달",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "세션의 $1% 사용됨",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "$1 후 초기화됩니다.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude 사용량 — 클릭하여 자세히 보기",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "오늘의 무료 다운로드 5회를 모두 사용했습니다. Pro는 일일 제한을 없애 단일 다운로드와 전체 프로젝트 내보내기를 무제한으로 제공합니다.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "무료 전체 프로젝트 내보내기를 이미 사용했습니다. Pro는 무제한 전체 내보내기를 제공합니다. 클릭 한 번으로 모든 대화와 파일을 원하는 때에 내보낼 수 있습니다.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "전체 백업은 Pro 기능입니다. 모든 프로젝트의 지침, 파일, 대화와 나머지 모든 대화를 하나의 ZIP으로, 필요할 때 또는 매일·매주 자동으로 백업합니다.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "페이지 내 사용량 표시기는 Pro 기능입니다. claude.ai 구석에서 5시간 및 주간 Claude 사용 한도를 확인하고, 80%와 100%에서 알려드립니다.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Pro 구독이 종료되었습니다. 갱신하면 무제한 내보내기, 백업, 페이지 내 사용량 표시기가 다시 켜집니다. 키는 그대로 유지됩니다.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "내 Claude 사용 한도",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "claude.ai에 사용량 표시기 표시",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "전체 백업",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "프로젝트(지침, 파일, 채팅)와 나머지 모든 채팅을 하나의 ZIP으로 저장해요. 이 패널을 닫아도 자동으로 실행돼요.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ 지금 백업",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "자동 백업: 끔",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "자동 백업: 매일",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "자동 백업: 매주",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "취소",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "새로고침",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Claude 작업을 내 컴퓨터에 저장하세요.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "내 Claude 계정의 프로젝트, 채팅, 파일을 내보내고, 채팅을 폴더로 정리하고, 모든 메시지 안을 검색하고, 사용량 한도도 확인하세요.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "claude.ai 열기",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "그런 다음 확장 프로그램 아이콘을 클릭해 사이드 패널을 여세요. 팁: Chrome의 퍼즐 메뉴에서 고정할 수 있어요.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "내보내기",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "프로젝트 파일, 채팅 기록, 아티팩트 — 또는 프로젝트 전체를 ZIP 하나로, Markdown이나 JSON 형식으로.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "모든 프로젝트와 모든 채팅을 ZIP 하나로 — 원할 때 또는 매일·매주 자동으로, 패널을 닫아도 진행돼요.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "사용량 미터",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Claude의 5시간·주간 한도와 초기화 시간을 사이드 패널과 claude.ai 모델 선택기 옆에 표시해요.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "파일·채팅 개별 다운로드",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "하루 5회",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "무제한",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "프로젝트 전체 내보내기",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1회 무료",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, 아티팩트 및 첨부 파일",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "사이드 패널의 사용량 한도",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "claude.ai 사용량 미터 (80% / 100% 알림)",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "매일 또는 매주 자동 백업",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "월간 또는 평생 — 요금제와 가격은 웹사이트에서 확인하세요.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro 사용 중",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "사이드 패널을 열어 전체를 백업하거나 자동 백업을 켜세요.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "월간 · $1 갱신",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "평생 라이선스 — 모든 Pro 기능을 계속.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "구매 이메일의 라이선스 키를 붙여 넣으세요.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "시작하기",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "claude.ai를 열고 원하는 프로젝트나 채팅으로 이동하세요.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "확장 프로그램 아이콘을 클릭해 사이드 패널을 여세요. 고정하면 한 번에 열 수 있어요.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "파일, 채팅, 프로젝트 전체를 다운로드하거나 — 한 번에 모두 백업하세요.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "방금 설치하거나 업데이트했나요? 이미 열려 있던 Claude 탭을 새로고침해 다시 연결하세요.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "로그인한 내 Claude 계정에서 이미 열 수 있는 것만 내보내요. Claude 콘텐츠는 브라우저 밖으로 나가지 않아요.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "도움이 필요하세요?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "프로젝트나 채팅을 내보내려면 claude.ai를 여세요. 한도 확인과 백업은 어느 탭에서나 돼요.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "내보내기 설정",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "모든 작업은 이 컴퓨터에서 이루어져요 — 어떤 클라우드에도 업로드되지 않아요. 백업은 다운로드 › Claude Backups에 ZIP 파일로 저장돼요. 자동 백업은 컴퓨터가 켜져 있고, Chrome이 열려 있고, claude.ai에 로그인되어 있을 때 실행돼요. 한 번을 놓치면 다음에 조건이 다시 충족될 때 실행돼요.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "백업 작동 방식",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "프로젝트를 불러오는 중…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "프로젝트 외부 채팅도 포함",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "프로젝트를 하나 이상 선택하거나, 프로젝트 외부 채팅에 체크하세요.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "이 계정에는 아직 프로젝트가 없어요.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "백업 대상: 모든 프로젝트",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "백업 대상: 내가 선택한 프로젝트",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "프로젝트 목록을 보려면 claude.ai에 로그인하세요.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "백업",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 키",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "프로젝트를 열거나(Claude 사이드바의 Projects) 채팅을 여세요 — 이 패널에 거기서 다운로드할 수 있는 항목이 표시돼요.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "프로젝트나 채팅을 내보내려면 claude.ai를 여세요. 한도 확인과 백업은 어느 탭에서나 돼요.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "내 Claude 프로젝트 열기",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 목록에서 프로젝트를 클릭하세요. 이 패널에 파일과 채팅이 채워지고 바로 다운로드할 수 있어요.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "방법 보기 — 내 프로젝트 열기",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "관리 / 취소 ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "평생 이용권 받기",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "사이드 패널",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "팝업",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 라이선스 키 입력",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Pro를 구매하셨나요? 구매 이메일의 키를 붙여넣으세요.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "먼저 키를 붙여넣으세요.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "키 확인 중…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro가 켜졌습니다. 새로고침 중…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "연간",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "도움말 ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "$1개를 선택했어요. Pro에서는 개수 제한 없이 한 번에 이동, 내보내기, 삭제할 수 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "무료 플랜: 일괄 작업당 채팅 $1개",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "취소",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "채팅 $1개",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "삭제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "폴더 삭제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "‘$1’ 폴더를 삭제할까요? 안에 있는 채팅은 Claude에 그대로 남아요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "채팅 $1개 삭제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "claude.ai에서 삭제되며 복원할 수 없어요. 필요할 수 있다면 먼저 내보내세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1개를 삭제했어요. $2개는 삭제하지 못해 선택된 상태로 남아 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Claude 계정에서 채팅 $1개를 삭제할까요?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "채팅 $1개를 삭제했어요. 변경 사항을 보려면 claude.ai를 새로고침하세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "삭제 중",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "연결을 확인한 후 다시 시도하세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "claude.ai에 연결할 수 없어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "내보내기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "내보낸 채팅 1개가 다운로드 1회로 계산돼요. Pro에서는 언제든 채팅을 개수 제한 없이 내보낼 수 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "오늘 남은 무료 다운로드 $1/5회",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1개를 내보냈어요. $2개는 읽지 못했어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "채팅 $1개를 다운로드 폴더로 내보냈어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "내보내는 중",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "채팅 $1개를 ‘$2’(으)로 이동했어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "폴더",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "모든 채팅",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "‘$1’ 폴더를 삭제했어요. 안에 있던 채팅은 미분류로 바뀌었어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "모든 채팅에서 채팅을 선택하고 폴더를 고르거나, 이 폴더로 끌어다 놓으세요. claude.ai에서는 폴더 옆 +를 눌러 열려 있는 채팅을 추가할 수 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "‘$1’에 아직 아무것도 없어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "같은 이름의 폴더가 이미 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro에서는 폴더를 무제한으로 만들 수 있어요. 채팅과 폴더는 지금 그대로 유지돼요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "무료 폴더 3개를 모두 사용했어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "폴더 이름",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "미분류",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1개 색인 실패",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "검색 일시 중지됨: claude.ai에 로그인하세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "업데이트",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "채팅 $1개 · 이 컴퓨터에서 검색",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "검색용 색인 생성 중: 채팅 $1 / $2개",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "처음 $1개 사용",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "일치하는 채팅 $1개",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "claude.ai에서 직접 옮기는 것과 마찬가지로 claude.ai의 채팅이 변경돼요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1개를 이동했어요. $2개는 이동하지 못해 선택된 상태로 남아 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "채팅 $1개를 폴더로 이동",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "채팅 $1개를 Claude 프로젝트로 이동",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "채팅 $1개를 ‘$2’(으)로 이동했어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "이동 중",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "새 폴더",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "새 폴더…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "새 폴더 (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "claude.ai에서 시작한 채팅이 여기에 표시돼요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "아직 채팅이 없어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "입력한 모든 단어와 일치하는 채팅을 찾아요. 정확히 일치시키려면 구문을 따옴표로 묶으세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "아직 색인 생성 중이에요. 채팅 $1개 남음. 읽는 대로 결과가 나타나요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "‘$1’이(가) 언급된 채팅이 없어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "이 계정에는 아직 프로젝트가 없어요. 먼저 claude.ai에서 만드세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "이동과 삭제는 내 계정으로 로그인된 claude.ai에서 직접 실행돼요. claude.ai 탭을 열어 둔 채로 다시 시도하세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "먼저 탭에서 claude.ai를 여세요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "나중에",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "claude.ai 열기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "탭에서 열기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "무료 플랜",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · 제한 없음",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "프로젝트",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "폴더에서 제거",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "이름 바꾸기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "다시 시도",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "무료 플랜에서는 상위 5개 결과만 보여요. Pro에서는 모든 채팅의 모든 결과를 볼 수 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "일치하는 채팅 $1개 더 있음",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "모든 메시지 검색",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "모두 선택",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "‘$1’ 선택",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1개 선택됨",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "$1개 더 보기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "claude.ai 사이드바에 폴더 표시",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "라이브러리는 내 Claude 계정의 채팅을 보여 주므로 로그인이 필요해요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "claude.ai에 로그인하세요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "선택 해제 (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "삭제 (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Markdown으로 내보내기 (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "폴더로 이동 (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "프로젝트로 이동 (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "라이브러리 — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "채팅 $1개를 폴더에서 제거했어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "모든 채팅이 폴더에 들어 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "모두 정리되었어요",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "일괄 작업 잠금 해제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "무제한 내보내기 잠금 해제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "무제한 폴더 잠금 해제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "전체 검색 잠금 해제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "제목 없는 채팅",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "제목 없는 프로젝트",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "이 채팅을 $1에 추가",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "이 프로젝트를 $1에 추가",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "채팅과 프로젝트를 폴더로 묶어 보세요. +를 눌러 시작하세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "비어 있어요. 채팅을 연 다음 이 폴더의 +를 누르세요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "폴더",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "이미 $1에 있음",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "무료 플랜에는 폴더 3개가 포함돼요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "새 폴더",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "라이브러리에서 $1 전체 보기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "무제한 폴더 잠금 해제",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "내보내기",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "라이브러리",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "메시지 $1개 · 추정치",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "긴 채팅: 메시지를 보낼 때마다 전체 내용이 다시 전송돼요. 새 채팅을 시작하면 한도를 더 오래 쓸 수 있어요.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "이 채팅의 컨텍스트",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "폴더와 검색",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Claude 사이드바에서 바로 채팅을 폴더로 정리하고, 모든 메시지 안을 검색하고, 채팅을 한꺼번에 이동·내보내기·삭제하세요.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "채팅과 프로젝트용 폴더",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "모든 채팅 안에서 검색",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "상위 5개 결과",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "모든 결과",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "일괄 이동, 내보내기 및 삭제",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "한 번에 5개",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "열린 채팅이 다시 보내는 컨텍스트 양",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

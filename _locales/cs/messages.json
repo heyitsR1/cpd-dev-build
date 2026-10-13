@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Exportujte chaty a projekty Claude, třiďte je do složek, hledejte ve všech zprávách, mažte hromadně, sledujte limity. 100% lokálně.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Stahování chatů a souborů projektů z claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Návod",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "How to use this extension",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Stav",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Nečinný",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Načítání…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Exportování…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Hotovo",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Chyba",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Preparing…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Project",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "$1 of $2 free exports left today",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Daily free export limit reached",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Obnovit",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Obnovit soubory",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Aktuální chat",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 messages · $2 attachments",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Export Format",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP with Attachments (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (raw .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Stáhnout tento chat",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tip: You can also download directly on the chat page using the Download button next to Share.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Stáhnout všechny soubory",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Stáhnout všechny chaty",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Stáhnout celý projekt",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Project ZIP Name",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Saved as name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "File Export Format",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Native (keep original extension)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Project Chat Export Format",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (raw)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Files",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "No files loaded yet.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Open a Claude project or chat, then click Refresh.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "No chats loaded yet.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Open a Claude project, then click Refresh.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Stáhnout",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Download chat transcript (Shift+Click to change format)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Download Chat",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Choose your preferred export format for single chats:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Doporučeno",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Full markdown chat + all uploaded attachments (images, PDFs, documents) in an archive.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Clean formatted text transcript, ready for Obsidian, Notion, or personal notes.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Raw, lossless conversation data containing the complete API structure.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Remember my choice for future one-click downloads",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Zrušit",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Stáhnout",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tip: Hold Shift when clicking Download anytime to change this format.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "How to Use",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Go to claude.ai in your browser",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Click Projects in the sidebar",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Open a project you want to export",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Kliknutím na ikonu rozšíření na liště otevřete tento boční panel",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Click ↺ Refresh to load files and chats",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Download files or chats individually, in bulk, or grab the entire project as one ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Watch Tutorial Video",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Troubleshoot",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Files not showing up? Quick things to try:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Click ↺ Refresh Files and wait a moment",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Refresh the page, then try again",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Check URL is claude.ai/project/[id] — not chat",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard refresh: CMD/Ctrl Shift R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Log out of Claude, log back in, reopen project",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Try Chrome if you're on a different browser",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Read the full troubleshooting guide →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Still stuck?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Fallback: Ask Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Some files (spreadsheets, blobs, etc.) can't be downloaded directly via the API. Copy the prompt below and paste it into your Claude chat to get a downloadable ZIP.",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Copy Prompt to Clipboard",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Copied!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Paste this into your Claude chat on the project page.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Už jste zakoupili? Vložte svůj klíč sem:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activate",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Export your project files and chats in one click",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Key Features",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Export Files",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Grab every project document individually or as one structured ZIP — instantly.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Export Chats",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Download every conversation in a project as Markdown or JSON transcripts.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Whole Project",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "One click bundles files and chats into a single organized archive.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Format Conversion",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Keep original file formats or convert to Markdown — your choice.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token Metrics",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "View estimated token counts and file creation dates directly.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Private & Direct",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Runs entirely in your browser using your own Claude session. No servers, no uploads.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Quick Start Guide",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Navigate to claude.ai and open any project workspace.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Click the extension icon in your browser toolbar to load the project's files and chats.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Pick your format, then hit Download All Files, Download All Chats, or Download Entire Project.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Just installed or updated? Refresh any Claude tab that was already open so it reconnects.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Přejít na Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Přejít na Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Bezplatná verze zahrnuje 5 jednotlivých stažení denně a jeden úplný export projektu. Pro odstraní oba limity a přidává Zálohování všeho — každý projekt a chat v jednom ZIPu, na vyžádání nebo automaticky — plus živý měřič využití Claude na claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Přejít na Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Zabezpečená platba přes Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Už jste zakoupili?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Neomezený přístup",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Zahrnout přílohy chatu (větší ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "obnoví se za $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Přihlaste se na claude.ai, abyste viděli své limity.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Limity se teď nepodařilo načíst. Otevřete claude.ai a zkuste to znovu.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5hodinová relace",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Týdně",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Týdně · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Exportuje se $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Spouští se…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Funkce Pro. Soubory se uloží do Stažené soubory › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Panel můžete zavřít — zálohování pokračuje.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Poslední záloha se nezdařila: přihlaste se na claude.ai a zkuste to znovu.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Poslední záloha se nezdařila: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Poslední záloha $1 · $2 projektů, $3 chatů · Stažené soubory › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Zatím žádná záloha. Uloží se do Stažené soubory › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Měsíčně",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Na celý život",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Obnoví se $1. Neomezené exporty, zálohy a měřič využití na stránce.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Neomezené exporty, zálohy a měřič využití na stránce.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Správa licence",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Vaše předplatné Pro skončilo",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Tato licence Pro byla zrušena",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Jste zpět na bezplatném plánu. Vaše dřívější exporty a zálohy zůstávají vaše.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Obnovit Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Aktuální relace (5 hodin)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Týdenní limit",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Skrýt",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Limit relace dosažen",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "Využito $1% vaší relace",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Obnoví se za $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Využití Claude — klikněte pro podrobnosti",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "To bylo vašich 5 bezplatných stažení na dnešek. Pro odstraní denní limit — neomezená jednotlivá stažení i neomezené úplné exporty projektů.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Využili jste svůj bezplatný úplný export projektu. Pro odemkne neomezené úplné exporty — každý chat a soubor jedním kliknutím, kdykoli chcete.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Zálohování všeho je funkce Pro: instrukce, soubory a chaty každého projektu plus všechny ostatní chaty v jednom ZIPu — na vyžádání nebo automaticky každý den či týden.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Měřič na stránce je funkce Pro: vaše 5hodinové a týdenní limity Claude v rohu claude.ai, s upozorněním na 80% a 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Vaše předplatné Pro skončilo. Obnovte ho a znovu zapněte neomezené exporty, zálohy a měřič na stránce. Váš klíč zůstává stejný.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Vaše limity Claude",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Zobrazit měřič na claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Zálohovat vše",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Vaše projekty — pokyny, soubory a chaty — a všechny ostatní chaty, uložené v jednom ZIPu. Běží samo, i když je tento panel zavřený.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Zálohovat nyní",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Automatická záloha: vypnuto",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Automatická záloha: denně",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Automatická záloha: týdně",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Zrušit",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Obnovit",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Vaše práce v Claude uložená ve vašem vlastním počítači.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Exportujte projekty, chaty a soubory z vlastního účtu Claude, třiďte chaty do složek, hledejte uvnitř každé zprávy a mějte přehled o limitech využití.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Otevřít claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Pak klikněte na ikonu rozšíření a otevřete boční panel. Tip: připněte si ji v nabídce s dílkem skládačky v Chromu.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Export",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Soubory projektu, přepisy chatů a artefakty — nebo celý projekt v jednom ZIPu, jako Markdown nebo JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Všechny projekty a všechny chaty v jednom ZIPu — kdykoli nebo automaticky každý den či týden, i se zavřeným panelem.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Měřič využití",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Vaše 5hodinové a týdenní limity Claude s časem obnovení — v bočním panelu a vedle výběru modelu na claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Stahování jednotlivých souborů a chatů",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 denně",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Neomezeně",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Export celého projektu",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 zdarma",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artefakty a přílohy",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Limity využití v bočním panelu",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Měřič využití na claude.ai s upozorněním při 80 % / 100 %",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Automatické denní nebo týdenní zálohy",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Měsíčně nebo doživotně — plány a ceny najdete na našem webu.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro je aktivní",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Otevřete boční panel a zálohujte vše nebo zapněte automatické zálohy.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Měsíčně · obnovení $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Doživotní licence — všechny funkce Pro natrvalo.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Vložte licenční klíč z e-mailu o nákupu.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Začínáme",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Otevřete claude.ai a přejděte do libovolného projektu nebo chatu.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Klikněte na ikonu rozšíření a otevřete boční panel. Připněte si ji pro přístup jedním kliknutím.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Stáhněte soubory, chaty nebo celý projekt — nebo zálohujte vše najednou.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Právě nainstalováno nebo aktualizováno? Obnovte už otevřené karty Claude, aby se znovu připojily.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Exportuje jen to, co váš přihlášený účet Claude už může otevřít. Váš obsah z Claude nikdy neopustí prohlížeč.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Potřebujete pomoc?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Otevřete claude.ai a exportujte projekt nebo chat. Limity a zálohy fungují z jakékoli karty.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Nastavení exportu",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Vše se odehrává na tomto počítači — nic se nenahrává do žádného cloudu. Zálohy se ukládají jako ZIP soubory do Stažené soubory › Claude Backups. Automatické zálohy běží, když je počítač zapnutý, Chrome otevřený a vy jste přihlášeni na claude.ai; pokud se jedna záloha nestihne, proběhne příště, kdy to platí.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Jak zálohování funguje",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Načítání vašich projektů…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Také chaty mimo projekty",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Vyberte alespoň jeden projekt, nebo zaškrtněte chaty mimo projekty.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "V tomto účtu zatím nejsou žádné projekty.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Zálohovat: všechny projekty",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Zálohovat: projekty, které vyberu",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Přihlaste se na claude.ai, abyste viděli seznam svých projektů.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Zálohy",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Klíč",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Otevřete projekt (Projects na postranním panelu Claude) nebo libovolný chat — tento panel zobrazí, co z něj můžete stáhnout.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Otevřete claude.ai a exportujte projekt nebo chat. Limity a zálohy fungují z jakékoli karty.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Otevřít mé projekty Claude",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Klikněte na libovolný projekt v seznamu. Tento panel se naplní jeho soubory a chaty, připravenými ke stažení.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Ukažte mi, jak na to — otevřít mé projekty",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Správa / zrušení ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Získat doživotní",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Boční panel",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Vyskakovací okno",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Zadejte licenční klíč",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Koupili jste Pro? Vložte klíč z e-mailu o nákupu.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Nejdřív vložte klíč.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Ověřuji klíč…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro je zapnuto. Načítám znovu…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Ročně",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Nápověda ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Vybrali jste $1. Pro přesune, exportuje a smaže libovolný počet najednou.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Bezplatný plán: $1 chatů na hromadnou akci",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Zrušit",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "Chaty: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Smazat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Smazat složku",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Smazat složku „$1“? Její chaty zůstanou v Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Smazat chaty ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Smažou se na claude.ai a nelze je obnovit. Pokud je můžete potřebovat, nejprve je exportujte.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "Smazáno: $1. Nepodařilo se smazat: $2 – zůstávají vybrané.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Smazat chaty ($1) z vašeho účtu Claude?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "Smazané chaty: $1. Změnu uvidíte po opětovném načtení claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Mazání",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Zkontrolujte připojení a zkuste to znovu.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Nepodařilo se spojit s claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Exportovat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Každý exportovaný chat se počítá jako jedno stažení. Pro exportuje libovolný počet chatů, každý den.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Zbývající bezplatná stažení dnes: $1 z 5",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "Exportováno: $1. Nepodařilo se načíst: $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "Chaty exportované do Stažených souborů: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Exportování",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "Chaty přesunuté do „$2“: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Složka",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Všechny chaty",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Složka „$1“ byla smazána. Její chaty jsou nyní mimo složky.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Vyberte chaty ve Všech chatech a zvolte Složka, nebo je přetáhněte na tuto složku. Na claude.ai přidáte otevřený chat tlačítkem + vedle složky.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Ve složce „$1“ zatím nic není",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Složka s tímto názvem už existuje.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro vám dává neomezený počet složek. Vaše chaty a složky zůstanou přesně tak, jak jsou.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Využili jste 3 ze 3 bezplatných složek",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Název složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Bez složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "Neindexováno: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Hledání pozastaveno: přihlaste se na claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Aktualizovat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "Chaty: $1 · hledání na tomto počítači",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Indexování chatů pro hledání: $1 / $2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Použít prvních $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "Odpovídající chaty: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Tím se chaty změní na claude.ai, stejně jako kdybyste je přesunuli tam.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "Přesunuto: $1. Nepodařilo se přesunout: $2 – zůstávají vybrané.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Přesunout chaty ($1) do složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Přesunout chaty ($1) do projektu Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "Chaty přesunuté do „$2“: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Přesouvání",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Nová složka",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Nová složka…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Nová složka (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Chaty, které zahájíte na claude.ai, se zobrazí zde.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Zatím žádné chaty",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Hledání odpovídá každému slovu, které napíšete. Frázi dejte do uvozovek, aby se hledala přesně.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Indexování pokračuje — zbývající chaty: $1. Výsledky se zobrazují průběžně.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Žádný chat nezmiňuje „$1“",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Tento účet zatím nemá žádné projekty. Nejprve nějaký vytvořte na claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Přesouvání a mazání probíhá přímo na claude.ai pod vaším přihlášením. Nechte kartu claude.ai otevřenou a zkuste to znovu.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Nejprve otevřete claude.ai v kartě",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Teď ne",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Otevřít claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Otevřít v kartě",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Bezplatný plán",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · bez limitů",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Projekt",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Odebrat ze složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Přejmenovat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Zkusit znovu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Bezplatný plán zobrazuje 5 nejlepších shod. Pro zobrazí všechny shody ve všech chatech.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Další odpovídající chaty: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Hledat ve všech zprávách",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Vybrat vše",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Vybrat „$1“",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "Vybráno: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Zobrazit další ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Zobrazit složky v postranním panelu claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Knihovna zobrazuje chaty z vašeho vlastního účtu Claude, proto musíte být přihlášeni.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Přihlaste se na claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Zrušit výběr (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Smazat (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Exportovat jako Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Přesunout do složky (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Přesunout do projektu (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Knihovna — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "Chaty odebrané ze složky: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Každý chat je ve složce.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Vše je roztříděno",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Odemknout hromadné akce",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Odemknout neomezené exporty",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Odemknout neomezené složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Odemknout plné hledání",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Chat bez názvu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Projekt bez názvu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Přidat tento chat do $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Přidat tento projekt do $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Seskupte chaty a projekty do složek. Začněte stisknutím +.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Prázdné. Otevřete chat a u této složky stiskněte +.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Již v $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Bezplatný plán obsahuje 3 složky.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Nová složka",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Zobrazit vše ($1) v Knihovně",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Odemknout neomezené složky",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Export",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Knihovna",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "Zprávy: $1 · odhad",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Dlouhý chat: každá zpráva znovu odesílá celý obsah. Nový chat váš limit natáhne.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Kontext tohoto chatu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Složky a hledání",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Třiďte chaty do složek přímo v postranním panelu Claude, hledejte uvnitř každé zprávy a hromadně chaty přesouvejte, exportujte nebo mažte.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Složky pro chaty a projekty",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Hledání uvnitř každého chatu",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "Prvních 5 výsledků",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Všechny výsledky",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Hromadné přesunutí, export a mazání",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 najednou",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Kolik kontextu otevřený chat znovu odesílá",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

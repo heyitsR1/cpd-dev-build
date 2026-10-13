@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Vie Claude-keskustelut ja projektit, järjestä kansioihin, hae kaikista viesteistä, poista joukolla, näe rajat. 100 % paikallinen.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Lataa keskustelut ja projektitiedostot claude.ai-sivustolta",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Käyttöohje",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "How to use this extension",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Tila",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Valmis",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Ladataan…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Viedään…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Valmis",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Virhe",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Preparing…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Project",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "$1 of $2 free exports left today",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Daily free export limit reached",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Päivitä",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Päivitä tiedostot",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Nykyinen keskustelu",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 messages · $2 attachments",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Export Format",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP with Attachments (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (raw .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Lataa tämä keskustelu",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tip: You can also download directly on the chat page using the Download button next to Share.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Lataa kaikki tiedostot",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Lataa kaikki keskustelut",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Lataa koko projekti",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Project ZIP Name",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Saved as name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "File Export Format",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Native (keep original extension)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Project Chat Export Format",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (raw)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Files",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "No files loaded yet.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Open a Claude project or chat, then click Refresh.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "No chats loaded yet.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Open a Claude project, then click Refresh.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Lataa",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Download chat transcript (Shift+Click to change format)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Download Chat",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Choose your preferred export format for single chats:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Suositeltu",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Full markdown chat + all uploaded attachments (images, PDFs, documents) in an archive.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Clean formatted text transcript, ready for Obsidian, Notion, or personal notes.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Raw, lossless conversation data containing the complete API structure.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Remember my choice for future one-click downloads",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Peruuta",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Lataa",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tip: Hold Shift when clicking Download anytime to change this format.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "How to Use",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Go to claude.ai in your browser",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Click Projects in the sidebar",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Open a project you want to export",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Avaa tämä sivupaneeli napsauttamalla laajennuksen kuvaketta työkalupalkissa",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Click ↺ Refresh to load files and chats",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Download files or chats individually, in bulk, or grab the entire project as one ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Watch Tutorial Video",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Troubleshoot",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Files not showing up? Quick things to try:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Click ↺ Refresh Files and wait a moment",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Refresh the page, then try again",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Check URL is claude.ai/project/[id] — not chat",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard refresh: CMD/Ctrl Shift R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Log out of Claude, log back in, reopen project",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Try Chrome if you're on a different browser",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Read the full troubleshooting guide →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Still stuck?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Fallback: Ask Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Some files (spreadsheets, blobs, etc.) can't be downloaded directly via the API. Copy the prompt below and paste it into your Claude chat to get a downloadable ZIP.",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Copy Prompt to Clipboard",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Copied!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Paste this into your Claude chat on the project page.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Ostitko jo? Liitä avaimesi tähän:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activate",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Export your project files and chats in one click",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Key Features",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Export Files",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Grab every project document individually or as one structured ZIP — instantly.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Export Chats",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Download every conversation in a project as Markdown or JSON transcripts.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Whole Project",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "One click bundles files and chats into a single organized archive.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Format Conversion",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Keep original file formats or convert to Markdown — your choice.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token Metrics",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "View estimated token counts and file creation dates directly.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Private & Direct",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Runs entirely in your browser using your own Claude session. No servers, no uploads.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Quick Start Guide",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Navigate to claude.ai and open any project workspace.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Click the extension icon in your browser toolbar to load the project's files and chats.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Pick your format, then hit Download All Files, Download All Chats, or Download Entire Project.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Just installed or updated? Refresh any Claude tab that was already open so it reconnects.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Päivitä Pro-versioon",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Päivitä Pro-versioon",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Ilmaisversio sisältää 5 yksittäistä latausta päivässä ja yhden täyden projektiviennin. Pro poistaa molemmat rajat ja lisää Varmuuskopioi kaikki -ominaisuuden — joka projekti ja keskustelu yhtenä ZIP-tiedostona, pyynnöstä tai automaattisesti — sekä reaaliaikaisen Claude-käyttömittarin claude.ai-sivustolla.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Päivitä Pro-versioon",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Turvallinen maksu Freemiusin kautta",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Ostitko jo?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Rajaton käyttö",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Sisällytä keskustelun liitteet (suurempi ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "palautuu $1 kuluttua",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Kirjaudu sisään claude.ai-sivustolle nähdäksesi rajasi.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Rajojasi ei voitu lukea juuri nyt. Avaa claude.ai ja yritä uudelleen.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5 tunnin istunto",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Viikoittain",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Viikoittain · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Viedään $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Käynnistetään…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro-ominaisuus. Tiedostosi tallentuvat kohteeseen Lataukset › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Voit sulkea tämän paneelin — varmuuskopiointi jatkuu.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Viimeisin varmuuskopio epäonnistui: kirjaudu sisään claude.ai-sivustolle ja yritä uudelleen.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Viimeisin varmuuskopio epäonnistui: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Viimeisin varmuuskopio $1 · $2 projektia, $3 keskustelua · Lataukset › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Ei vielä varmuuskopioita. Tallennettu kohteeseen Lataukset › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Kuukausittainen",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Elinikäinen",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Uusiutuu $1. Rajattomat viennit, varmuuskopiot ja käyttömittari sivulla.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Rajattomat viennit, varmuuskopiot ja käyttömittari sivulla.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Hallitse lisenssiä",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Pro-tilauksesi on päättynyt",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Tämä Pro-lisenssi peruutettiin",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Olet taas ilmaisella suunnitelmalla. Aiemmat viennit ja varmuuskopiot ovat edelleen sinun.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Uusi Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Nykyinen istunto (5 tuntia)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Viikkoraja",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Piilota",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Istuntoraja saavutettu",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% istunnostasi käytetty",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Palautuu $1 kuluttua.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude-käyttö — klikkaa nähdäksesi tiedot",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Ne olivat päivän 5 ilmaista latausta. Pro poistaa päivärajan — rajattomat yksittäiset lataukset ja rajattomat täydet projektiviennit.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Olet käyttänyt ilmaisen täyden projektiviennin. Pro avaa rajattomat täydet viennit — joka keskustelu ja tiedosto yhdellä klikkauksella, milloin tahansa.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Varmuuskopioi kaikki on Pro-ominaisuus: joka projektin ohjeet, tiedostot ja keskustelut sekä kaikki muut keskustelusi yhtenä ZIP-tiedostona — pyynnöstä tai automaattisesti joka päivä tai viikko.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Sivun mittari on Pro-ominaisuus: 5 tunnin ja viikoittaiset Claude-rajasi claude.ai-sivuston kulmassa, varoituksin 80% ja 100% kohdalla.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Pro-tilauksesi on päättynyt. Uusi se ottaaksesi rajattomat viennit, varmuuskopiot ja sivun mittarin takaisin käyttöön. Avaimesi pysyy samana.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Claude-rajasi",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Näytä mittari claude.ai-sivustolla",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Varmuuskopioi kaikki",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Projektisi — ohjeet, tiedostot ja keskustelut — ja muut keskustelusi, tallennettuna yhtenä ZIP-tiedostona. Toimii itsekseen, vaikka tämä paneeli olisi suljettu.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Varmuuskopioi nyt",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Automaattinen varmuuskopio: pois",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Automaattinen varmuuskopio: päivittäin",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Automaattinen varmuuskopio: viikoittain",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Peruuta",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Päivitä",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Claude-työsi tallessa omalla tietokoneellasi.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Vie projektit, keskustelut ja tiedostot omalta Claude-tililtäsi, järjestä keskustelut kansioihin, hae jokaisen viestin sisältä ja seuraa käyttörajojasi.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Avaa claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Napsauta sitten laajennuksen kuvaketta avataksesi sivupaneelin. Vinkki: kiinnitä se Chromen palapelivalikosta.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Vie",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Projektitiedostot, keskustelujen tekstit ja artefaktit — tai koko projekti yhtenä ZIPinä, Markdownina tai JSONina.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Kaikki projektit ja keskustelut yhdessä ZIPissä — milloin haluat tai automaattisesti päivittäin tai viikoittain, myös paneelin ollessa kiinni.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Käyttömittari",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Clauden 5 tunnin ja viikon rajasi nollausaikoineen — sivupaneelissa ja mallivalitsimen vieressä claude.aissa.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Yksittäisten tiedostojen ja keskustelujen lataukset",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 päivässä",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Rajaton",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Koko projektin vienti",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 ilmainen",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artefaktit ja liitteet",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Käyttörajat sivupaneelissa",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Käyttömittari claude.aissa, varoitukset 80 % / 100 %",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Automaattiset päivittäiset tai viikoittaiset varmuuskopiot",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Kuukausittain tai elinikäisesti — katso paketit ja hinnat verkkosivuiltamme.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro on käytössä",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Avaa sivupaneeli varmuuskopioidaksesi kaiken tai ottaaksesi automaattiset varmuuskopiot käyttöön.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Kuukausittain · uusiutuu $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Elinikäinen lisenssi — kaikki Pro-ominaisuudet pysyvästi.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Liitä lisenssiavain ostosähköpostistasi.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Aloita",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Avaa claude.ai ja siirry mihin tahansa projektiin tai keskusteluun.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Napsauta laajennuksen kuvaketta avataksesi sivupaneelin. Kiinnitä se, niin se on yhden napsautuksen päässä.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Lataa tiedostot, keskustelut tai koko projekti — tai varmuuskopioi kaikki kerralla.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Juuri asennettu tai päivitetty? Päivitä jo avoinna olleet Claude-välilehdet, jotta ne yhdistyvät uudelleen.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Vie vain sen, minkä oma kirjautunut Claude-tilisi voi jo avata. Claude-sisältösi ei koskaan poistu selaimestasi.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Tarvitsetko apua?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Avaa claude.ai viedäksesi projektin tai keskustelun. Rajat ja varmuuskopiot toimivat mistä tahansa välilehdestä.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Vientiasetukset",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Kaikki tapahtuu tällä tietokoneella — mitään ei lähetetä pilveen. Varmuuskopiot tallennetaan ZIP-tiedostoina kohteeseen Lataukset › Claude Backups. Automaattiset varmuuskopiot toimivat, kun tietokoneesi on päällä, Chrome on auki ja olet kirjautunut claude.ai-sivustolle; jos yksi jää väliin, se ajetaan seuraavalla kerralla, kun ehdot täyttyvät.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Miten varmuuskopiot toimivat",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Ladataan projektejasi…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Myös projektien ulkopuoliset keskustelut",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Valitse ainakin yksi projekti tai valitse projektien ulkopuoliset keskustelut.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Tällä tilillä ei ole vielä projekteja.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Varmuuskopioi: kaikki projektit",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Varmuuskopioi: valitsemani projektit",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Kirjaudu sisään claude.ai-sivustolle nähdäksesi projektilistasi.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Varmuuskopiot",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Avain",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Avaa projekti (Projects Claudenin sivupalkissa) tai mikä tahansa keskustelu — tämä paneeli näyttää, mitä siitä voi latata.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Avaa claude.ai viedäksesi projektin tai keskustelun. Rajat ja varmuuskopiot toimivat mistä tahansa välilehdestä.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Avaa Claude-projektini",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Napsauta mitä tahansa projektia luettelossa. Tämä paneeli täyttyy sen tiedostoilla ja keskusteluilla, valmiina latausta varten.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Näytä minulle miten — avaa projektini",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Hallinnoi / peruuta ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Hanki elinikäinen",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Sivupaneeli",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Ponnahdusikkuna",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Syötä lisenssiavain",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Ostitko Pron? Liitä avain ostosähköpostista.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Liitä avain ensin.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Tarkistetaan avainta…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro on päällä. Ladataan uudelleen…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Vuosittain",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Ohje ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Valitsit $1. Pro siirtää, vie ja poistaa kerralla niin monta kuin haluat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Ilmaisversio: $1 keskustelua joukkotoimintoa kohden",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Peruuta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "Keskusteluja: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Poista",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Poista kansio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Poistetaanko kansio ”$1”? Sen keskustelut säilyvät Claudessa.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Poista keskustelut ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Ne poistetaan claude.ai-palvelusta, eikä niitä voi palauttaa. Vie ne ensin, jos saatat tarvita niitä.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "Poistettu: $1. Ei voitu poistaa: $2 – ne ovat yhä valittuina.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Poistetaanko Claude-tililtäsi keskustelut ($1)?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "Poistettu keskusteluja: $1. Lataa claude.ai uudelleen nähdäksesi muutoksen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Poistetaan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Tarkista yhteys ja yritä uudelleen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Yhteyttä claude.ai-palveluun ei saatu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Vie",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Jokainen viety keskustelu lasketaan yhdeksi lataukseksi. Pro vie rajattomasti keskusteluja joka päivä.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Ilmaisia latauksia jäljellä tänään: $1/5",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "Viety: $1. Ei voitu lukea: $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "Viety keskusteluja Lataukset-kansioon: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Viedään",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "Siirretty keskusteluja kansioon ”$2”: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Kansio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Kaikki keskustelut",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Kansio ”$1” poistettu. Sen keskustelut ovat nyt kansioiden ulkopuolella.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Valitse keskusteluja kohdasta Kaikki keskustelut ja valitse Kansio, tai vedä ne tähän kansioon. Lisää avoin keskustelu claude.ai:ssa kansion vieressä olevalla +-painikkeella.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Kansiossa ”$1” ei ole vielä mitään",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Samanniminen kansio on jo olemassa.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro antaa rajattomasti kansioita. Keskustelusi ja kansiosi säilyvät täsmälleen ennallaan.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Olet käyttänyt 3/3 ilmaista kansiota",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Kansion nimi",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Ei kansiossa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "Indeksoimatta: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Haku keskeytetty: kirjaudu sisään claude.ai-palveluun.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Päivitä",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "Keskusteluja: $1 · haku tällä tietokoneella",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Indeksoidaan keskusteluja hakua varten: $1/$2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Käytä ensimmäiset $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "Osuvia keskusteluja: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Tämä muuttaa keskusteluja claude.ai:ssa, aivan kuin siirtäisit ne siellä.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "Siirretty: $1. Ei voitu siirtää: $2 – ne ovat yhä valittuina.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Siirrä keskustelut ($1) kansioon",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Siirrä keskustelut ($1) Claude-projektiin",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "Siirretty keskusteluja kohteeseen ”$2”: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Siirretään",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Uusi kansio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Uusi kansio…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Uusi kansio (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "claude.ai:ssa aloittamasi keskustelut näkyvät tässä.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Ei vielä keskusteluja",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Haku vastaa jokaista kirjoittamaasi sanaa. Laita fraasi lainausmerkkeihin, niin se haetaan täsmälleen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Indeksointi on kesken — keskusteluja jäljellä: $1. Tuloksia ilmestyy sitä mukaa kuin niitä luetaan.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Mikään keskustelu ei mainitse hakua ”$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Tällä tilillä ei ole vielä projekteja. Luo ensin projekti claude.ai:ssa.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Siirto ja poisto suoritetaan itse claude.ai:ssa sinun tunnuksillasi. Pidä claude.ai-välilehti auki ja yritä uudelleen.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Avaa ensin claude.ai välilehdessä",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Ei nyt",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Avaa claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Avaa välilehdessä",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Ilmaisversio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · ei rajoituksia",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Projekti",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Poista kansiosta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Nimeä uudelleen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Yritä uudelleen",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Ilmaisversio näyttää 5 parasta osumaa. Pro näyttää kaikki osumat kaikista keskusteluista.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Osuvia keskusteluja vielä: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Hae kaikista viesteistä",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Valitse kaikki",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Valitse ”$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "Valittu: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Näytä lisää ($1)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Näytä kansiot claude.ai:n sivupalkissa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Kirjasto listaa oman Claude-tilisi keskustelut, joten sinun on oltava kirjautuneena.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Kirjaudu sisään claude.ai-palveluun",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Tyhjennä valinta (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Poista (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Vie Markdown-muodossa (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Siirrä kansioon (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Siirrä projektiin (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Kirjasto — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "Poistettu keskusteluja kansiostaan: $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Jokainen keskustelu on kansiossa.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Kaikki on järjestetty",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Avaa joukkotoiminnot",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Avaa rajattomat viennit",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Avaa rajattomat kansiot",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Avaa täysi haku",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Nimetön keskustelu",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Nimetön projekti",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Lisää tämä keskustelu kansioon $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Lisää tämä projekti kansioon $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Ryhmittele keskustelut ja projektit kansioihin. Aloita painamalla +.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Tyhjä. Avaa keskustelu ja paina tämän kansion +-painiketta.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Kansiot",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Jo kansiossa $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Ilmaisversioon sisältyy 3 kansiota.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Uusi kansio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Näytä kaikki ($1) Kirjastossa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Avaa rajattomat kansiot",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Vie",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Kirjasto",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "Viestejä: $1 · arvio",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Pitkä keskustelu: jokainen viesti lähettää kaiken uudelleen. Uusi keskustelu venyttää rajaasi.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Tämän keskustelun konteksti",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Kansiot ja haku",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Järjestä keskustelut kansioihin suoraan Clauden sivupalkissa, hae jokaisen viestin sisältä ja siirrä, vie tai poista keskusteluja kerralla.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Kansiot keskusteluille ja projekteille",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Haku jokaisen keskustelun sisältä",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "5 parasta tulosta",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Kaikki tulokset",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Joukkosiirto, -vienti ja -poisto",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 kerrallaan",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Kuinka paljon kontekstia avoin keskustelu lähettää uudelleen",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

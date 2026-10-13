@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "I-export ang Claude chats at projects, i-folder ang chats, hanapin sa bawat mensahe, bulk delete, at usage limits. 100% lokal.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Mag-download ng mga chat at project file mula sa claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Paano Gamitin",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "How to use this extension",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Katayuan",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Nakahanda",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Naglo-load…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Nag-eexport…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Tagumpay",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Error",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Preparing…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Project",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "$1 of $2 free exports left today",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Daily free export limit reached",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ I-refresh",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ I-refresh ang mga File",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Kasalukuyang Chat",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 messages · $2 attachments",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Export Format",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP with Attachments (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (raw .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ I-download ang Chat na Ito",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tip: You can also download directly on the chat page using the Download button next to Share.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ I-download Lahat ng File",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 I-download Lahat ng Chat",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ I-download ang Buong Proyekto",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Project ZIP Name",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Saved as name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "File Export Format",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Native (keep original extension)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Project Chat Export Format",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (raw)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Files",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "No files loaded yet.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Open a Claude project or chat, then click Refresh.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "No chats loaded yet.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Open a Claude project, then click Refresh.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "I-download",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Download chat transcript (Shift+Click to change format)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Download Chat",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Choose your preferred export format for single chats:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Inirerekomenda",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Full markdown chat + all uploaded attachments (images, PDFs, documents) in an archive.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Clean formatted text transcript, ready for Obsidian, Notion, or personal notes.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Raw, lossless conversation data containing the complete API structure.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Remember my choice for future one-click downloads",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Kanselahin",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ I-download",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tip: Hold Shift when clicking Download anytime to change this format.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "How to Use",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Go to claude.ai in your browser",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Click Projects in the sidebar",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Open a project you want to export",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "I-click ang icon ng extension sa toolbar para buksan ang side panel na ito",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Click ↺ Refresh to load files and chats",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Download files or chats individually, in bulk, or grab the entire project as one ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Watch Tutorial Video",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Troubleshoot",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Files not showing up? Quick things to try:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Click ↺ Refresh Files and wait a moment",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Refresh the page, then try again",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Check URL is claude.ai/project/[id] — not chat",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard refresh: CMD/Ctrl Shift R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Log out of Claude, log back in, reopen project",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Try Chrome if you're on a different browser",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Read the full troubleshooting guide →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Still stuck?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Fallback: Ask Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Some files (spreadsheets, blobs, etc.) can't be downloaded directly via the API. Copy the prompt below and paste it into your Claude chat to get a downloadable ZIP.",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Copy Prompt to Clipboard",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Copied!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Paste this into your Claude chat on the project page.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Nakabili na? I-paste ang iyong key dito:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activate",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Export your project files and chats in one click",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Key Features",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Export Files",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Grab every project document individually or as one structured ZIP — instantly.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Export Chats",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Download every conversation in a project as Markdown or JSON transcripts.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Whole Project",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "One click bundles files and chats into a single organized archive.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Format Conversion",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Keep original file formats or convert to Markdown — your choice.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token Metrics",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "View estimated token counts and file creation dates directly.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Private & Direct",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Runs entirely in your browser using your own Claude session. No servers, no uploads.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Quick Start Guide",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Navigate to claude.ai and open any project workspace.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Click the extension icon in your browser toolbar to load the project's files and chats.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Pick your format, then hit Download All Files, Download All Chats, or Download Entire Project.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Just installed or updated? Refresh any Claude tab that was already open so it reconnects.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Mag-upgrade sa Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Mag-upgrade sa Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Libre ang 5 single download kada araw at isang full project export. Tinatanggal ng Pro ang dalawang limitasyon, at idinaragdag ang pag-backup ng lahat — bawat project at chat sa isang ZIP, on-demand o awtomatiko — kasama ang live na Claude usage meter sa claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Mag-upgrade sa Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Secure na checkout sa pamamagitan ng Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Nakabili na?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Walang limitasyong access",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Isama ang mga attachment ng chat (mas malaking ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "mag-reset sa $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Mag-sign in sa claude.ai para makita ang limitasyon mo.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Hindi mabasa ang limitasyon mo ngayon. Buksan ang claude.ai at subukan ulit.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5-oras na session",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Lingguhan",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Lingguhan · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Ina-export ang $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Nagsisimula…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro feature ito. Napupunta ang mga file mo sa Downloads › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Puwede mong isara ang panel na ito — tuloy ang backup.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Nabigo ang huling backup: mag-sign in sa claude.ai, pagkatapos subukan ulit.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Nabigo ang huling backup: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Huling backup $1 · $2 project, $3 chat · Downloads › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Walang backup pa. Na-save sa Downloads › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Buwanan",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Habambuhay",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Mag-renew sa $1. Walang limitasyong export, backup, at ang on-page usage meter.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Walang limitasyong export, backup, at ang on-page usage meter.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Pamahalaan ang Lisensya",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Natapos na ang iyong Pro subscription",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Nakansela ang Pro lisensyang ito",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Nasa free plan ka na ulit. Nasa iyo pa rin ang mga dati mong export at backup.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "I-renew ang Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Kasalukuyang session (5 oras)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Lingguhang limitasyon",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Itago",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Naabot ang session limit",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% ng session mo ang nagamit",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Mag-reset sa $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude usage — i-click para sa detalye",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Iyan na ang 5 libreng download mo ngayong araw. Tinatanggal ng Pro ang daily limit — walang limitasyong single download at full project export.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Nagamit mo na ang libre mong full project export. Nagbubukas ang Pro ng walang limitasyong full export — lahat ng chat at file sa isang click, anumang oras mo gusto.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Pro feature ang pag-backup ng lahat: lahat ng instruction, file, at chat ng bawat project, kasama ang iba mong chat, sa isang ZIP — on-demand o awtomatiko araw-araw o lingguhan.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Pro feature ang on-page meter: ang 5-oras at lingguhang limitasyon mo sa Claude sa gilid ng claude.ai, may babala sa 80% at 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Natapos na ang iyong Pro subscription. I-renew para ibalik ang walang limitasyong export, backup, at ang on-page meter. Pareho pa rin ang key mo.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Ang limitasyon mo sa Claude",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Ipakita ang meter sa claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "I-backup ang lahat",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Ang mga project mo — instructions, file, at chat — at ang iba mong chat, naka-save sa isang ZIP. Tumatakbo mag-isa, kahit sarado ang panel na ito.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Mag-backup ngayon",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Auto-backup: off",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Auto-backup: araw-araw",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Auto-backup: lingguhan",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Kanselahin",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "I-refresh",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Ang trabaho mo sa Claude, naka-save sa sarili mong computer.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "I-export ang mga project, chat, at file mula sa sarili mong Claude account, ayusin ang mga chat sa mga folder, maghanap sa loob ng bawat mensahe, at bantayan ang iyong usage limit.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Buksan ang claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Pagkatapos, i-click ang icon ng extension para buksan ang side panel. Tip: i-pin ito mula sa puzzle-piece menu ng Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "I-export",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Mga file ng project, transcript ng chat, at artifact — o buong project sa iisang ZIP, bilang Markdown o JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Lahat ng project at lahat ng chat sa iisang ZIP — kahit kailan o awtomatiko araw-araw o lingguhan, kahit nakasara ang panel.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Usage meter",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Ang 5-oras at lingguhang limit mo sa Claude kasama ang oras ng reset — sa side panel at katabi ng model picker sa claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Pag-download ng isa-isang file at chat",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 kada araw",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Walang limit",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Pag-export ng buong project",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 libre",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artifact at attachment",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Mga usage limit sa side panel",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Usage meter sa claude.ai, may babala sa 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Awtomatikong araw-araw o lingguhang backup",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Buwanan o habambuhay — tingnan ang mga plan at presyo sa aming website.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Aktibo ang Pro",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Buksan ang side panel para i-back up lahat o i-on ang awtomatikong backup.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Buwanan · magre-renew sa $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Habambuhay na lisensya — lahat ng Pro feature, panghabambuhay.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "I-paste ang license key mula sa email ng iyong pagbili.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Magsimula",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Buksan ang claude.ai at pumunta sa kahit anong project o chat.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "I-click ang icon ng extension para buksan ang side panel. I-pin ito para isang click lang.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "I-download ang mga file, chat, o buong project — o i-back up lahat nang sabay.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Kaka-install o kaka-update lang? I-refresh ang mga Claude tab na bukas na para muling kumonekta.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Ine-export lang ang kaya nang buksan ng sarili mong naka-sign-in na Claude account. Hindi kailanman lumalabas sa browser mo ang Claude content mo.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Kailangan ng tulong?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Buksan ang claude.ai para mag-export ng project o chat. Gumagana ang mga limit at backup mula sa kahit anong tab.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Mga setting ng export",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Lahat ng nangyayari ay sa computer mo lang — walang na-upload sa kahit anong cloud. Naka-save ang mga backup bilang ZIP file sa Downloads › Claude Backups. Tumatakbo ang automatic backup habang bukas ang computer mo, bukas ang Chrome, at naka-sign in ka sa claude.ai; kung may namiss, tatakbo ito sa susunod na pagkakataong totoo ulit ang mga ito.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Paano gumagana ang backup",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Naglo-load ang mga project mo…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Pati ang mga chat sa labas ng project",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Pumili ng kahit isang project, o i-tick ang mga chat sa labas ng project.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Walang project sa account na ito pa.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "I-backup: lahat ng project",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "I-backup: ang mga project na pinili ko",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Mag-sign in sa claude.ai para makita ang listahan ng mga project mo.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Mga Backup",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Key",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Buksan ang isang project (Projects sa sidebar ng Claude) o kahit anong chat — ipapakita ng panel na ito kung ano ang madodownload mo mula rito.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Buksan ang claude.ai para mag-export ng project o chat. Gumagana ang mga limit at backup mula sa kahit anong tab.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Buksan ang mga Claude project ko",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 I-click ang kahit anong project sa listahan. Mapupuno ang panel na ito ng mga file at chat nito, handa nang i-download.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Ipakita kung paano — buksan ang mga project ko",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Pamahalaan / kanselahin ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Kunin ang Lifetime",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Side panel",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Popup",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Ilagay ang iyong license key",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Bumili ng Pro? I-paste ang key mula sa purchase email.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "I-paste muna ang iyong key.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Sinusuri ang iyong key…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Naka-on na ang Pro. Nire-reload…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Taunan",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Tulong ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Pumili ka ng $1. Sa Pro, maililipat, mae-export, at mabubura mo ang kahit ilan nang sabay-sabay.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Libreng plan: $1 chat bawat bulk action",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Kanselahin",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Burahin",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Burahin ang folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Burahin ang folder na “$1”? Mananatili sa Claude ang mga chat nito.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Burahin ang $1 chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Mabubura ang mga ito sa claude.ai at hindi na maibabalik. I-export muna kung baka kailanganin mo pa.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "Nabura ang $1. Hindi nabura ang $2 at naka-select pa rin.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Burahin ang $1 chat mula sa Claude account mo?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "Nabura ang $1 chat. I-reload ang claude.ai para makita ang pagbabago.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Binubura",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Tingnan ang koneksyon mo, saka subukang muli.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Hindi maabot ang claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "I-export",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Bawat na-export na chat ay bilang na isang download. Sa Pro, kahit ilang chat ang mae-export mo, kahit anong araw.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "$1 sa 5 libreng download ang natitira ngayong araw",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "Na-export ang $1. Hindi nabasa ang $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "Na-export ang $1 chat sa Downloads",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Ine-export",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "Inilipat ang $1 chat sa “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Lahat ng chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Nabura ang folder na “$1”. Wala nang folder ang mga chat nito.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Pumili ng mga chat sa Lahat ng chat at piliin ang Folder, o i-drag ang mga ito sa folder na ito. Sa claude.ai, gamitin ang + sa tabi ng folder para idagdag ang bukas na chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Wala pang laman ang “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "May folder na sa pangalang iyan.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Sa Pro, walang limitasyon ang mga folder. Mananatili ang mga chat at folder mo gaya ng dati.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Nagamit mo na ang 3 sa 3 libreng folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Pangalan ng folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Walang folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "Hindi na-index ang $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Naka-pause ang paghahanap: mag-sign in sa claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "I-update",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 chat · hinahanap sa computer na ito",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Ini-index ang $1 / $2 chat para sa paghahanap",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Gamitin ang unang $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 tugmang chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Binabago nito ang mga chat sa claude.ai, katulad ng paglipat sa mga ito roon.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "Nailipat ang $1. Hindi nailipat ang $2 at naka-select pa rin.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Ilipat ang $1 chat sa folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Ilipat ang $1 chat sa isang Claude project",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "Inilipat ang $1 chat sa “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Inililipat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Bagong folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Bagong folder…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Bagong folder (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Lalabas dito ang mga chat na sinisimulan mo sa claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Wala pang chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Tinutugma ng paghahanap ang bawat salitang tina-type mo. Ilagay sa panipi ang isang parirala para eksaktong tumugma.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Nag-i-index pa — $1 chat pa ang natitira. Lalabas ang mga resulta habang binabasa ang mga ito.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Walang chat na bumabanggit sa “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Wala pang project ang account na ito. Gumawa muna ng isa sa claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Ang paglipat at pagbura ay ginagawa mismo sa claude.ai, gamit ang account mo. Panatilihing bukas ang isang claude.ai tab, saka subukang muli.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Buksan muna ang claude.ai sa isang tab",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Hindi ngayon",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Buksan ang claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Buksan sa tab",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Libreng plan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · walang limitasyon",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Project",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Alisin sa folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Palitan ang pangalan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Subukang muli",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Ipinapakita ng libreng plan ang nangungunang 5 tugma. Ipinapakita ng Pro ang bawat tugma, sa bawat chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "$1 pang chat ang tumutugma",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Hanapin sa bawat mensahe",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Piliin lahat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Piliin ang “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 ang napili",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Ipakita ang $1 pa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Ipakita ang mga folder sa sidebar ng claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Inililista ng Library ang mga chat sa sarili mong Claude account, kaya kailangan mong naka-sign in.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Mag-sign in sa claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "I-clear ang pinili (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Burahin (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "I-export bilang Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Ilipat sa folder (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Ilipat sa project (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Library — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "Inalis ang $1 chat sa kanilang folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Nasa folder ang bawat chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Nakaayos na ang lahat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "I-unlock ang bulk actions",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "I-unlock ang walang limitasyong export",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "I-unlock ang walang limitasyong folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "I-unlock ang buong paghahanap",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Chat na walang pamagat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Project na walang pamagat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Idagdag ang chat na ito sa $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Idagdag ang project na ito sa $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Ipangkat ang mga chat at project sa mga folder. Pindutin ang + para magsimula.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Walang laman. Magbukas ng chat at pindutin ang + sa folder na ito.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Mga folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Nasa $1 na",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "May kasamang 3 folder ang libreng plan.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Bagong folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Ipakita ang lahat ng $1 sa Library",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "I-unlock ang walang limitasyong folder",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "I-export",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Library",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 mensahe · tantiya",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Mahabang chat: muling ipinapadala ng bawat mensahe ang buong chat. Mas tatagal ang limit mo sa bagong chat.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Context ng chat na ito",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Mga folder at paghahanap",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Ayusin ang mga chat sa mga folder mismo sa sidebar ng Claude, maghanap sa loob ng bawat mensahe, at maramihang ilipat, i-export, o burahin ang mga chat.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Mga folder para sa chat at project",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Paghahanap sa loob ng bawat chat",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "Top 5 na resulta",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Lahat ng resulta",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Maramihang paglipat, pag-export at pagbura",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 bawat beses",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Gaano karaming context ang muling ipinapadala ng bukas na chat",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

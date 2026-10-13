@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="onboardingTitle">Welcome to Claude Project Downloader</title>
+  <link rel="stylesheet" href="onboarding.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- ── Hero ──────────────────────────────────────────────── -->
+    <header class="hero">
+      <div class="hero__text">
+        <div class="brand">
+          <img src="assets/icons/icon-128.png" alt="" class="brand__logo" />
+          <span class="brand__name">Claude Project Downloader</span>
+        </div>
+        <h1 class="hero__title" data-i18n="obHeroTitle">Your Claude work, saved on your own computer.</h1>
+        <p class="hero__sub" data-i18n="obHeroSub">Export projects, chats, and files from your own Claude account, sort chats into folders, search inside every message, and keep an eye on your usage limits.</p>
+        <div class="hero__actions">
+          <button type="button" class="btn btn--primary btn--hero" id="startBtn" data-i18n="obStart">Show me how — open my projects</button>
+        </div>
+        <p class="hero__hint" data-i18n="obPinTip">Then click the extension icon to open the side panel. Tip: pin it from Chrome's puzzle-piece menu.</p>
+      </div>
+
+      <!-- Illustrative side panel, built in HTML so it localises and stays crisp. -->
+      <div class="mock" aria-hidden="true">
+        <div class="mock__bar"><span></span><span></span><span></span></div>
+        <div class="mock__body">
+          <div class="mock__search">⌕ <span data-i18n="libSearchPlaceholder">Search every message</span></div>
+          <div class="mock__card">
+            <div class="mock__row"><b><span data-i18n="usageSessionShort">5-hour session</span> · 42%</b><i>2h 14m</i></div>
+            <div class="mock__meter"><div style="width:42%"></div></div>
+            <div class="mock__row"><b><span data-i18n="usageWeeklyShort">Weekly</span> · 18%</b><i>3d</i></div>
+            <div class="mock__meter"><div style="width:18%"></div></div>
+          </div>
+          <div class="mock__card mock__card--buttons">
+            <div class="mock__btn" data-i18n="btnDownloadProject">⬇ Download Entire Project</div>
+            <div class="mock__split"><div class="mock__btn mock__btn--ghost" data-i18n="btnDownloadAllFiles">↓ Download All Files</div><div class="mock__btn mock__btn--ghost" data-i18n="btnDownloadAllChats">💬 Download All Chats</div></div>
+          </div>
+          <div class="mock__card">
+            <div class="mock__row"><b data-i18n="backupTitle">Back up everything</b><em>PRO</em></div>
+            <div class="mock__line"></div>
+            <div class="mock__line mock__line--short"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Four highlights ───────────────────────────────────── -->
+    <section class="highlights">
+      <article class="card highlight">
+        <div class="highlight__icon">📦</div>
+        <h3 data-i18n="obFeatExportTitle">Export</h3>
+        <p data-i18n="obFeatExportDesc">Project files, chat transcripts, and artifacts — or the whole project in one ZIP, as Markdown or JSON.</p>
+      </article>
+      <article class="card highlight">
+        <div class="highlight__icon">🗂️</div>
+        <h3 data-i18n="obFeatLibraryTitle">Folders &amp; search</h3>
+        <p data-i18n="obFeatLibraryDesc">Sort chats into folders right in Claude's sidebar, search inside every message, and move, export, or delete chats in bulk.</p>
+      </article>
+      <article class="card highlight">
+        <div class="highlight__icon">🗄️</div>
+        <h3><span data-i18n="backupTitle">Back up everything</span> <span class="pro-tag">PRO</span></h3>
+        <p data-i18n="obFeatBackupDesc">Every project and every chat in one ZIP — on demand or automatically every day or week, even with the panel closed.</p>
+      </article>
+      <article class="card highlight">
+        <div class="highlight__icon">⏱️</div>
+        <h3 data-i18n="obFeatUsageTitle">Usage meter</h3>
+        <p data-i18n="obFeatUsageDesc">Your 5-hour and weekly Claude limits with reset times — in the side panel, and next to the model picker on claude.ai.</p>
+      </article>
+    </section>
+
+    <!-- ── Free vs Pro + Pro state ───────────────────────────── -->
+    <section class="plans">
+      <div class="card compare">
+        <h2 class="section-title" data-i18n="obCompareTitle">Free vs Pro</h2>
+        <table class="compare__table">
+          <thead>
+            <tr><th></th><th data-i18n="obColFree">Free</th><th class="compare__pro">Pro</th></tr>
+          </thead>
+          <tbody>
+            <tr><td data-i18n="obRowSingles">Single file &amp; chat downloads</td><td data-i18n="obFiveADay">5 a day</td><td class="compare__pro" data-i18n="obUnlimited">Unlimited</td></tr>
+            <tr><td data-i18n="obRowProject">Full-project export</td><td data-i18n="obOneFree">1 free</td><td class="compare__pro" data-i18n="obUnlimited">Unlimited</td></tr>
+            <tr><td data-i18n="obRowFolders">Folders for chats and projects</td><td>3</td><td class="compare__pro" data-i18n="obUnlimited">Unlimited</td></tr>
+            <tr><td data-i18n="obRowSearch">Search inside every chat</td><td data-i18n="obTopFive">Top 5 results</td><td class="compare__pro" data-i18n="obAllResults">Every result</td></tr>
+            <tr><td data-i18n="obRowBulk">Bulk move, export &amp; delete</td><td data-i18n="obFiveAtOnce">5 at a time</td><td class="compare__pro" data-i18n="obUnlimited">Unlimited</td></tr>
+            <tr><td data-i18n="obRowFormats">Markdown / JSON, artifacts &amp; attachments</td><td class="yes">✓</td><td class="compare__pro yes">✓</td></tr>
+            <tr><td data-i18n="obRowLimits">Usage limits in the side panel</td><td class="yes">✓</td><td class="compare__pro yes">✓</td></tr>
+            <tr><td data-i18n="obRowPill">Usage meter on claude.ai, with 80% / 100% warnings</td><td class="yes">✓</td><td class="compare__pro yes">✓</td></tr>
+            <tr><td data-i18n="obRowContext">How much context the open chat re-sends</td><td class="yes">✓</td><td class="compare__pro yes">✓</td></tr>
+            <tr><td data-i18n="backupTitle">Back up everything</td><td class="no">—</td><td class="compare__pro yes">✓</td></tr>
+            <tr><td data-i18n="obRowAuto">Automatic daily or weekly backups</td><td class="no">—</td><td class="compare__pro yes">✓</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="plan-side">
+        <!-- Free: sell Pro. No price here on purpose: the pricing page decides. -->
+        <div class="card pro-card" id="sellCard">
+          <h2 data-i18n="proModalTitle">⚡ Upgrade to Pro</h2>
+          <p data-i18n="obProPitch">Monthly or lifetime — see plans and prices on our website.</p>
+          <button type="button" class="btn btn--outline btn--block" id="checkoutBtn" data-i18n="btnUpgradePro">Upgrade to Pro</button>
+          <p class="fine" data-i18n="proViaFreemius">Opens the pricing page · secure checkout via Freemius</p>
+        </div>
+
+        <!-- Pro active -->
+        <div class="card pro-card pro-card--active" id="activeCard" hidden>
+          <h2><span class="pro-tag pro-tag--solid">PRO</span> <span data-i18n="obProActiveTitle">Pro is active</span></h2>
+          <p class="pro-card__tier" id="activeTier"></p>
+          <p data-i18n="obProActiveDesc">Open the side panel to back up everything or switch on automatic backups.</p>
+          <p><a class="pro-card__manage" id="manageLink" href="#" target="_blank" rel="noopener" data-i18n="planManageCancel">Manage / cancel ↗</a></p>
+        </div>
+
+        <!-- Subscription ended -->
+        <div class="card pro-card pro-card--ended" id="endedCard" hidden>
+          <h2 data-i18n="planEnded">Your Pro subscription has ended</h2>
+          <p data-i18n="planEndedSub">You're on the free plan again. Your past exports and backups are still yours.</p>
+          <button type="button" class="btn btn--primary btn--block" id="renewBtn" data-i18n="planRenew">Renew Pro</button>
+        </div>
+
+        <!-- Activation -->
+        <div class="card key-card" id="keyCard">
+          <h2 data-i18n="haveKeyTitle">🔑 Already purchased?</h2>
+          <p data-i18n="obKeyPaste">Paste the license key from your purchase email.</p>
+          <div class="activation-form">
+            <input type="text" id="licenseKeyInput" placeholder="XXXX-XXXX-XXXX-XXXX" data-i18n-placeholder="licenseKeyPlaceholder" spellcheck="false"
+              autocomplete="off" />
+            <button id="activateBtn" class="btn btn--dark" data-i18n="btnActivate">Activate</button>
+          </div>
+          <div id="activationMessage" class="status-msg" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Quick start ───────────────────────────────────────── -->
+    <section class="card quick">
+      <h2 class="section-title" data-i18n="obQuickTitle">Get started</h2>
+      <ol class="steps">
+        <li><span class="steps__n">1</span><span data-i18n="obStep1">Open claude.ai and go to any project or chat.</span></li>
+        <li><span class="steps__n">2</span><span data-i18n="obStep2">Click the extension icon to open the side panel. Pin it for one-click access.</span></li>
+        <li><span class="steps__n">3</span><span data-i18n="obStep3">Download files, chats, or the whole project — or back up everything at once.</span></li>
+      </ol>
+      <p class="quick__note" data-i18n="obStep4">Just installed or updated? Refresh any Claude tab that was already open so it reconnects.</p>
+    </section>
+
+    <p class="access" data-i18n="obAccess">Exports only what your own signed-in Claude account can already open. Your Claude content never leaves your browser.</p>
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <footer class="footer">
+      <p><span data-i18n="obNeedHelp">Need help?</span> <a href="mailto:support@claudeprojectdownloader.com">support@claudeprojectdownloader.com</a></p>
+      <p data-i18n="footerCopyright">© 2026 Claude Project Downloader. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="lib/i18n.js"></script>
+  <script type="module" src="onboarding.js"></script>
+</body>
+
+</html>

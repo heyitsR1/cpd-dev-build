@@ -1,0 +1,87 @@
+/* lib/report.css — the top-bar "Report a problem" button and its dialog
+   (lib/report.js). Loaded by both popup.html and library.html, so it uses only
+   the variables both stylesheets define: --bg, --text, --muted, --border,
+   --accent. */
+
+.report-btn {
+  margin-left: auto;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 9px;
+  margin-bottom: 4px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  font: 600 11px/1.2 inherit;
+  font-family: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.report-btn:hover { background: var(--accent); color: #fff; }
+.report-btn__icon { font-size: 12px; line-height: 1; }
+
+.report {
+  width: min(420px, calc(100vw - 24px));
+  max-height: calc(100vh - 24px);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+}
+.report::backdrop { background: rgba(20, 14, 8, 0.45); }
+.report__panel { margin: 0; padding: 14px 16px 16px; display: grid; gap: 10px; }
+.report__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.report__title { margin: 0; font-size: 14px; }
+.report__close {
+  width: 26px; height: 26px; padding: 0;
+  border: 0; border-radius: 6px; background: transparent;
+  color: var(--muted); font-size: 18px; line-height: 1; cursor: pointer;
+}
+.report__close:hover { color: var(--text); }
+.report__form, .report__done { display: grid; gap: 8px; }
+.report__form[hidden], .report__done[hidden] { display: none; }
+.report__lead { margin: 0; font-size: 12px; line-height: 1.5; }
+.report__label { font-size: 11px; font-weight: 600; }
+.report__opt { font-weight: 400; color: var(--muted); }
+.report__note, .report__email {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  font: 12px/1.45 inherit;
+  font-family: inherit;
+}
+.report__note { resize: vertical; min-height: 76px; }
+.report__note:focus, .report__email:focus { outline: none; border-color: var(--accent); }
+.report__email-box {
+  display: grid;
+  gap: 6px;
+  padding: 10px;
+  border: 1px dashed var(--accent);
+  border-radius: 10px;
+}
+.report__promise { margin: 0; font-size: 11px; line-height: 1.45; color: var(--text); }
+.report__fine { margin: 0; font-size: 10px; color: var(--muted); }
+.report__error { margin: 0; font-size: 11px; color: #d14b4b; }
+.report__error a { color: inherit; font-weight: 600; }
+.report__send, .report__close-done {
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font: 700 12px/1.2 inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+.report__send:disabled { opacity: 0.6; cursor: default; }
+.report__done-title { margin: 0; font-size: 14px; font-weight: 700; }
+.report__done-text { margin: 0; font-size: 12px; line-height: 1.5; }

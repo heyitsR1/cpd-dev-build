@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "ส่งออกแชตและโปรเจกต์ Claude จัดแชตลงโฟลเดอร์ ค้นหาทุกข้อความ ลบทีละหลายรายการ และดูขีดจำกัดการใช้งาน ทำงานในเครื่อง 100%",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "ดาวน์โหลดแชทและไฟล์โปรเจกต์จาก claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? วิธีใช้งาน",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "How to use this extension",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "สถานะ",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "พร้อม",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "กำลังโหลด…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "กำลังส่งออก…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "สำเร็จ",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "เกิดข้อผิดพลาด",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Preparing…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Project",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "$1 of $2 free exports left today",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Daily free export limit reached",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ รีเฟรช",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ รีเฟรชไฟล์",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "แชทปัจจุบัน",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 messages · $2 attachments",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Export Format",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP with Attachments (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (raw .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ ดาวน์โหลดแชทนี้",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Tip: You can also download directly on the chat page using the Download button next to Share.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ ดาวน์โหลดไฟล์ทั้งหมด",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 ดาวน์โหลดแชททั้งหมด",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ ดาวน์โหลดทั้งโปรเจกต์",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Project ZIP Name",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Saved as name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "File Export Format",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Native (keep original extension)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Project Chat Export Format",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (raw)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Files",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "No files loaded yet.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Open a Claude project or chat, then click Refresh.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "No chats loaded yet.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Open a Claude project, then click Refresh.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "ดาวน์โหลด",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Download chat transcript (Shift+Click to change format)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Download Chat",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Choose your preferred export format for single chats:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "แนะนำ",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Full markdown chat + all uploaded attachments (images, PDFs, documents) in an archive.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Clean formatted text transcript, ready for Obsidian, Notion, or personal notes.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Raw, lossless conversation data containing the complete API structure.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Remember my choice for future one-click downloads",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "ยกเลิก",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ ดาวน์โหลด",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Tip: Hold Shift when clicking Download anytime to change this format.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "How to Use",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Go to claude.ai in your browser",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Click Projects in the sidebar",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Open a project you want to export",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "คลิกไอคอนส่วนขยายในแถบเครื่องมือเพื่อเปิดแผงด้านข้างนี้",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Click ↺ Refresh to load files and chats",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Download files or chats individually, in bulk, or grab the entire project as one ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Watch Tutorial Video",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Troubleshoot",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Files not showing up? Quick things to try:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Click ↺ Refresh Files and wait a moment",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Refresh the page, then try again",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Check URL is claude.ai/project/[id] — not chat",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Hard refresh: CMD/Ctrl Shift R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Log out of Claude, log back in, reopen project",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Try Chrome if you're on a different browser",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Read the full troubleshooting guide →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Still stuck?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Fallback: Ask Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Some files (spreadsheets, blobs, etc.) can't be downloaded directly via the API. Copy the prompt below and paste it into your Claude chat to get a downloadable ZIP.",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Copy Prompt to Clipboard",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Copied!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Paste this into your Claude chat on the project page.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "ซื้อแล้วใช่ไหม วางคีย์ของคุณที่นี่:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activate",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Export your project files and chats in one click",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Key Features",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Export Files",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Grab every project document individually or as one structured ZIP — instantly.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Export Chats",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Download every conversation in a project as Markdown or JSON transcripts.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Whole Project",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "One click bundles files and chats into a single organized archive.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Format Conversion",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Keep original file formats or convert to Markdown — your choice.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token Metrics",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "View estimated token counts and file creation dates directly.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Private & Direct",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Runs entirely in your browser using your own Claude session. No servers, no uploads.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Quick Start Guide",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Navigate to claude.ai and open any project workspace.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Click the extension icon in your browser toolbar to load the project's files and chats.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Pick your format, then hit Download All Files, Download All Chats, or Download Entire Project.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Just installed or updated? Refresh any Claude tab that was already open so it reconnects.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "อัปเกรดเป็น Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ อัปเกรดเป็น Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "แพ็กเกจฟรีให้ดาวน์โหลดเดี่ยว 5 ครั้งต่อวัน และส่งออกโครงการแบบเต็ม 1 ครั้ง Pro ยกเลิกทั้งสองขีดจำกัด และเพิ่มฟีเจอร์สำรองข้อมูลทั้งหมด — ทุกโครงการและแชทในไฟล์ ZIP เดียว สั่งเองหรืออัตโนมัติ — พร้อมมิเตอร์การใช้งาน Claude แบบเรียลไทม์บน claude.ai",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "อัปเกรดเป็น Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "ชำระเงินอย่างปลอดภัยผ่าน Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 ซื้อแล้วใช่ไหม",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · เข้าถึงได้ไม่จำกัด",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "รวมไฟล์แนบของแชท (ไฟล์ ZIP ใหญ่ขึ้น)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "รีเซ็ตในอีก $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "ลงชื่อเข้าใช้ claude.ai เพื่อดูขีดจำกัดของคุณ",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "ไม่สามารถอ่านขีดจำกัดของคุณได้ในขณะนี้ เปิด claude.ai แล้วลองใหม่",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "เซสชัน 5 ชั่วโมง",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "รายสัปดาห์",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "รายสัปดาห์ · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "กำลังส่งออก $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "กำลังเริ่ม…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "ฟีเจอร์ Pro ไฟล์ของคุณจะถูกบันทึกไว้ที่ ดาวน์โหลด › Claude Backups",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "คุณปิดแผงนี้ได้ — การสำรองข้อมูลยังดำเนินต่อ",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "การสำรองข้อมูลล่าสุดล้มเหลว: ลงชื่อเข้าใช้ claude.ai แล้วลองใหม่",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "การสำรองข้อมูลล่าสุดล้มเหลว: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "สำรองข้อมูลล่าสุด $1 · $2 โครงการ, $3 แชท · ดาวน์โหลด › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "ยังไม่มีการสำรองข้อมูล บันทึกไว้ที่ ดาวน์โหลด › Claude Backups",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "รายเดือน",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "ตลอดชีพ",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "ต่ออายุ $1 ส่งออกและสำรองข้อมูลได้ไม่จำกัด พร้อมมิเตอร์การใช้งานบนหน้าเว็บ",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "ส่งออกและสำรองข้อมูลได้ไม่จำกัด พร้อมมิเตอร์การใช้งานบนหน้าเว็บ",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "จัดการใบอนุญาต",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "การสมัครสมาชิก Pro ของคุณสิ้นสุดลงแล้ว",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "ใบอนุญาต Pro นี้ถูกยกเลิกแล้ว",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "คุณกลับมาใช้แพ็กเกจฟรีอีกครั้ง ไฟล์ที่ส่งออกและสำรองไว้ก่อนหน้านี้ยังคงเป็นของคุณ",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "ต่ออายุ Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "เซสชันปัจจุบัน (5 ชั่วโมง)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "ขีดจำกัดรายสัปดาห์",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "ซ่อน",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "ถึงขีดจำกัดเซสชันแล้ว",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "ใช้ไปแล้ว $1% ของเซสชัน",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "รีเซ็ตในอีก $1",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "การใช้งาน Claude — คลิกเพื่อดูรายละเอียด",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "นั่นคือโควต้าดาวน์โหลดฟรี 5 ครั้งของวันนี้ Pro ยกเลิกขีดจำกัดรายวัน — ดาวน์โหลดเดี่ยวและส่งออกโครงการแบบเต็มได้ไม่จำกัด",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "คุณใช้สิทธิ์ส่งออกโครงการแบบเต็มฟรีไปแล้ว Pro ปลดล็อกการส่งออกแบบเต็มได้ไม่จำกัด — ทุกแชทและไฟล์ในคลิกเดียว เมื่อไหร่ก็ได้ที่คุณต้องการ",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "สำรองข้อมูลทั้งหมดเป็นฟีเจอร์ Pro: คำสั่ง ไฟล์ และแชทของทุกโครงการ รวมถึงแชทอื่น ๆ ทั้งหมดของคุณ ในไฟล์ ZIP เดียว — สั่งเองหรือให้ทำงานอัตโนมัติทุกวันหรือทุกสัปดาห์",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "มิเตอร์บนหน้าเว็บเป็นฟีเจอร์ Pro: แสดงขีดจำกัด Claude แบบ 5 ชั่วโมงและรายสัปดาห์ของคุณที่มุมของ claude.ai พร้อมแจ้งเตือนที่ 80% และ 100%",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "การสมัครสมาชิก Pro ของคุณสิ้นสุดลงแล้ว ต่ออายุเพื่อเปิดใช้การส่งออก การสำรองข้อมูล และมิเตอร์บนหน้าเว็บแบบไม่จำกัดอีกครั้ง คีย์ของคุณยังคงเหมือนเดิม",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "ขีดจำกัด Claude ของคุณ",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "แสดงมิเตอร์บน claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "สำรองข้อมูลทั้งหมด",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "โปรเจกต์ของคุณ — คำสั่ง ไฟล์ และแชต — รวมถึงแชตอื่น ๆ ของคุณ บันทึกเป็น ZIP เดียว ทำงานได้เองแม้ปิดแผงนี้อยู่",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ สำรองข้อมูลตอนนี้",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "สำรองข้อมูลอัตโนมัติ: ปิด",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "สำรองข้อมูลอัตโนมัติ: ทุกวัน",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "สำรองข้อมูลอัตโนมัติ: ทุกสัปดาห์",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "ยกเลิก",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "รีเฟรช",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "งาน Claude ของคุณ บันทึกไว้ในคอมพิวเตอร์ของคุณเอง",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "ส่งออกโปรเจกต์ แชท และไฟล์จากบัญชี Claude ของคุณเอง จัดแชทเป็นโฟลเดอร์ ค้นหาในทุกข้อความ และติดตามขีดจำกัดการใช้งาน",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "เปิด claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "จากนั้นคลิกไอคอนส่วนขยายเพื่อเปิดแผงด้านข้าง เคล็ดลับ: ปักหมุดจากเมนูรูปจิ๊กซอว์ของ Chrome",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "ส่งออก",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "ไฟล์โปรเจกต์ บันทึกแชต และอาร์ติแฟกต์ — หรือทั้งโปรเจกต์ใน ZIP เดียว เป็น Markdown หรือ JSON",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "ทุกโปรเจกต์และทุกแชตใน ZIP เดียว — เมื่อต้องการหรืออัตโนมัติทุกวันหรือทุกสัปดาห์ แม้ปิดแผงอยู่",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "มาตรวัดการใช้งาน",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "ขีดจำกัด 5 ชั่วโมงและรายสัปดาห์ของ Claude พร้อมเวลารีเซ็ต — ในแผงด้านข้างและข้างตัวเลือกโมเดลบน claude.ai",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free กับ Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "ดาวน์โหลดไฟล์และแชตทีละรายการ",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "วันละ 5",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "ไม่จำกัด",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "ส่งออกทั้งโปรเจกต์",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "ฟรี 1 ครั้ง",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, อาร์ติแฟกต์ และไฟล์แนบ",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "ขีดจำกัดการใช้งานในแผงด้านข้าง",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "มาตรวัดบน claude.ai พร้อมแจ้งเตือนที่ 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "สำรองข้อมูลอัตโนมัติรายวันหรือรายสัปดาห์",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "รายเดือนหรือตลอดชีพ — ดูแผนและราคาบนเว็บไซต์ของเรา",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro ใช้งานอยู่",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "เปิดแผงด้านข้างเพื่อสำรองทุกอย่างหรือเปิดการสำรองอัตโนมัติ",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "รายเดือน · ต่ออายุ $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "สิทธิ์ใช้งานตลอดชีพ — ทุกฟีเจอร์ Pro ตลอดไป",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "วางคีย์สิทธิ์ใช้งานจากอีเมลการซื้อ",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "เปิด claude.ai แล้วไปที่โปรเจกต์หรือแชตใดก็ได้",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "คลิกไอคอนส่วนขยายเพื่อเปิดแผงด้านข้าง ปักหมุดไว้เพื่อเปิดได้ในคลิกเดียว",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "ดาวน์โหลดไฟล์ แชต หรือทั้งโปรเจกต์ — หรือสำรองทุกอย่างในครั้งเดียว",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "เพิ่งติดตั้งหรืออัปเดตใช่ไหม รีเฟรชแท็บ Claude ที่เปิดอยู่แล้วเพื่อให้เชื่อมต่อใหม่",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "ส่งออกเฉพาะสิ่งที่บัญชี Claude ที่คุณลงชื่อเข้าใช้เปิดได้อยู่แล้ว เนื้อหา Claude ของคุณไม่เคยออกจากเบราว์เซอร์",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "ต้องการความช่วยเหลือ?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "เปิด claude.ai เพื่อส่งออกโปรเจกต์หรือแชต ขีดจำกัดและการสำรองข้อมูลใช้ได้จากทุกแท็บ",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "การตั้งค่าการส่งออก",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "ทุกอย่างเกิดขึ้นบนคอมพิวเตอร์เครื่องนี้ — ไม่มีการอัปโหลดอะไรขึ้นคลาวด์ การสำรองข้อมูลจะถูกบันทึกเป็นไฟล์ ZIP ไว้ที่ ดาวน์โหลด › Claude Backups การสำรองข้อมูลอัตโนมัติจะทำงานขณะที่คอมพิวเตอร์เปิดอยู่ Chrome เปิดอยู่ และคุณลงชื่อเข้าใช้ claude.ai อยู่ หากพลาดไปครั้งหนึ่ง ระบบจะทำงานอีกครั้งในครั้งถัดไปที่เงื่อนไขเหล่านี้เป็นจริง",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "การสำรองข้อมูลทำงานอย่างไร",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "กำลังโหลดโปรเจกต์ของคุณ…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "รวมแชตที่อยู่นอกโปรเจกต์ด้วย",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "เลือกโปรเจกต์อย่างน้อยหนึ่งรายการ หรือทำเครื่องหมายแชตที่อยู่นอกโปรเจกต์",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "ยังไม่มีโปรเจกต์ในบัญชีนี้",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "สำรองข้อมูล: โปรเจกต์ทั้งหมด",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "สำรองข้อมูล: โปรเจกต์ที่ฉันเลือก",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "ลงชื่อเข้าใช้ claude.ai เพื่อแสดงรายการโปรเจกต์ของคุณ",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "การสำรองข้อมูล",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 คีย์",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "เปิดโปรเจกต์ (Projects ในแถบด้านข้างของ Claude) หรือแชตใดก็ได้ — แผงนี้จะแสดงสิ่งที่คุณดาวน์โหลดได้จากที่นั่น",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "เปิด claude.ai เพื่อส่งออกโปรเจกต์หรือแชต ขีดจำกัดและการสำรองข้อมูลใช้ได้จากทุกแท็บ",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "เปิดโปรเจกต์ Claude ของฉัน",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 คลิกโปรเจกต์ใดก็ได้ในรายการ แผงนี้จะแสดงไฟล์และแชตของโปรเจกต์นั้น พร้อมดาวน์โหลด",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "แสดงให้ฉันดู — เปิดโปรเจกต์ของฉัน",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "จัดการ / ยกเลิก ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "ซื้อแบบตลอดชีพ",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "แผงด้านข้าง",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "ป๊อปอัป",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 ใส่คีย์ใบอนุญาต",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "ซื้อ Pro แล้ว? วางคีย์จากอีเมลการซื้อ",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "วางคีย์ก่อน",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "กำลังตรวจสอบคีย์…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "เปิด Pro แล้ว กำลังโหลดใหม่…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "รายปี",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "ความช่วยเหลือ ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "คุณเลือกไว้ $1 รายการ Pro ย้าย ส่งออก และลบได้ทีละกี่รายการก็ได้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "แพ็กเกจฟรี: $1 แชตต่อการดำเนินการแบบกลุ่ม",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "ยกเลิก",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 แชต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "ลบ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "ลบโฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "ลบโฟลเดอร์ “$1” ใช่ไหม แชตในโฟลเดอร์จะยังอยู่ใน Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "ลบ $1 แชต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "แชตจะถูกลบบน claude.ai และกู้คืนไม่ได้ หากอาจต้องใช้ ให้ส่งออกก่อน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "ลบแล้ว $1 รายการ อีก $2 รายการลบไม่ได้และยังถูกเลือกอยู่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "ลบ $1 แชตออกจากบัญชี Claude ของคุณใช่ไหม",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "ลบ $1 แชตแล้ว โหลด claude.ai ใหม่เพื่อดูการเปลี่ยนแปลง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "กำลังลบ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "ตรวจสอบการเชื่อมต่อ แล้วลองอีกครั้ง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "เชื่อมต่อ claude.ai ไม่ได้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "ส่งออก",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "แชตที่ส่งออกแต่ละแชตนับเป็นการดาวน์โหลดหนึ่งครั้ง Pro ส่งออกได้ไม่จำกัดจำนวนทุกวัน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "เหลือดาวน์โหลดฟรีวันนี้ $1 จาก 5 ครั้ง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "ส่งออกแล้ว $1 รายการ อีก $2 รายการอ่านไม่ได้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "ส่งออก $1 แชตไปยังโฟลเดอร์ดาวน์โหลดแล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "กำลังส่งออก",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "ย้าย $1 แชตไปยัง “$2” แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "โฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "แชตทั้งหมด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "ลบโฟลเดอร์ “$1” แล้ว แชตในโฟลเดอร์กลายเป็นไม่ได้จัดหมวด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "เลือกแชตในแชตทั้งหมดแล้วเลือกโฟลเดอร์ หรือลากแชตมาวางในโฟลเดอร์นี้ บน claude.ai ให้กด + ข้างโฟลเดอร์เพื่อเพิ่มแชตที่เปิดอยู่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "ยังไม่มีอะไรใน “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "มีโฟลเดอร์ชื่อนี้อยู่แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro สร้างโฟลเดอร์ได้ไม่จำกัด แชตและโฟลเดอร์ของคุณจะยังอยู่เหมือนเดิม",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "คุณใช้โฟลเดอร์ฟรีครบ 3 จาก 3 แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "ชื่อโฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "ไม่ได้จัดหมวด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "สร้างดัชนีไม่ได้ $1 รายการ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "หยุดการค้นหาชั่วคราว: ลงชื่อเข้าใช้ claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "อัปเดต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 แชต · ค้นหาบนคอมพิวเตอร์เครื่องนี้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "กำลังสร้างดัชนีสำหรับค้นหา $1 / $2 แชต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "ใช้ $1 รายการแรก",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 แชตที่ตรงกัน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "การดำเนินการนี้จะเปลี่ยนแชตบน claude.ai เหมือนกับการย้ายที่นั่น",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "ย้ายแล้ว $1 รายการ อีก $2 รายการย้ายไม่ได้และยังถูกเลือกอยู่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "ย้าย $1 แชตไปยังโฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "ย้าย $1 แชตไปยังโปรเจกต์ Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "ย้าย $1 แชตไปยัง “$2” แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "กำลังย้าย",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "โฟลเดอร์ใหม่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "โฟลเดอร์ใหม่…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "โฟลเดอร์ใหม่ (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "แชตที่คุณเริ่มบน claude.ai จะแสดงที่นี่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "ยังไม่มีแชต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "การค้นหาจะจับคู่ทุกคำที่คุณพิมพ์ ใส่วลีในเครื่องหมายคำพูดเพื่อค้นหาแบบตรงทุกตัวอักษร",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "ยังสร้างดัชนีอยู่ — เหลืออีก $1 แชต ผลลัพธ์จะแสดงขึ้นเมื่ออ่านเสร็จ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "ไม่มีแชตที่กล่าวถึง “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "บัญชีนี้ยังไม่มีโปรเจกต์ สร้างโปรเจกต์บน claude.ai ก่อน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "การย้ายและการลบทำงานบน claude.ai โดยตรงในชื่อบัญชีของคุณ เปิดแท็บ claude.ai ค้างไว้ แล้วลองอีกครั้ง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "เปิด claude.ai ในแท็บก่อน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "ไว้ทีหลัง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "เปิด claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "เปิดในแท็บ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "แพ็กเกจฟรี",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · ไม่จำกัด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "โปรเจกต์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "นำออกจากโฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "ลองอีกครั้ง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "แพ็กเกจฟรีแสดง 5 รายการแรกที่ตรงกัน Pro แสดงทุกรายการที่ตรงกันในทุกแชต",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "มีอีก $1 แชตที่ตรงกัน",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "ค้นหาทุกข้อความ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "เลือกทั้งหมด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "เลือก “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "เลือกแล้ว $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "แสดงเพิ่มอีก $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "แสดงโฟลเดอร์ในแถบด้านข้างของ claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "คลังจะแสดงแชตในบัญชี Claude ของคุณเอง จึงต้องลงชื่อเข้าใช้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "ลงชื่อเข้าใช้ claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "ล้างการเลือก (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "ลบ (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "ส่งออกเป็น Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "ย้ายไปยังโฟลเดอร์ (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "ย้ายไปยังโปรเจกต์ (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "คลัง — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "นำ $1 แชตออกจากโฟลเดอร์แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "ทุกแชตอยู่ในโฟลเดอร์แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "จัดหมวดครบแล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "ปลดล็อกการดำเนินการแบบกลุ่ม",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "ปลดล็อกการส่งออกไม่จำกัด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "ปลดล็อกโฟลเดอร์ไม่จำกัด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "ปลดล็อกการค้นหาเต็มรูปแบบ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "แชตไม่มีชื่อ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "โปรเจกต์ไม่มีชื่อ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "เพิ่มแชตนี้ไปยัง $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "เพิ่มโปรเจกต์นี้ไปยัง $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "จัดกลุ่มแชตและโปรเจกต์ลงในโฟลเดอร์ กด + เพื่อเริ่ม",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "ว่างเปล่า เปิดแชตแล้วกด + บนโฟลเดอร์นี้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "โฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "อยู่ใน $1 แล้ว",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "แพ็กเกจฟรีมีโฟลเดอร์ 3 โฟลเดอร์",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "โฟลเดอร์ใหม่",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "แสดง $1 ทั้งหมดในคลัง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "ปลดล็อกโฟลเดอร์ไม่จำกัด",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "ส่งออก",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "คลัง",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 ข้อความ · ค่าประมาณ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "แชตยาว: ทุกข้อความจะส่งเนื้อหาทั้งหมดซ้ำ การเริ่มแชตใหม่ช่วยให้ขีดจำกัดใช้ได้นานขึ้น",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "บริบทของแชตนี้",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "โฟลเดอร์และการค้นหา",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "จัดแชทเป็นโฟลเดอร์ได้ในแถบข้างของ Claude ค้นหาในทุกข้อความ และย้าย ส่งออก หรือลบแชทพร้อมกันหลายรายการ",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "โฟลเดอร์สำหรับแชทและโปรเจกต์",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "ค้นหาในทุกแชท",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "5 ผลลัพธ์แรก",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "ผลลัพธ์ทั้งหมด",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "ย้าย ส่งออก และลบพร้อมกัน",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "ครั้งละ 5",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "แชทที่เปิดอยู่ส่งบริบทซ้ำมากแค่ไหน",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

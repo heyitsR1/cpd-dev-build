@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Claudeのチャットとプロジェクトをエクスポート。フォルダ整理、全メッセージ検索、一括削除、使用上限の確認も。すべてローカルで処理。",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "claude.aiからチャットやプロジェクトファイルをダウンロード",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? 使い方",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "この拡張機能の使い方",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "ステータス",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "待機中",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "読み込み中…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "エクスポート中…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "完了",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "エラー",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "準備中…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "プロジェクト",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "チャット",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "本日の無料エクスポート残り $1 / $2 回",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "本日の無料エクスポート上限に達しました",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ 更新",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ ファイルを更新",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "現在のチャット",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "チャット",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 件のメッセージ · $2 件の添付ファイル",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "エクスポート形式",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 添付ファイル付きZIP (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (生データ .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ このチャットをダウンロード",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 ヒント: チャットページの「共有」の横にある「ダウンロード」ボタンからも直接ダウンロードできます。",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ すべてのファイルをダウンロード",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 すべてのチャットをダウンロード",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ プロジェクト全体をダウンロード",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "プロジェクトZIP名",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "name_files.zip / _chats.zip / .zip として保存されます",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "ファイルエクスポート形式",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "元の形式 (拡張子を保持)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "チャットエクスポート形式",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (生データ)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "ファイル",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "チャット",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "ファイルがまだ読み込まれていません。",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Claudeのプロジェクトまたはチャットを開いてから、更新をクリックしてください。",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "チャットがまだ読み込まれていません。",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Claudeのプロジェクトを開いてから、更新をクリックしてください。",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "ダウンロード",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "チャット履歴をダウンロード (Shift+クリックで形式変更)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "チャットをダウンロード",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "単一チャットのエクスポート形式を選択してください:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "おすすめ",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Markdownチャット本文＋アップロードされたすべての添付ファイル（画像、PDF、ドキュメント）をアーカイブ。",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Obsidian、Notion、個人メモに最適なきれいなMarkdown形式。",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "完全なAPI構造を含む生データ。",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "今後のワンクリックダウンロードのためにこの選択を記憶する",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "キャンセル",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ ダウンロード",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 ヒント: ダウンロードボタンをShift+クリックするといつでも形式を変更できます。",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "使い方",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "ブラウザで claude.ai を開きます",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "サイドバーの「プロジェクト」をクリックします",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "エクスポートしたいプロジェクトを開きます",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "ツールバーの拡張機能アイコンをクリックしてこのサイドパネルを開きます",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "「↺ 更新」をクリックしてファイルとチャットを読み込みます",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "ファイルやチャットを個別、一括、またはプロジェクト全体をZIPでダウンロードします",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ チュートリアル動画を見る",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "トラブルシューティング",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "ファイルが表示されませんか？以下をお試しください:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "「↺ ファイルを更新」をクリックして少しお待ちください",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "ページを再読み込みして再試行してください",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "URLが claude.ai/project/[id] であることを確認してください（チャット画面ではない）",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "強制再読み込み: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Claudeからログアウトし、再ログインしてプロジェクトを開き直してください",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "別のブラウザをご利用の場合はChromeでお試しください",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "完全なトラブルシューティングガイドを読む →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "問題が解決しませんか？",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ 代替手段: Claudeに依頼する",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "一部のファイル（スプレッドシートやバイナリなど）はAPI経由で直接ダウンロードできません。以下のプロンプトをコピーしてClaudeチャットに貼り付けると、ダウンロード可能なZIPを取得できます。",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 プロンプトをクリップボードにコピー",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ コピーしました！",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "プロジェクトページのClaudeチャットに貼り付けてください。",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "購入済みですか？こちらにキーを貼り付けてください:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "有効化",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "プロジェクトファイルとチャットをワンクリックでエクスポート",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ 主な機能",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "ファイルのエクスポート",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "すべてのプロジェクトドキュメントを個別または整理されたZIPで瞬時に保存。",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "チャットのエクスポート",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "プロジェクト内のすべての会話をMarkdownまたはJSON形式でダウンロード。",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "プロジェクト全体",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "ファイルとチャットを1つの整理されたアーカイブにワンクリックで統合。",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "形式の変換",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "元のファイル形式を保持するか、Markdownに変換するかを選択可能。",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "トークン情報",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "推定トークン数やファイル作成日時を直接確認。",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "安全・プライベート",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "お使いのClaudeセッションを使用してブラウザ内で完全に動作。外部サーバーへのデータ送信はありません。",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 クイックスタートガイド",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "claude.ai を開き、プロジェクトワークスペースに移動します。",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "ツールバーの拡張機能アイコンをクリックしてファイルとチャットを読み込みます。",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "形式を選択し、「すべてのファイルをダウンロード」や「プロジェクト全体をダウンロード」をクリックします。",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "インストールまたは更新直後は、開いているClaudeタブを再読み込みしてください。",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. All rights reserved.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Proにアップグレード",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Proにアップグレード",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "無料版では1日5回の単体ダウンロードとプロジェクト全体エクスポート1回が可能です。Proは両方の上限を解除し、「すべてバックアップ」(全プロジェクト・全チャットを1つのZIPに、手動または自動)と、claude.aiのリアルタイム使用量メーターが追加されます。",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Proにアップグレード",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Freemius による安全な決済",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 購入済みですか？",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · 無制限アクセス",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "チャットの添付ファイルを含める（ZIPが大きくなります）",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "$1後にリセット",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "上限を確認するにはclaude.aiにサインインしてください。",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "現在、上限を取得できません。claude.aiを開いて再試行してください。",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5時間セッション",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "週間",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "週間 · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "$1 を書き出し中",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "開始中…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro機能です。ファイルはダウンロード › Claude Backupsに保存されます。",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "このパネルを閉じても、バックアップは続きます。",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "前回のバックアップに失敗: claude.aiにサインインしてから再試行してください。",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "前回のバックアップに失敗: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "前回のバックアップ $1 · プロジェクト$2件、チャット$3件 · ダウンロード › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "バックアップはまだありません。保存先: ダウンロード › Claude Backups",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "月額",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "永久",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "$1に更新。無制限のエクスポート・バックアップとページ内使用量メーター。",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "無制限のエクスポート・バックアップとページ内使用量メーター。",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "ライセンスを管理",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Proサブスクリプションが終了しました",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "このProライセンスは解約されました",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "無料プランに戻りました。過去のエクスポートとバックアップはそのまま保持されます。",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Proを更新",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "現在のセッション(5時間)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "週間上限",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "隠す",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "セッション上限に到達",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "セッションの$1%を使用",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "$1後にリセット。",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude使用量 — クリックで詳細",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "本日の無料ダウンロード5回を使い切りました。Proなら1日の上限なし — 単体ダウンロードもプロジェクト全体エクスポートも無制限です。",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "無料のプロジェクト全体エクスポートは使用済みです。Proなら無制限にフルエクスポート可能 — ワンクリックでいつでも全チャット・全ファイルを書き出せます。",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "「すべてバックアップ」はPro機能です。各プロジェクトの指示・ファイル・チャットと他のすべてのチャットを1つのZIPに、手動または毎日/毎週自動で。",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "ページ内メーターはPro機能です。claude.aiの隅に5時間/週間のClaude利用上限を表示し、80%と100%で通知します。",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Proサブスクリプションが終了しました。更新すると無制限エクスポート・バックアップとページ内メーターが再び有効になります。キーはそのまま使えます。",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "あなたのClaude利用上限",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "claude.aiにメーターを表示",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "すべてバックアップ",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "あなたのプロジェクト（指示・ファイル・チャット）と、その他すべてのチャットを1つのZIPに保存します。このパネルを閉じていても自動で実行されます。",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ 今すぐバックアップ",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "自動バックアップ: オフ",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "自動バックアップ: 毎日",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "自動バックアップ: 毎週",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "キャンセル",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "更新",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Claude での作業を、自分のパソコンに保存。",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "自分の Claude アカウントからプロジェクト、チャット、ファイルを書き出し、チャットをフォルダに整理し、すべてのメッセージの中を検索し、使用量の上限も確認できます。",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "claude.ai を開く",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "次に拡張機能アイコンをクリックしてサイドパネルを開きます。ヒント：Chrome のパズルアイコンのメニューから固定できます。",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "エクスポート",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "プロジェクトのファイル、チャットの記録、アーティファクトを個別に、またはプロジェクト全体を1つの ZIP に（Markdown / JSON）。",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "すべてのプロジェクトとチャットを1つの ZIP に。手動でも、毎日・毎週の自動でも。パネルを閉じていても動きます。",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "使用量メーター",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Claude の5時間・週間の上限とリセットまでの時間を、サイドパネルと claude.ai のモデル選択の横に表示します。",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free と Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "ファイル・チャットの個別ダウンロード",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "1日5回",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "無制限",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "プロジェクト全体のエクスポート",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1回無料",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON、アーティファクト、添付ファイル",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "サイドパネルで使用量の上限を確認",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "claude.ai 上の使用量メーター（80% / 100% で通知）",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "毎日・毎週の自動バックアップ",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "月額または買い切り。プランと価格はウェブサイトでご確認ください。",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro は有効です",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "サイドパネルを開いて、すべてをバックアップするか自動バックアップをオンにしましょう。",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "月額 · $1 に更新",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "買い切りライセンス — Pro のすべての機能をずっと。",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "購入時のメールにあるライセンスキーを貼り付けてください。",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "はじめかた",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "claude.ai を開き、プロジェクトかチャットに移動します。",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "拡張機能アイコンをクリックしてサイドパネルを開きます。固定しておくとワンクリックで開けます。",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "ファイル、チャット、プロジェクト全体をダウンロード — またはすべてを一度にバックアップ。",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "インストール・更新した直後ですか？すでに開いている Claude のタブを再読み込みして再接続してください。",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "エクスポートできるのは、ログイン中のあなたの Claude アカウントで開けるものだけです。Claude のコンテンツがブラウザの外に送られることはありません。",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "お困りですか？",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "プロジェクトやチャットをエクスポートするには claude.ai を開いてください。上限の確認とバックアップはどのタブからでも使えます。",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "エクスポート設定",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "すべての処理はこのコンピューター上で行われます — クラウドへのアップロードは一切ありません。バックアップはダウンロード › Claude BackupsにZIPファイルとして保存されます。自動バックアップは、コンピューターの電源が入っていて、Chromeが開いていて、claude.aiにサインインしている間に実行されます。実行できなかった場合は、次にその条件がすべて満たされたときに実行されます。",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "バックアップの仕組み",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "プロジェクトを読み込み中…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "プロジェクト外のチャットも含める",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "プロジェクトを1つ以上選ぶか、プロジェクト外のチャットにチェックを入れてください。",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "このアカウントにはまだプロジェクトがありません。",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "バックアップ対象：すべてのプロジェクト",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "バックアップ対象：選択したプロジェクト",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "プロジェクトの一覧を表示するにはclaude.aiにサインインしてください。",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "バックアップ",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 キー",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "プロジェクトを開く（Claudeのサイドバーの「プロジェクト」）か、チャットを開いてください — このパネルにそこからダウンロードできる内容が表示されます。",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "プロジェクトやチャットをエクスポートするには claude.ai を開いてください。上限の確認とバックアップはどのタブからでも使えます。",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "自分のClaudeプロジェクトを開く",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 リストのプロジェクトをクリックしてください。このパネルにファイルとチャットが読み込まれ、ダウンロードできる状態になります。",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "使い方を見る — 自分のプロジェクトを開く",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "管理・解約 ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "買い切りにする",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "サイドパネル",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "ポップアップ",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 ライセンスキーを入力",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Pro を購入済み？購入メールのキーを貼り付けてください。",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "先にキーを貼り付けてください。",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "キーを確認しています…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro が有効になりました。再読み込み中…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "年額",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "ヘルプ ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "$1 件を選択中です。Pro なら何件でもまとめて移動、エクスポート、削除できます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "無料プラン：一括操作は $1 件まで",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "キャンセル",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 件のチャット",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "削除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "フォルダを削除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "フォルダ「$1」を削除しますか？中のチャットは Claude に残ります。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "$1 件のチャットを削除",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "claude.ai 上で削除され、元に戻せません。必要になりそうな場合は先にエクスポートしてください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1 件を削除しました。$2 件は削除できず、選択されたままです。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Claude アカウントから $1 件のチャットを削除しますか？",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1 件のチャットを削除しました。claude.ai を再読み込みすると反映されます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "削除中",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "接続を確認してから、もう一度お試しください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "claude.ai に接続できませんでした",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "エクスポート",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "エクスポートしたチャット 1 件につき 1 ダウンロードとして数えます。Pro なら毎日何件でもエクスポートできます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "本日の無料ダウンロード残り $1 / 5 回",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1 件をエクスポートしました。$2 件は読み込めませんでした。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1 件のチャットをダウンロードフォルダにエクスポートしました",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "エクスポート中",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1 件のチャットを「$2」に移動しました",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "フォルダ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "すべてのチャット",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "フォルダ「$1」を削除しました。中のチャットは未分類になりました。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "「すべてのチャット」でチャットを選んで「フォルダ」を選ぶか、このフォルダにドラッグしてください。claude.ai では、フォルダ横の + で開いているチャットを追加できます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "「$1」にはまだ何もありません",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "同じ名前のフォルダがすでにあります。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro ならフォルダを無制限に作れます。チャットとフォルダは今のまま残ります。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "無料フォルダ 3 個をすべて使用しました",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "フォルダ名",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "未分類",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 件をインデックスできませんでした",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "検索を一時停止中：claude.ai にサインインしてください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "更新",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 件のチャット · このコンピュータ上で検索",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "検索用にインデックス作成中 $1 / $2 件",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "最初の $1 件を使う",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "一致するチャット $1 件",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "claude.ai 上のチャットが変更されます。claude.ai で移動するのと同じです。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1 件を移動しました。$2 件は移動できず、選択されたままです。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "$1 件のチャットをフォルダに移動",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "$1 件のチャットを Claude プロジェクトに移動",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1 件のチャットを「$2」に移動しました",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "移動中",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "新しいフォルダ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "新しいフォルダ…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "新しいフォルダ (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "claude.ai で始めたチャットがここに表示されます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "チャットはまだありません",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "入力したすべての語に一致するチャットを検索します。フレーズを引用符で囲むと完全一致で検索します。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "インデックス作成中です。残り $1 件。読み込んだ順に結果が表示されます。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "「$1」を含むチャットはありません",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "このアカウントにはまだプロジェクトがありません。先に claude.ai で作成してください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "移動と削除は、あなたとしてサインインした claude.ai 上で実行されます。claude.ai のタブを開いたまま、もう一度お試しください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "先に claude.ai をタブで開いてください",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "後で",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "claude.ai を開く",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "タブで開く",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "無料プラン",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · 制限なし",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "プロジェクト",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "フォルダから外す",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "名前を変更",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "再試行",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "無料プランでは上位 5 件まで表示します。Pro ならすべてのチャットの一致をすべて表示します。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "ほかに $1 件のチャットが一致",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "すべてのメッセージを検索",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "すべて選択",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "「$1」を選択",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 件を選択中",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "さらに $1 件表示",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "claude.ai のサイドバーにフォルダを表示",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "ライブラリにはあなたの Claude アカウントのチャットが表示されるため、サインインが必要です。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "claude.ai にサインイン",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "選択を解除 (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "削除 (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Markdown でエクスポート (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "フォルダに移動 (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "プロジェクトに移動 (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "ライブラリ — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1 件のチャットをフォルダから外しました",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "すべてのチャットがフォルダに入っています。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "すべて整理済みです",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "一括操作を解放",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "エクスポートを無制限にする",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "フォルダを無制限にする",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "全件検索を解放",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "無題のチャット",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "無題のプロジェクト",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "このチャットを $1 に追加",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "このプロジェクトを $1 に追加",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "チャットとプロジェクトをフォルダで整理できます。+ を押して始めましょう。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "空です。チャットを開いて、このフォルダの + を押してください。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "フォルダ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "$1 に追加済み",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "無料プランではフォルダは 3 個までです。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "新しいフォルダ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "$1 のすべてをライブラリで表示",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "フォルダを無制限にする",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "エクスポート",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "ライブラリ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 件のメッセージ · 推定",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "長いチャット：メッセージを送るたびに全体が再送信されます。新しいチャットにすると上限が長持ちします。",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "このチャットのコンテキスト",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "フォルダと検索",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Claude のサイドバーで直接チャットをフォルダに整理し、すべてのメッセージの中を検索し、チャットをまとめて移動・書き出し・削除できます。",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "チャットとプロジェクトのフォルダ",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "すべてのチャット内を検索",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "上位 5 件",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "すべての結果",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "まとめて移動・書き出し・削除",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "一度に 5 件",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "開いているチャットが再送するコンテキスト量",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

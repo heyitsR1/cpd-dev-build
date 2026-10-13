@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="appTitle">Claude Project Files Downloader</title>
+  <link rel="stylesheet" href="popup.css" />
+  <link rel="stylesheet" href="../lib/report.css" />
+</head>
+
+<body>
+  <div class="app">
+    <!-- Laid out by priority (v1.15 side panel): what's open and what you can
+         do with it first; limits and backups next; the long lists last; the
+         plan line and help at the very bottom. On a wide panel the secondary
+         cards move to a right-hand column (see .col in popup.css). -->
+    <!-- v1.16: the panel has two screens — this one (export what's open) and
+         the Library (every chat: folders, search, bulk actions). -->
+    <nav class="tabs" aria-label="Sections">
+      <a class="tabs__tab is-active" id="tabExport" href="popup.html" aria-current="page" data-i18n="tabExport">Export</a>
+      <a class="tabs__tab" id="tabLibrary" href="../library/library.html" data-i18n="tabLibrary">Library</a>
+      <!-- v1.17: always-visible way to tell us something broke (lib/report.js). -->
+      <button type="button" class="report-btn" id="reportBtn" title="Something not working? Tell us — most fixes ship within 24 hours."><span class="report-btn__icon" aria-hidden="true">⚑</span>Report a problem</button>
+    </nav>
+    <h1 class="app__title" data-i18n="appTitle">Claude Project Downloader</h1>
+
+    <div class="col col--main">
+      <!-- ── What's open ───────────────────────────────────── -->
+      <section class="context-card status-card">
+        <!-- Shown instead of the project UI when there's nothing to export on
+             this tab yet: tells a first-time user exactly what to click. -->
+        <div class="context-card__guide" id="contextGuide" hidden>
+          <p class="context-card__guide-text" id="contextGuideText"></p>
+          <button class="btn btn--primary btn--block" id="contextGuideBtn" hidden data-i18n="guideOpenProjects">Open my Claude projects</button>
+        </div>
+        <div class="context-card__row">
+          <div class="context-card__what">
+            <span class="status-card__label" id="contextLabel" data-i18n="contextProject">Project</span>
+            <span class="context-card__name" id="projectText">—</span>
+            <span class="status-pill status-pill--idle" id="statusPill" data-i18n="statusIdle">Idle</span>
+          </div>
+          <button class="icon-btn context-card__refresh" id="refreshBtn" data-i18n-title="btnRefresh" title="↺ Refresh" aria-label="Refresh">↺</button>
+        </div>
+      <div class="progress-wrap" id="progressWrap" hidden>
+        <span class="progress-wrap__label" id="progressLabel" data-i18n="statusPreparing">Preparing…</span>
+        <progress id="progressBar" value="0" max="100"></progress>
+        <span class="progress-wrap__meta" id="progressText">0 / 0</span>
+      </div>
+      <div class="status-hint" id="statusHint" hidden></div>
+      </section>
+
+    <section class="single-chat-card" id="singleChatCard" hidden>
+      <div class="single-chat-card__header">
+        <h2 id="singleChatTitle" data-i18n="singleChatTitle">Current Chat</h2>
+        <span class="count-pill count-pill--accent" id="singleChatPill" data-i18n="singleChatPill">Chat</span>
+      </div>
+      <p class="single-chat-card__meta" id="singleChatMeta">0 messages · 0 attachments</p>
+
+      <div class="field-group">
+        <label for="singleChatFormatSelect" data-i18n="exportFormatLabel">Export Format</label>
+        <select class="input" id="singleChatFormatSelect">
+          <option value="zip" data-i18n="formatZipAttachments">📦 ZIP with Attachments (.zip)</option>
+          <option value="markdown" data-i18n="formatMarkdown">📄 Markdown (.md)</option>
+          <option value="json" data-i18n="formatJson">📋 JSON (raw .json)</option>
+          <option value="pdf">📑 PDF (.pdf)</option>
+        </select>
+      </div>
+
+      <button class="btn btn--primary btn--block" id="downloadSingleChatBtn" data-i18n="btnDownloadThisChat">
+        ⬇ Download This Chat
+      </button>
+
+      <p class="single-chat-card__hint muted" data-i18n="singleChatTip">
+        💡 Tip: You can also download directly on the chat page using the Download button next to Share.
+      </p>
+    </section>
+
+      <!-- ── Project actions ───────────────────────────────── -->
+      <section class="project-controls-card" id="projectControlsGroup" hidden>
+        <button class="btn btn--primary btn--block btn--hero" id="downloadProjectBtn" disabled data-i18n="btnDownloadProject">
+          ⬇ Download Entire Project
+        </button>
+        <div class="btn-row btn-row--split" style="margin-top: 8px;">
+          <button class="btn btn--secondary" id="downloadAllBtn" disabled data-i18n="btnDownloadAllFiles">
+            ↓ Download All Files
+          </button>
+          <button class="btn btn--secondary" id="downloadChatsBtn" disabled data-i18n="btnDownloadAllChats">
+            💬 Download All Chats
+          </button>
+        </div>
+        <details class="export-settings">
+          <summary data-i18n="exportSettings">Export settings</summary>
+      <!-- Shared ZIP base name for all downloads -->
+      <div class="field-group" style="margin-top: 8px;">
+        <label for="archiveName" data-i18n="archiveNameLabel">Project ZIP Name</label>
+        <input class="input" id="archiveName" type="text" value="claude-project"
+          placeholder="claude-project" data-i18n-placeholder="archiveNamePlaceholder" spellcheck="false" />
+        <span class="field-hint" data-i18n="archiveNameHint">Saved as name_files.zip / _chats.zip / .zip</span>
+      </div>
+
+      <!-- File export options -->
+      <div class="field-group" style="margin-top: 8px;">
+        <label for="formatSelect" data-i18n="fileFormatLabel">File Export Format</label>
+        <select class="input" id="formatSelect">
+          <option value="native" data-i18n="fileFormatNative">Native (keep original extension)</option>
+          <option value="markdown" data-i18n="fileFormatMarkdown">Markdown (.md)</option>
+        </select>
+      </div>
+
+      <!-- Chat export options -->
+      <div class="field-group" style="margin-top: 8px;">
+        <label for="chatFormatSelect" data-i18n="chatFormatLabel">Project Chat Export Format</label>
+        <select class="input" id="chatFormatSelect">
+          <option value="markdown" data-i18n="chatFormatMarkdown">Markdown (.md)</option>
+          <option value="json" data-i18n="chatFormatJson">JSON (raw)</option>
+          <option value="pdf">PDF (one document, every chat)</option>
+        </select>
+      </div>
+
+      <!-- Opt-in: pull each chat's attachments into project exports too -->
+      <div class="field-group" style="margin-top: 8px;">
+        <label for="includeAttachmentsCheckbox" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+          <input type="checkbox" id="includeAttachmentsCheckbox" style="width:auto; margin:0;" />
+          <span data-i18n="includeAttachmentsLabel">Include chat attachments (larger ZIP)</span>
+        </label>
+      </div>
+        </details>
+      </section>
+
+      <!-- ── Free-tier counter / plan line (moved to the bottom for Pro) ── -->
+      <div class="limit-status-card" id="limitStatusCard">
+        <div class="limit-status-stats" id="limitStatusLabel"></div>
+        <div class="limit-status-row">
+          <a class="limit-status-upsell" id="limitStatusUpsell" href="#" hidden></a>
+          <a class="limit-status-link" id="limitStatusLink" href="#" data-i18n="upgradeLink">Upgrade to Pro</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col--side">
+    <section class="usage-card" id="usageCard" hidden aria-live="polite">
+      <div class="usage-card__head">
+        <span class="usage-card__title" data-i18n="usageTitle">Your Claude limits</span>
+        <button class="usage-card__refresh" id="usageRefreshBtn" data-i18n-title="usageRefresh" title="Refresh">↺</button>
+      </div>
+      <div class="usage-card__rows" id="usageRows"></div>
+      <label class="usage-card__toggle">
+        <input type="checkbox" id="usagePillToggle" />
+        <span data-i18n="usagePillToggle">Show the meter on claude.ai</span>
+      </label>
+    </section>
+
+    <section class="backup-card" id="backupCard">
+      <div class="backup-card__head">
+        <span class="backup-card__title" data-i18n="backupsTitle">Backups</span>
+        <span class="pro-tag">PRO</span>
+      </div>
+      <p class="backup-card__desc" data-i18n="backupDesc">Your projects — instructions, files, and chats — and your other chats, saved as one ZIP. Runs on its own, even with this panel closed.</p>
+      <div class="backup-card__scope">
+        <select class="input" id="backupScopeSelect" aria-label="What to back up">
+          <option value="all" data-i18n="backupScopeAll">Back up: all projects</option>
+          <option value="selected" data-i18n="backupScopeSelected">Back up: projects I choose</option>
+        </select>
+        <div class="backup-card__picker" id="backupProjectPicker" hidden>
+          <div class="backup-card__picklist" id="backupProjectList"></div>
+          <label class="backup-card__check">
+            <input type="checkbox" id="backupLooseChats" />
+            <span data-i18n="backupLooseChats">Also chats outside projects</span>
+          </label>
+        </div>
+      </div>
+      <div class="backup-card__row">
+        <button class="btn btn--primary" id="backupNowBtn" data-i18n="backupNow">⬇ Back up now</button>
+        <select class="input" id="backupScheduleSelect" aria-label="Automatic backups">
+          <option value="off" data-i18n="backupScheduleOff">Auto-backup: off</option>
+          <option value="daily" data-i18n="backupScheduleDaily">Auto-backup: daily</option>
+          <option value="weekly" data-i18n="backupScheduleWeekly">Auto-backup: weekly</option>
+        </select>
+      </div>
+      <div class="progress-wrap" id="backupProgress" hidden>
+        <span class="progress-wrap__label" id="backupProgressLabel">…</span>
+        <progress id="backupProgressBar" value="0" max="100"></progress>
+        <div class="backup-card__progress-meta">
+          <span class="progress-wrap__meta" id="backupProgressText"></span>
+          <button class="backup-card__cancel" id="backupCancelBtn" data-i18n="backupCancel">Cancel</button>
+        </div>
+      </div>
+      <p class="backup-card__status" id="backupStatus"></p>
+      <details class="backup-card__how">
+        <summary data-i18n="backupHowTitle">How backups work</summary>
+        <p data-i18n="backupHowBody">Everything happens on this computer — nothing is uploaded to any cloud. Backups are saved as ZIP files in Downloads › Claude Backups. Automatic backups run while your computer is on, Chrome is open, and you're signed in to claude.ai; if one is missed, it runs the next time those are true.</p>
+      </details>
+    </section>
+    </div>
+
+    <div class="col col--lists">
+    <!-- v1.17: which files fill the project, by tokens (popup/context-meter.js). -->
+    <section class="ctx" id="contextMeter" hidden aria-label="What's filling this project"></section>
+    <section class="files" id="filesSection">
+      <div class="files__header">
+        <h2 data-i18n="filesHeader">Files</h2>
+        <span class="count-pill" id="countPill">0</span>
+      </div>
+      <div id="fileListContainer">
+        <div class="empty-state">
+          <p data-i18n="noFilesLoaded">No files loaded yet.</p>
+          <p class="muted" data-i18n="openProjectTip">
+            Open a Claude project or chat, then click Refresh.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="chats" id="chatsSection">
+      <div class="files__header">
+        <h2 data-i18n="chatsHeader">Chats</h2>
+        <span class="count-pill" id="chatCountPill">0</span>
+      </div>
+      <div id="chatListContainer">
+        <div class="empty-state">
+          <p data-i18n="noChatsLoaded">No chats loaded yet.</p>
+          <p class="muted" data-i18n="openProjectChatTip">
+            Open a Claude project, then click Refresh.
+          </p>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- ── License key: always reachable, never more than a scroll away ── -->
+    <section class="key-section" id="keySection">
+      <h2 class="key-section__title" data-i18n="keySectionTitle">🔑 Enter your license key</h2>
+      <p class="key-section__hint" data-i18n="keySectionHint">Bought Pro? Paste the key from your purchase email.</p>
+      <div class="key-section__form">
+        <input class="input" id="keySectionInput" type="text" placeholder="XXXX-XXXX-XXXX-XXXX"
+          data-i18n-placeholder="licenseKeyPlaceholder" spellcheck="false" autocomplete="off" />
+        <button class="btn btn--primary" id="keySectionBtn" data-i18n="btnActivate">Activate</button>
+      </div>
+      <p class="key-section__msg" id="keySectionMsg" hidden></p>
+    </section>
+
+    <!-- Shown once after checkout switched Pro on by itself (v1.19). -->
+    <section class="key-section key-notice" id="keyNotice" hidden>
+      <h2 class="key-section__title">✅ Pro is on. Save your key</h2>
+      <p class="key-section__hint">Pro switched on by itself after checkout. Keep this key to use Pro in another browser or after reinstalling. It's in your receipt email too.</p>
+      <div class="key-section__form">
+        <input class="input" id="keyNoticeKey" type="text" readonly spellcheck="false" />
+        <button class="btn btn--secondary" id="keyNoticeCopy">Copy</button>
+      </div>
+      <button class="btn btn--ghost btn--small key-notice__done" id="keyNoticeDone">I've saved it</button>
+    </section>
+
+    <footer class="app__footer" id="appFooter">
+      <small class="app__footer-text" id="footerVersion">Claude Project Downloader</small>
+      <div class="app__footer-actions">
+        <select class="input app__mode" id="uiModeSelect" aria-label="Open as">
+          <option value="panel" data-i18n="uiModePanel">Side panel</option>
+          <option value="popup" data-i18n="uiModePopup">Popup</option>
+        </select>
+        <a class="app__help" href="https://claudeprojectdownloader.com/support?src=ext" target="_blank" rel="noopener" data-i18n="footerHelp">Help ↗</a>
+        <button class="btn btn--ghost btn--small" id="howToBtn" data-i18n-title="howToUseTitle" title="How to use this extension" data-i18n="howToUse">
+          ? How to Use
+        </button>
+      </div>
+    </footer>
+  </div>
+  <!-- /.app -->
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- How to Use Modal                                        -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="howToModal" hidden role="dialog" aria-modal="true" aria-labelledby="howToTitle">
+    <div class="modal__backdrop" id="howToBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="howToTitle" data-i18n="howToModalTitle">How to Use</h3>
+        <button class="icon-btn" id="closeHowToBtn" aria-label="Close">
+          ×
+        </button>
+      </div>
+      <div class="modal__content">
+        <ol class="steps">
+          <li data-i18n="howToStep1">Go to <strong>claude.ai</strong> in your browser</li>
+          <li data-i18n="howToStep2">Click <strong>Projects</strong> in the sidebar</li>
+          <li data-i18n="howToStep3">Open a project you want to export</li>
+          <li data-i18n="howToStep4">Click the extension icon in your toolbar to open this side panel</li>
+          <li data-i18n="howToStep5">
+            Click <strong>↺ Refresh</strong> to load files and chats
+          </li>
+          <li data-i18n="howToStep6">
+            Download files or chats individually, in bulk, or grab the entire project as one ZIP
+          </li>
+        </ol>
+        <a class="btn btn--secondary btn--block tutorial-link" id="modalTutorialLink"
+          href="https://youtu.be/lpINhO0oOHY?si=spggg8cTumj84GKs" target="_blank" rel="noopener noreferrer" data-i18n="btnWatchTutorial">▶ Watch
+          Tutorial Video</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Troubleshoot Modal                                      -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="troubleshootModal" hidden role="dialog" aria-modal="true" aria-labelledby="troubleshootTitle">
+    <div class="modal__backdrop" id="troubleshootBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="troubleshootTitle" data-i18n="troubleshootModalTitle">Troubleshoot</h3>
+        <button class="icon-btn" id="closeTroubleshootBtn" aria-label="Close">
+          ×
+        </button>
+      </div>
+      <div class="modal__content">
+        <p class="troubleshoot__intro" data-i18n="troubleshootIntro">
+          Files not showing up? Quick things to try:
+        </p>
+        <ul class="troubleshoot__steps">
+          <li data-i18n="troubleshootStep1">Click <strong>↺ Refresh Files</strong> and wait a moment</li>
+          <li data-i18n="troubleshootStep2">Refresh the page, then try again</li>
+          <li data-i18n="troubleshootStep3">Check URL is <code>claude.ai/project/[id]</code> — not chat</li>
+          <li data-i18n="troubleshootStep4">Hard refresh: <strong>CMD/Ctrl Shift R</strong></li>
+          <li data-i18n="troubleshootStep5">Log out of Claude, log back in, reopen project</li>
+          <li data-i18n="troubleshootStep6">Try Chrome if you're on a different browser</li>
+        </ul>
+        <a class="troubleshoot__full-guide" id="troubleshootGuideLink"
+          href="https://claudeprojectdownloader.com/troubleshoot-guide" target="_blank"
+          rel="noopener noreferrer" data-i18n="troubleshootFullGuide">Read the full troubleshooting guide →</a>
+        <p class="troubleshoot__contact">
+          <span data-i18n="troubleshootStillStuck">Still stuck?</span>
+          <a class="troubleshoot__link" href="mailto:support@claudeprojectdownloader.com">support@claudeprojectdownloader.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Fallback Prompt Modal                                   -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="fallbackModal" hidden role="dialog" aria-modal="true" aria-labelledby="fallbackTitle">
+    <div class="modal__backdrop" id="fallbackBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="fallbackTitle" data-i18n="fallbackModalTitle">⚡ Fallback: Ask Claude</h3>
+        <button class="icon-btn" id="closeFallbackBtn" aria-label="Close">
+          ×
+        </button>
+      </div>
+      <div class="modal__content">
+        <p class="fallback__intro" data-i18n="fallbackIntro">
+          Some files (spreadsheets, blobs, etc.) can't be downloaded directly via the API.
+          Copy the prompt below and paste it into your Claude chat to get a downloadable ZIP.
+        </p>
+        <div class="fallback__prompt-box">
+          <pre id="fallbackPromptText"
+            class="fallback__prompt-text" data-i18n="fallbackPromptText">I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).</pre>
+        </div>
+        <button class="btn btn--primary btn--block" id="copyFallbackBtn" data-i18n="btnCopyPrompt">
+          📋 Copy Prompt to Clipboard
+        </button>
+        <p class="fallback__hint muted" data-i18n="fallbackPasteHint">
+          Paste this into your Claude chat on the project page.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Lossy bulk pre-check modal                              -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="lossyBulkModal" hidden role="dialog" aria-modal="true" aria-labelledby="lossyBulkTitle">
+    <div class="modal__backdrop" id="lossyBulkBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="lossyBulkTitle">Some files can't keep their format</h3>
+        <button class="icon-btn" id="closeLossyBulkBtn" aria-label="Close">×</button>
+      </div>
+      <div class="modal__content">
+        <p class="fallback__intro" id="lossyBulkIntro">
+          These files were stored by Claude as extracted text, so their original
+          formatting isn't available through the API:
+        </p>
+        <ul class="lossy-bulk__list" id="lossyBulkList"></ul>
+        <button class="btn btn--primary btn--block" id="lossyBulkTxtBtn">
+          Include them as .txt
+        </button>
+        <button class="btn btn--secondary btn--block" id="lossyBulkAskBtn">
+          Ask Claude for the originals (zip the rest now)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Lossy single-file choice modal                          -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="lossySingleModal" hidden role="dialog" aria-modal="true" aria-labelledby="lossySingleTitle">
+    <div class="modal__backdrop" id="lossySingleBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="lossySingleTitle">This file can't keep its format</h3>
+        <button class="icon-btn" id="closeLossySingleBtn" aria-label="Close">×</button>
+      </div>
+      <div class="modal__content">
+        <p class="fallback__intro">
+          Claude stored <strong id="lossySingleName"></strong> as extracted text, so its
+          original formatting isn't available through the API.
+        </p>
+        <button class="btn btn--primary btn--block" id="lossySingleTxtBtn">
+          ⬇ Download as .txt
+        </button>
+        <button class="btn btn--secondary btn--block" id="lossySingleAskBtn">
+          ⚡ Ask Claude for the original
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Support Modal                                           -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="modal" id="supportModal" hidden role="dialog" aria-modal="true" aria-labelledby="supportTitle">
+    <div class="modal__backdrop" id="supportBackdrop"></div>
+    <div class="modal__panel">
+      <div class="modal__header">
+        <h3 id="supportTitle" data-i18n="proModalTitle">⚡ Upgrade to Pro</h3>
+        <button class="icon-btn" id="closeSupportBtn" aria-label="Close">
+          ×
+        </button>
+      </div>
+      <div class="modal__content">
+        <p class="support__intro" id="supportIntro" data-i18n="proIntroText">
+          Free covers 5 single downloads a day and one full project export. Pro removes both limits — unlimited
+          single downloads and unlimited full project exports.
+        </p>
+        <!-- No price here on purpose: the pricing page decides what to show and
+             hands off to Freemius, so a price change never needs a store release. -->
+        <button class="btn btn--primary btn--block" id="supportCheckoutBtn" data-i18n="btnUpgradePro">
+          Upgrade to Pro
+        </button>
+        <p class="support__via" data-i18n="proViaFreemius">Opens the pricing page · secure checkout via Freemius</p>
+
+        <div class="support__activation-box">
+          <p class="support__activation-label" data-i18n="haveKeyLabel">Already purchased? Paste your key here:</p>
+          <div class="support__activation-form">
+            <input class="input" id="supportLicenseInput" type="text" placeholder="XXXX-XXXX-XXXX-XXXX"
+              data-i18n-placeholder="licenseKeyPlaceholder" spellcheck="false" />
+            <button class="btn btn--secondary" id="supportActivateBtn" data-i18n="btnActivate">
+              Activate
+            </button>
+          </div>
+          <p id="supportStatusMsg" class="support__status-msg" hidden></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../lib/i18n.js"></script>
+  <script src="../lib/zip.js"></script>
+  <script src="../lib/format-loss.js"></script>
+  <script src="../lib/chat-format.js"></script>
+  <script src="../lib/project-meta.js"></script>
+  <script src="../lib/usage.js"></script>
+  <script type="module" src="popup.js"></script>
+</body>
+
+</html>

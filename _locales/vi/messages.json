@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Xuất cuộc trò chuyện và dự án Claude, xếp vào thư mục, tìm mọi tin nhắn, xóa hàng loạt, xem giới hạn sử dụng. 100% cục bộ.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Tải xuống cuộc trò chuyện và tệp dự án từ claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Hướng dẫn sử dụng",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Cách sử dụng tiện ích này",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Trạng thái",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Sẵn sàng",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Đang tải…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Đang xuất…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Thành công",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Lỗi",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Đang chuẩn bị…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Dự án",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Trò chuyện",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "Hôm nay còn $1 / $2 lượt xuất miễn phí",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Đã đạt giới hạn lượt xuất miễn phí trong ngày",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Làm mới",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Làm mới tệp",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Trò chuyện hiện tại",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 tin nhắn · $2 tệp đính kèm",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Định dạng xuất",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP kèm tệp đính kèm (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (dữ liệu thô .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Tải xuống cuộc trò chuyện này",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Mẹo: Bạn cũng có thể tải trực tiếp trên trang trò chuyện bằng nút Tải xuống bên cạnh Chia sẻ.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Tải xuống tất cả tệp",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Tải xuống tất cả cuộc trò chuyện",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Tải xuống toàn bộ dự án",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Tên tệp ZIP dự án",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Được lưu dưới dạng name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Định dạng xuất tệp",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Gốc (giữ nguyên phần mở rộng)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Định dạng xuất trò chuyện",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (dữ liệu thô)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Tệp",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Cuộc trò chuyện",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Chưa có tệp nào được tải.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Mở một dự án hoặc cuộc trò chuyện Claude, sau đó nhấp vào Làm mới.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Chưa có cuộc trò chuyện nào được tải.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Mở một dự án Claude, sau đó nhấp vào Làm mới.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Tải xuống",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Tải xuống cuộc trò chuyện (Giữ Shift+Nhấp để đổi định dạng)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Tải xuống cuộc trò chuyện",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Chọn định dạng xuất mong muốn:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Khuyên dùng",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Bản ghi Markdown đầy đủ + tất cả tệp đính kèm (hình ảnh, PDF, tài liệu) trong tệp ZIP.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Văn bản định dạng rõ ràng, phù hợp cho Obsidian, Notion hoặc ghi chú cá nhân.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Dữ liệu trò chuyện gốc đầy đủ cấu trúc API.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Ghi nhớ lựa chọn cho các lần tải xuống sau",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Hủy",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Tải xuống",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Mẹo: Giữ Shift khi nhấp vào Tải xuống để thay đổi định dạng bất kỳ lúc nào.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Hướng dẫn sử dụng",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Truy cập claude.ai trên trình duyệt của bạn",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Nhấp vào Projects ở thanh bên",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Mở dự án bạn muốn xuất",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Nhấp vào biểu tượng tiện ích trên thanh công cụ để mở bảng bên này",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Nhấp vào «↺ Làm mới» để tải tệp và cuộc trò chuyện",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Tải xuống từng phần hoặc toàn bộ dự án dưới dạng ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Xem video hướng dẫn",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Khắc phục sự cố",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Tệp không hiển thị? Hãy thử các bước sau:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Nhấp vào «↺ Làm mới tệp» và đợi một lát",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Tải lại trang và thử lại",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Đảm bảo URL có dạng claude.ai/project/[id]",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Tải lại cưỡng bức: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Đăng xuất Claude, đăng nhập lại và mở lại dự án",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Thử dùng Google Chrome nếu bạn đang dùng trình duyệt khác",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Đọc hướng dẫn khắc phục sự cố đầy đủ →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Vẫn gặp sự cố?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Phương án dự phòng: Hỏi Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Một số tệp không thể tải trực tiếp qua API. Sao chép câu lệnh dưới đây và gửi vào chat Claude để nhận file ZIP:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Sao chép câu lệnh vào bộ nhớ tạm",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Đã sao chép!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Dán câu lệnh này vào cuộc trò chuyện Claude trong trang dự án.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Đã mua rồi? Dán khóa của bạn vào đây:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Kích hoạt",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Xuất tệp dự án và cuộc trò chuyện trong một cú nhấp chuột",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Tính năng nổi bật",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Xuất tệp tin",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Tải xuống mọi tài liệu dự án riêng lẻ hoặc dưới dạng tệp ZIP gọn gàng.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Xuất cuộc trò chuyện",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Lưu tất cả cuộc hội thoại dự án dưới dạng Markdown hoặc JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Toàn bộ dự án",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Gộp tệp và cuộc trò chuyện vào một tệp nén duy nhất chỉ với một cú nhấp chuột.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Chuyển đổi định dạng",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Giữ nguyên định dạng gốc hoặc chuyển đổi sang Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Thống kê Token",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Xem ước tính số lượng token và ngày tạo tệp trực tiếp.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Riêng tư & An toàn",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Chạy hoàn toàn trên trình duyệt của bạn qua phiên Claude hiện tại. Không có máy chủ bên ngoài.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Bắt đầu nhanh",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Truy cập claude.ai và mở một dự án bất kỳ.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Nhấp vào biểu tượng tiện ích để tải tệp và cuộc trò chuyện.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Chọn định dạng và nhấp vào Tải xuống.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Mới cài đặt? Tải lại các tab Claude đang mở để kết nối lại.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Bảo lưu mọi quyền.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Nâng cấp lên Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Nâng cấp lên Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Gói miễn phí gồm 5 lượt tải đơn mỗi ngày và một lượt xuất toàn bộ dự án. Pro bỏ cả hai giới hạn này, và thêm tính năng Sao lưu toàn bộ — mọi dự án và cuộc trò chuyện trong một tệp ZIP, theo yêu cầu hoặc tự động — cùng đồng hồ đo mức sử dụng Claude trực tiếp trên claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Nâng cấp lên Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Thanh toán an toàn qua Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Đã mua rồi?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Truy cập không giới hạn",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Bao gồm tệp đính kèm của trò chuyện (ZIP lớn hơn)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "đặt lại trong $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Đăng nhập vào claude.ai để xem giới hạn của bạn.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Không thể đọc giới hạn của bạn lúc này. Mở claude.ai và thử lại.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "Phiên 5 giờ",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Hằng tuần",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Hằng tuần · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Đang xuất $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Đang bắt đầu…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Tính năng Pro. Tệp của bạn sẽ được lưu vào Tải xuống › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Bạn có thể đóng bảng này — quá trình sao lưu vẫn tiếp tục.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Sao lưu gần nhất không thành công: đăng nhập vào claude.ai rồi thử lại.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Sao lưu gần nhất không thành công: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Sao lưu gần nhất $1 · $2 dự án, $3 cuộc trò chuyện · Tải xuống › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Chưa có bản sao lưu nào. Đã lưu vào Tải xuống › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Hàng tháng",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Vĩnh viễn",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Gia hạn vào $1. Xuất tệp, sao lưu không giới hạn và đồng hồ đo mức sử dụng trên trang.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Xuất tệp, sao lưu không giới hạn và đồng hồ đo mức sử dụng trên trang.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Quản lý giấy phép",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Gói Pro của bạn đã kết thúc",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Giấy phép Pro này đã bị hủy",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Bạn đang quay lại gói miễn phí. Các bản xuất và sao lưu trước đây vẫn thuộc về bạn.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Gia hạn Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Phiên hiện tại (5 giờ)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Giới hạn hằng tuần",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Ẩn",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Đã đạt giới hạn phiên",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "Đã dùng $1% phiên của bạn",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Đặt lại trong $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Mức sử dụng Claude — nhấp để xem chi tiết",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Đó là 5 lượt tải miễn phí của bạn cho hôm nay. Pro bỏ giới hạn hằng ngày — tải đơn không giới hạn và xuất toàn bộ dự án không giới hạn.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Bạn đã dùng hết lượt xuất toàn bộ dự án miễn phí. Pro mở khóa xuất toàn bộ không giới hạn — mọi cuộc trò chuyện và tệp chỉ trong một lần nhấp, bất cứ khi nào bạn muốn.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Sao lưu toàn bộ là tính năng Pro: hướng dẫn, tệp và cuộc trò chuyện của mọi dự án, cùng tất cả các cuộc trò chuyện khác của bạn, trong một tệp ZIP — theo yêu cầu hoặc tự động mỗi ngày hoặc mỗi tuần.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Đồng hồ đo trên trang là tính năng Pro: giới hạn Claude theo 5 giờ và hằng tuần của bạn ở góc claude.ai, kèm cảnh báo ở mức 80% và 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Gói Pro của bạn đã kết thúc. Gia hạn để bật lại xuất tệp, sao lưu không giới hạn và đồng hồ đo trên trang. Khóa của bạn vẫn giữ nguyên.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Giới hạn Claude của bạn",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Hiện đồng hồ đo trên claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Sao lưu toàn bộ",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Các dự án của bạn — hướng dẫn, tệp và cuộc trò chuyện — cùng các cuộc trò chuyện khác, được lưu thành một tệp ZIP. Tự chạy, ngay cả khi bảng này đang đóng.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Sao lưu ngay",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Tự động sao lưu: tắt",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Tự động sao lưu: hằng ngày",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Tự động sao lưu: hằng tuần",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Hủy",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Làm mới",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Công việc trên Claude của bạn, lưu ngay trên máy tính của bạn.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Xuất dự án, cuộc trò chuyện và tệp từ tài khoản Claude của chính bạn, sắp xếp cuộc trò chuyện vào thư mục, tìm kiếm trong mọi tin nhắn và theo dõi giới hạn sử dụng.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Mở claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Sau đó nhấp vào biểu tượng tiện ích để mở bảng bên. Mẹo: ghim nó từ menu mảnh ghép của Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Xuất",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Tệp dự án, bản ghi trò chuyện và artifact — hoặc cả dự án trong một tệp ZIP, dạng Markdown hoặc JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Mọi dự án và mọi cuộc trò chuyện trong một ZIP — khi bạn muốn hoặc tự động hằng ngày, hằng tuần, kể cả khi đã đóng bảng.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Đồng hồ sử dụng",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Giới hạn Claude 5 giờ và hằng tuần cùng thời gian đặt lại — trong bảng bên và cạnh bộ chọn mô hình trên claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free và Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Tải từng tệp và cuộc trò chuyện",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 lần/ngày",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Không giới hạn",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Xuất toàn bộ dự án",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 lần miễn phí",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artifact và tệp đính kèm",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Giới hạn sử dụng trong bảng bên",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Đồng hồ sử dụng trên claude.ai, cảnh báo ở 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Sao lưu tự động hằng ngày hoặc hằng tuần",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Theo tháng hoặc trọn đời — xem gói và giá trên trang web của chúng tôi.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro đang hoạt động",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Mở bảng bên để sao lưu mọi thứ hoặc bật sao lưu tự động.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Theo tháng · gia hạn ngày $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Giấy phép trọn đời — mọi tính năng Pro, mãi mãi.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Dán khóa giấy phép từ email mua hàng của bạn.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Bắt đầu",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Mở claude.ai và vào một dự án hoặc cuộc trò chuyện bất kỳ.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Nhấp vào biểu tượng tiện ích để mở bảng bên. Ghim lại để mở chỉ với một cú nhấp.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Tải tệp, cuộc trò chuyện hoặc cả dự án — hoặc sao lưu mọi thứ cùng lúc.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Vừa cài đặt hoặc cập nhật? Tải lại các thẻ Claude đang mở để chúng kết nối lại.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Chỉ xuất những gì tài khoản Claude đã đăng nhập của bạn vốn mở được. Nội dung Claude của bạn không bao giờ rời khỏi trình duyệt.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Cần trợ giúp?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Mở claude.ai để xuất một dự án hoặc cuộc trò chuyện. Giới hạn và sao lưu hoạt động từ mọi thẻ.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Cài đặt xuất",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Mọi thứ diễn ra trên chính máy tính này — không có gì được tải lên bất kỳ dịch vụ đám mây nào. Các bản sao lưu được lưu dưới dạng tệp ZIP trong Tải xuống › Claude Backups. Sao lưu tự động chạy khi máy tính của bạn đang mở, Chrome đang mở và bạn đã đăng nhập vào claude.ai; nếu bị lỡ một lần, nó sẽ chạy vào lần tiếp theo khi các điều kiện đó đúng.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Cách sao lưu hoạt động",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Đang tải dự án của bạn…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Cả các cuộc trò chuyện ngoài dự án",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Chọn ít nhất một dự án, hoặc đánh dấu các cuộc trò chuyện ngoài dự án.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Chưa có dự án nào trong tài khoản này.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Sao lưu: tất cả dự án",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Sao lưu: các dự án tôi chọn",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Đăng nhập vào claude.ai để xem danh sách dự án của bạn.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Sao lưu",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Khóa",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Mở một dự án (Projects ở thanh bên của Claude) hoặc một cuộc trò chuyện — bảng này sẽ hiển thị những gì bạn có thể tải xuống từ đó.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Mở claude.ai để xuất một dự án hoặc cuộc trò chuyện. Giới hạn và sao lưu hoạt động từ mọi thẻ.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Mở các dự án Claude của tôi",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Nhấp vào bất kỳ dự án nào trong danh sách. Bảng này sẽ hiển thị đầy đủ tệp và cuộc trò chuyện của dự án đó, sẵn sàng để tải xuống.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Chỉ cho tôi cách — mở các dự án của tôi",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Quản lý / hủy ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Mua trọn đời",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Bảng bên",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Cửa sổ bật lên",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Nhập khóa giấy phép",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Đã mua Pro? Dán khóa từ email mua hàng.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Hãy dán khóa trước.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Đang kiểm tra khóa…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Đã bật Pro. Đang tải lại…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Hằng năm",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Trợ giúp ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Bạn đã chọn $1. Pro di chuyển, xuất và xóa bao nhiêu cũng được trong một lần.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Gói miễn phí: $1 cuộc trò chuyện mỗi thao tác hàng loạt",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Hủy",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 cuộc trò chuyện",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Xóa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Xóa thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Xóa thư mục “$1”? Các cuộc trò chuyện bên trong vẫn còn trong Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Xóa $1 cuộc trò chuyện",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Chúng sẽ bị xóa trên claude.ai và không thể khôi phục. Hãy xuất trước nếu bạn có thể cần đến.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "Đã xóa $1. $2 không thể xóa và vẫn đang được chọn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Xóa $1 cuộc trò chuyện khỏi tài khoản Claude của bạn?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "Đã xóa $1 cuộc trò chuyện. Tải lại claude.ai để thấy thay đổi.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Đang xóa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Kiểm tra kết nối rồi thử lại.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Không thể kết nối claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Xuất",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Mỗi cuộc trò chuyện được xuất tính là một lượt tải xuống. Pro xuất bao nhiêu cuộc trò chuyện cũng được, ngày nào cũng vậy.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Hôm nay còn $1/5 lượt tải xuống miễn phí",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "Đã xuất $1. Không đọc được $2.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "Đã xuất $1 cuộc trò chuyện vào thư mục Tải xuống",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Đang xuất",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "Đã chuyển $1 cuộc trò chuyện vào “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Tất cả cuộc trò chuyện",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Đã xóa thư mục “$1”. Các cuộc trò chuyện bên trong giờ chưa được phân loại.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Chọn cuộc trò chuyện trong Tất cả cuộc trò chuyện rồi chọn Thư mục, hoặc kéo chúng vào thư mục này. Trên claude.ai, dùng dấu + cạnh thư mục để thêm cuộc trò chuyện đang mở.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Chưa có gì trong “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Đã có thư mục mang tên này.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro cho bạn không giới hạn số thư mục. Các cuộc trò chuyện và thư mục của bạn vẫn giữ nguyên.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Bạn đã dùng hết 3/3 thư mục miễn phí",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Tên thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Chưa phân loại",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 chưa được lập chỉ mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Đã tạm dừng tìm kiếm: hãy đăng nhập claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Cập nhật",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 cuộc trò chuyện · tìm kiếm trên máy tính này",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Đang lập chỉ mục $1 / $2 cuộc trò chuyện để tìm kiếm",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Dùng $1 mục đầu tiên",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 cuộc trò chuyện khớp",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Thao tác này thay đổi các cuộc trò chuyện trên claude.ai, giống như khi di chuyển chúng ở đó.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "Đã di chuyển $1. $2 không thể di chuyển và vẫn đang được chọn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Chuyển $1 cuộc trò chuyện vào thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Chuyển $1 cuộc trò chuyện vào một dự án Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "Đã chuyển $1 cuộc trò chuyện vào “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Đang di chuyển",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Thư mục mới",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Thư mục mới…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Thư mục mới (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Các cuộc trò chuyện bạn bắt đầu trên claude.ai sẽ hiện ở đây.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Chưa có cuộc trò chuyện nào",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Tìm kiếm khớp với mọi từ bạn nhập. Đặt cụm từ trong dấu ngoặc kép để khớp chính xác.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Vẫn đang lập chỉ mục — còn $1 cuộc trò chuyện. Kết quả sẽ xuất hiện khi chúng được đọc.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Không có cuộc trò chuyện nào nhắc đến “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Tài khoản này chưa có dự án nào. Hãy tạo một dự án trên claude.ai trước.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Di chuyển và xóa chạy ngay trên claude.ai, đăng nhập bằng tài khoản của bạn. Hãy giữ một thẻ claude.ai đang mở rồi thử lại.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Hãy mở claude.ai trong một thẻ trước",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Để sau",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Mở claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Mở trong thẻ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Gói miễn phí",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · không giới hạn",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Dự án",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Xóa khỏi thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Đổi tên",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Thử lại",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Gói miễn phí hiển thị 5 kết quả khớp nhất. Pro hiển thị mọi kết quả khớp, trong mọi cuộc trò chuyện.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Còn $1 cuộc trò chuyện khớp",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Tìm trong mọi tin nhắn",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Chọn tất cả",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Chọn “$1”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "Đã chọn $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Hiện thêm $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Hiện thư mục trong thanh bên của claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Thư viện liệt kê các cuộc trò chuyện trong chính tài khoản Claude của bạn, nên bạn cần đăng nhập.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Đăng nhập claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Bỏ chọn (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Xóa (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Xuất dạng Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Chuyển vào thư mục (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Chuyển vào dự án (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Thư viện — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "Đã bỏ $1 cuộc trò chuyện khỏi thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Mọi cuộc trò chuyện đều đã nằm trong thư mục.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Đã phân loại hết",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Mở khóa thao tác hàng loạt",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Mở khóa xuất không giới hạn",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Mở khóa thư mục không giới hạn",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Mở khóa tìm kiếm đầy đủ",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Cuộc trò chuyện chưa đặt tên",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Dự án chưa đặt tên",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Thêm cuộc trò chuyện này vào $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Thêm dự án này vào $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Nhóm cuộc trò chuyện và dự án vào thư mục. Nhấn + để bắt đầu.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Trống. Mở một cuộc trò chuyện rồi nhấn + trên thư mục này.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Thư mục",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Đã có trong $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Gói miễn phí có 3 thư mục.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Thư mục mới",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Hiện toàn bộ $1 trong Thư viện",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Mở khóa thư mục không giới hạn",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Xuất",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Thư viện",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 tin nhắn · ước tính",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Cuộc trò chuyện dài: mỗi tin nhắn đều gửi lại toàn bộ nội dung. Bắt đầu cuộc trò chuyện mới giúp giới hạn của bạn dùng được lâu hơn.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Ngữ cảnh của cuộc trò chuyện này",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Thư mục & tìm kiếm",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Sắp xếp cuộc trò chuyện vào thư mục ngay trên thanh bên của Claude, tìm kiếm trong mọi tin nhắn, và di chuyển, xuất hoặc xóa hàng loạt.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Thư mục cho trò chuyện và dự án",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Tìm kiếm trong mọi cuộc trò chuyện",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "5 kết quả hàng đầu",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Mọi kết quả",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Di chuyển, xuất & xóa hàng loạt",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 mỗi lần",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Lượng ngữ cảnh cuộc trò chuyện đang mở gửi lại",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

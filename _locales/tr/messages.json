@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Claude sohbet ve projelerini dışa aktarın, klasörleyin, tüm mesajlarda arayın, toplu silin, kullanım limitlerini görün. %100 yerel.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "claude.ai üzerinden sohbet ve proje dosyalarını indirin",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Nasıl Kullanılır",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Bu eklenti nasıl kullanılır",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Durum",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Beklemede",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Yükleniyor…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Dışa aktarılıyor…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Tamamlandı",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Hata",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Hazırlanıyor…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Proje",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Sohbet",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "Bugün kalan ücretsiz dışa aktarma: $1 / $2",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Günlük ücretsiz dışa aktarma sınırına ulaşıldı",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Yenile",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Dosyaları Yenile",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Mevcut Sohbet",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Sohbet",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 mesaj · $2 ek",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Dışa Aktarma Formatı",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 Eklerle Birlikte ZIP (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (ham .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Bu Sohbeti İndir",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 İpucu: Sohbet sayfasında Paylaş butonunun yanındaki İndir butonunu kullanarak da doğrudan indirebilirsiniz.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Tüm Dosyaları İndir",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Tüm Sohbetleri İndir",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Tüm Projeyi İndir",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Proje ZIP Dosyası Adı",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "name_files.zip / _chats.zip / .zip olarak kaydedilir",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Dosya Dışa Aktarma Formatı",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Orijinal Format (uzantıyı koru)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Sohbet Dışa Aktarma Formatı",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (ham)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Dosyalar",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Sohbetler",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Henüz dosya yüklenmedi.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Bir Claude projesi veya sohbeti açın, ardından Yenile'ye tıklayın.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Henüz sohbet yüklenmedi.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Bir Claude projesi açın, ardından Yenile'ye tıklayın.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "İndir",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Sohbet dökümünü indir (Format değiştirmek için Shift+Tık)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Sohbeti İndir",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Tercih ettiğiniz dışa aktarma formatını seçin:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Önerilen",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Tam Markdown sohbet metni + yüklenen tüm ekler (görseller, PDF'ler, belgeler) tek bir ZIP arşivinde.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Obsidian, Notion veya kişisel notlar için temiz formatlı metin.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "API yapısını içeren kayıpsız ham konuşma verisi.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Gelecekteki tek tıkla indirmeler için seçimimi hatırla",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "İptal",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ İndir",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 İpucu: Formatı istediğiniz zaman değiştirmek için Shift tuşuna basılı tutarak İndir butonuna tıklayın.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Nasıl Kullanılır",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Tarayıcınızda claude.ai adresine gidin",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Kenar çubuğundaki 'Projects' seçeneğine tıklayın",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "İndirmek istediğiniz projeyi açın",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Bu yan paneli açmak için araç çubuğundaki uzantı simgesine tıklayın",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Dosyaları ve sohbetleri yüklemek için «↺ Yenile» butonuna tıklayın",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Dosyaları tek tek veya tüm projeyi ZIP olarak indirin",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Eğitim Videosunu İzle",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Sorun Giderme",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Dosyalar görünmüyor mu? Şunları deneyin:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "«↺ Dosyaları Yenile» butonuna tıklayın ve biraz bekleyin",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Sayfayı yenileyip tekrar deneyin",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "URL'nin claude.ai/project/[id] olduğundan emin olun (sohbet olmamalı)",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Zorla yenileme: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Claude'dan çıkış yapın, tekrar giriş yapıp projeyi yeniden açın",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Farklı bir tarayıcıdaysanız Chrome kullanmayı deneyin",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Tam sorun giderme kılavuzunu okuyun →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Hala sorun mu yaşıyorsunuz?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Alternatif: Claude'a Sorun",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Bazı dosyalar doğrudan API ile indirilemez. İndirilebilir bir ZIP almak için aşağıdaki komutu kopyalayıp Claude sohbetine yapıştırın:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Komutu Panoya Kopyala",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Kopyalandı!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Bunu proje sayfasındaki Claude sohbetine yapıştırın.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Zaten satın aldınız mı? Anahtarınızı buraya yapıştırın:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Etkinleştir",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Proje dosyalarını ve sohbetleri tek tıkla dışa aktarın",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Temel Özellikler",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Dosyaları Dışa Aktar",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Tüm proje belgelerini tek tek veya düzenli bir ZIP olarak indirin.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Sohbetleri Dışa Aktar",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Tüm proje sohbetlerini Markdown veya JSON olarak kaydedin.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Tüm Proje",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Dosyaları ve sohbetleri tek tıkla tek bir arşivde toplayın.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Format Dönüştürme",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Orijinal formatları koruyun veya Markdown'a dönüştürün.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Token Metrikleri",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Tahmini token sayılarını ve oluşturulma tarihlerini görün.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Gizli ve Güvenli",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Tamamen tarayıcınızda çalışır. Harici sunucu kullanılmaz.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Hızlı Başlangıç Kılavuzu",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "claude.ai adresine gidin ve bir proje açın.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Dosyaları ve sohbetleri yüklemek için eklenti simgesine tıklayın.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Formatınızı seçin ve İndir butonuna tıklayın.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Yeni mi yüklediniz? Yeniden bağlanmak için açık Claude sekmelerini yenileyin.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Tüm hakları saklıdır.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Pro'ya yükselt",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Pro'ya yükselt",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "Ücretsiz plan günde 5 tekli indirme ve bir tam proje dışa aktarımı içerir. Pro bu iki sınırı da kaldırır ve Her şeyi yedekle özelliğini ekler — tüm proje ve sohbetler tek bir ZIP içinde, istediğinizde veya otomatik olarak — ayrıca claude.ai'da canlı bir Claude kullanım göstergesi sunar.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Pro'ya yükselt",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Freemius ile güvenli ödeme",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Zaten satın aldınız mı?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Sınırsız erişim",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Sohbet eklerini dahil et (daha büyük ZIP)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "$1 içinde sıfırlanır",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Sınırlarınızı görmek için claude.ai'a giriş yapın.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Sınırlarınız şu anda okunamadı. claude.ai'ı açıp yeniden deneyin.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "5 saatlik oturum",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Haftalık",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Haftalık · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "Dışa aktarılıyor: $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "Başlıyor…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Pro özelliği. Dosyalarınız İndirilenler › Claude Backups konumuna kaydedilir.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Bu paneli kapatabilirsiniz — yedekleme devam eder.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "Son yedekleme başarısız oldu: claude.ai'a giriş yapıp yeniden deneyin.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "Son yedekleme başarısız oldu: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Son yedekleme $1 · $2 proje, $3 sohbet · İndirilenler › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Henüz yedekleme yok. İndirilenler › Claude Backups içine kaydedildi.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Aylık",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Ömür boyu",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "$1 tarihinde yenilenir. Sınırsız dışa aktarım, yedekleme ve sayfa üzerindeki kullanım göstergesi.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Sınırsız dışa aktarım, yedekleme ve sayfa üzerindeki kullanım göstergesi.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Lisansı Yönet",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "Pro aboneliğiniz sona erdi",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Bu Pro lisansı iptal edildi",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Yeniden ücretsiz plandasınız. Geçmiş dışa aktarımlarınız ve yedeklemeleriniz hâlâ sizde.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Pro'yu Yenile",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Geçerli oturum (5 saat)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Haftalık sınır",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Gizle",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Oturum sınırına ulaşıldı",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "Oturumunuzun $1%'i kullanıldı",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "$1 içinde sıfırlanır.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Claude kullanımı — ayrıntılar için tıklayın",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Bugün için 5 ücretsiz indirme hakkınızı kullandınız. Pro, günlük sınırı kaldırır — sınırsız tekli indirme ve sınırsız tam proje dışa aktarımı.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Ücretsiz tam proje dışa aktarımınızı kullandınız. Pro, sınırsız tam dışa aktarımın kilidini açar — tek tıkla her sohbet ve dosya, istediğiniz zaman.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Her şeyi yedekle bir Pro özelliğidir: her projenin talimatları, dosyaları ve sohbetleri, ayrıca diğer tüm sohbetleriniz, tek bir ZIP içinde — istediğinizde ya da her gün veya her hafta otomatik olarak.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "Sayfa üzerindeki gösterge bir Pro özelliğidir: claude.ai'ın köşesinde 5 saatlik ve haftalık Claude sınırlarınız, 80% ve 100%'de uyarı ile.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "Pro aboneliğiniz sona erdi. Sınırsız dışa aktarım, yedekleme ve sayfa üzerindeki göstergeyi yeniden açmak için yenileyin. Anahtarınız aynı kalır.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Claude sınırlarınız",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Göstergeyi claude.ai'da göster",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Her şeyi yedekle",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Projeleriniz — talimatlar, dosyalar ve sohbetler — ve diğer tüm sohbetleriniz, tek bir ZIP olarak kaydedilir. Bu panel kapalı olsa bile kendi başına çalışır.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Şimdi yedekle",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Otomatik yedekleme: kapalı",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Otomatik yedekleme: günlük",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Otomatik yedekleme: haftalık",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "İptal",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Yenile",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "Claude çalışmanız, kendi bilgisayarınızda güvende.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Kendi Claude hesabınızdan projeleri, sohbetleri ve dosyaları dışa aktarın, sohbetleri klasörlere ayırın, her mesajın içinde arayın ve kullanım limitlerinizi takip edin.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "claude.ai'yi aç",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Ardından yan paneli açmak için uzantı simgesine tıklayın. İpucu: Chrome'un yapboz menüsünden sabitleyin.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Dışa aktar",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Proje dosyaları, sohbet dökümleri ve yapıtlar — ya da projenin tamamı tek bir ZIP'te, Markdown veya JSON olarak.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Tüm projeler ve tüm sohbetler tek ZIP'te — istediğiniz an ya da her gün veya hafta otomatik, panel kapalıyken bile.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Kullanım ölçer",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "5 saatlik ve haftalık Claude limitleriniz, sıfırlanma zamanlarıyla — yan panelde ve claude.ai'deki model seçicinin yanında.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free ve Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Tek dosya ve sohbet indirme",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "Günde 5",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Sınırsız",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Projenin tamamını dışa aktarma",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 ücretsiz",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, yapıtlar ve ekler",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Yan panelde kullanım limitleri",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "claude.ai'de kullanım ölçer, %80 / %100 uyarılarıyla",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Otomatik günlük veya haftalık yedekler",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Aylık ya da ömür boyu — planlar ve fiyatlar web sitemizde.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "Pro etkin",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Her şeyi yedeklemek veya otomatik yedeklemeyi açmak için yan paneli açın.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Aylık · $1 tarihinde yenilenir",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Ömür boyu lisans — tüm Pro özellikleri, kalıcı olarak.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Satın alma e-postanızdaki lisans anahtarını yapıştırın.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Başlarken",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "claude.ai'yi açın ve herhangi bir projeye ya da sohbete gidin.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Yan paneli açmak için uzantı simgesine tıklayın. Tek tıkla erişmek için sabitleyin.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Dosyaları, sohbetleri ya da projenin tamamını indirin — veya her şeyi tek seferde yedekleyin.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Yeni mi yüklediniz ya da güncellediniz? Zaten açık olan Claude sekmelerini yeniden bağlanmaları için yenileyin.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Yalnızca kendi oturum açmış Claude hesabınızın zaten açabildiklerini dışa aktarır. Claude içeriğiniz tarayıcınızdan asla çıkmaz.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Yardım mı lazım?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Bir projeyi veya sohbeti dışa aktarmak için claude.ai'yi açın. Limitler ve yedekler her sekmeden çalışır.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Dışa aktarma ayarları",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Her şey bu bilgisayarda gerçekleşir — herhangi bir buluta hiçbir şey yüklenmez. Yedekler, İndirilenler › Claude Backups konumuna ZIP dosyası olarak kaydedilir. Otomatik yedeklemeler; bilgisayarınız açıkken, Chrome açıkken ve claude.ai'da oturum açıkken çalışır; biri atlanırsa, bu koşullar tekrar sağlandığında çalışır.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Yedeklemeler nasıl çalışır",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "Projeleriniz yükleniyor…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Proje dışındaki sohbetler de dahil",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "En az bir proje seçin veya proje dışındaki sohbetleri işaretleyin.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Bu hesapta henüz proje yok.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Yedekle: tüm projeler",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Yedekle: seçtiğim projeler",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Projelerinizi listelemek için claude.ai'a giriş yapın.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Yedeklemeler",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Anahtar",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Bir proje açın (Claude'un kenar çubuğundaki Projects) veya bir sohbet — bu panel oradan ne indirebileceğinizi gösterir.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Bir projeyi veya sohbeti dışa aktarmak için claude.ai'yi açın. Limitler ve yedekler her sekmeden çalışır.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Claude projelerimi aç",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Listeden bir projeye tıklayın. Bu panel, projenin dosyaları ve sohbetleriyle dolar; indirmeye hazır olur.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Bana nasıl yapılacağını göster — projelerimi aç",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Yönet / iptal et ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Ömür boyu al",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Yan panel",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Açılır pencere",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Lisans anahtarını gir",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Pro aldın mı? Satın alma e-postasındaki anahtarı yapıştır.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Önce anahtarını yapıştır.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "Anahtar kontrol ediliyor…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro açıldı. Yeniden yükleniyor…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Yıllık",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Yardım ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "$1 sohbet seçtiniz. Pro ile istediğiniz kadar sohbeti tek seferde taşıyabilir, dışa aktarabilir ve silebilirsiniz.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Ücretsiz plan: toplu işlem başına $1 sohbet",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "İptal",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 sohbet",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Sil",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Klasörü sil",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "“$1” klasörü silinsin mi? İçindeki sohbetler Claude'da kalır.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "$1 sohbeti sil",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "Sohbetler claude.ai'dan silinir ve geri yüklenemez. İhtiyacınız olabilecekse önce dışa aktarın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1 silindi. $2 silinemedi ve hâlâ seçili.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "$1 sohbet Claude hesabınızdan silinsin mi?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1 sohbet silindi. Değişikliği görmek için claude.ai'yi yeniden yükleyin.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "Siliniyor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Bağlantınızı kontrol edip tekrar deneyin.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "claude.ai'ya ulaşılamadı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Dışa aktar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Dışa aktarılan her sohbet bir indirme sayılır. Pro, her gün istediğiniz kadar sohbeti dışa aktarır.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Bugün 5 ücretsiz indirmeden $1 kaldı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1 dışa aktarıldı. $2 okunamadı.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1 sohbet İndirilenler klasörüne aktarıldı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "Dışa aktarılıyor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1 sohbet şuraya taşındı: “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Klasör",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Tüm sohbetler",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "“$1” klasörü silindi. Sohbetleri artık klasörsüz.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Tüm sohbetler'de sohbetleri seçip Klasör'ü seçin veya onları bu klasöre sürükleyin. claude.ai'da açık sohbeti eklemek için klasörün yanındaki + düğmesini kullanın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "“$1” içinde henüz bir şey yok",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Bu adda bir klasör zaten var.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "Pro ile sınırsız klasör kullanırsınız. Sohbetleriniz ve klasörleriniz olduğu gibi kalır.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "3 ücretsiz klasörün 3'ünü de kullandınız",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Klasör adı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Klasörsüz",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 dizine eklenmedi",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Arama duraklatıldı: claude.ai'ya giriş yapın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Güncelle",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 sohbet · bu bilgisayarda aranır",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "Arama için sohbetler dizine ekleniyor: $1 / $2",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "İlk $1 sohbeti kullan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 eşleşen sohbet",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Bu, sohbetleri claude.ai'da değiştirir; orada taşımakla aynıdır.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1 taşındı. $2 taşınamadı ve hâlâ seçili.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "$1 sohbeti klasöre taşı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "$1 sohbeti bir Claude projesine taşı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1 sohbet şuraya taşındı: “$2”",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "Taşınıyor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Yeni klasör",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Yeni klasör…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Yeni klasör (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "claude.ai'da başlattığınız sohbetler burada görünür.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Henüz sohbet yok",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "Arama, yazdığınız her kelimeyi eşleştirir. Bir ifadeyi tam olarak eşleştirmek için tırnak içine alın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Dizine ekleme sürüyor — $1 sohbet kaldı. Sonuçlar okundukça görünür.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Hiçbir sohbette “$1” geçmiyor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Bu hesapta henüz proje yok. Önce claude.ai'da bir proje oluşturun.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Taşıma ve silme, sizin hesabınızla doğrudan claude.ai üzerinde çalışır. Bir claude.ai sekmesini açık tutup tekrar deneyin.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Önce claude.ai'yi bir sekmede açın",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Şimdi değil",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "claude.ai'yi aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Sekmede aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Ücretsiz plan",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · sınırsız",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Proje",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Klasörden çıkar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Yeniden adlandır",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Tekrar dene",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "Ücretsiz plan en iyi 5 eşleşmeyi gösterir. Pro her sohbetteki tüm eşleşmeleri gösterir.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "$1 sohbet daha eşleşiyor",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Tüm mesajlarda ara",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Tümünü seç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "“$1” sohbetini seç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 seçili",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "$1 tane daha göster",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Klasörleri claude.ai kenar çubuğunda göster",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "Kitaplık, kendi Claude hesabınızdaki sohbetleri listeler; bu yüzden giriş yapmanız gerekir.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "claude.ai'ya giriş yapın",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Seçimi temizle (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Sil (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Markdown olarak dışa aktar (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Klasöre taşı (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Projeye taşı (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Kitaplık — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1 sohbet klasöründen çıkarıldı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Her sohbet bir klasörde.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Her şey klasörlendi",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Toplu işlemlerin kilidini aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Sınırsız dışa aktarmanın kilidini aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Sınırsız klasörün kilidini aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Tam aramanın kilidini aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Adsız sohbet",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Adsız proje",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Bu sohbeti $1 klasörüne ekle",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Bu projeyi $1 klasörüne ekle",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Sohbetleri ve projeleri klasörlerde gruplayın. Başlamak için + düğmesine basın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Boş. Bir sohbet açın ve bu klasördeki + düğmesine basın.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Klasörler",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Zaten $1 içinde",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "Ücretsiz plan 3 klasör içerir.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Yeni klasör",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "$1 öğenin tümünü Kitaplık'ta göster",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Sınırsız klasörün kilidini aç",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Dışa aktar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Kitaplık",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 mesaj · tahmini",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Uzun sohbet: her mesaj sohbetin tamamını yeniden gönderir. Yeni bir sohbet limitinizi uzatır.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Bu sohbetin bağlamı",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Klasörler ve arama",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Sohbetleri doğrudan Claude kenar çubuğunda klasörlere ayırın, her mesajın içinde arayın ve sohbetleri toplu olarak taşıyın, dışa aktarın veya silin.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Sohbet ve projeler için klasörler",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Her sohbetin içinde arama",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "İlk 5 sonuç",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Tüm sonuçlar",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Toplu taşıma, dışa aktarma ve silme",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "Bir seferde 5",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Açık sohbetin ne kadar bağlamı yeniden gönderdiği",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preparing PDF…</title>
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <!-- v1.17 "Save as PDF": print/print.js fetches the chats, lays them out
+       here, and opens Chrome's print dialog. The toolbar never prints. -->
+  <div class="bar" id="bar">
+    <div class="bar__text">
+      <strong id="barTitle">Preparing your PDF…</strong>
+      <span id="barStatus" aria-live="polite">Fetching chats from Claude…</span>
+    </div>
+    <div class="bar__actions">
+      <button class="bar__btn bar__btn--primary" id="printBtn" disabled>Save as PDF</button>
+      <button class="bar__btn" id="closeBtn">Close tab</button>
+    </div>
+    <div class="bar__progress" id="progress"><div class="bar__progress-fill" id="progressFill"></div></div>
+  </div>
+  <p class="hint" id="hint" hidden>In the print dialog, set <b>Destination</b> to <b>Save as PDF</b>. Chrome remembers it next time.</p>
+  <main class="doc" id="doc"></main>
+
+  <script src="../lib/claude-api.js"></script>
+  <script src="../lib/chat-format.js"></script>
+  <script src="../lib/chat-print.js"></script>
+  <script src="print.js"></script>
+</body>
+</html>

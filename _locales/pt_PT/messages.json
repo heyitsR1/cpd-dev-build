@@ -1,0 +1,1346 @@
+{
+  "extensionName": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for extensionName"
+  },
+  "extensionDescription": {
+    "message": "Exporte chats e projetos do Claude, organize em pastas, pesquise em cada mensagem, elimine em lote e veja os limites. 100% local.",
+    "description": "Translation for extensionDescription"
+  },
+  "actionTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for actionTitle"
+  },
+  "appTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for appTitle"
+  },
+  "appSubtitle": {
+    "message": "Baixe chats e arquivos de projetos do claude.ai",
+    "description": "Translation for appSubtitle"
+  },
+  "howToUse": {
+    "message": "? Como usar",
+    "description": "Translation for howToUse"
+  },
+  "howToUseTitle": {
+    "message": "Como usar esta extensão",
+    "description": "Translation for howToUseTitle"
+  },
+  "statusLabel": {
+    "message": "Status",
+    "description": "Translation for statusLabel"
+  },
+  "statusIdle": {
+    "message": "Inativo",
+    "description": "Translation for statusIdle"
+  },
+  "statusLoading": {
+    "message": "Carregando…",
+    "description": "Translation for statusLoading"
+  },
+  "statusExporting": {
+    "message": "Exportando…",
+    "description": "Translation for statusExporting"
+  },
+  "statusSuccess": {
+    "message": "Sucesso",
+    "description": "Translation for statusSuccess"
+  },
+  "statusError": {
+    "message": "Erro",
+    "description": "Translation for statusError"
+  },
+  "statusPreparing": {
+    "message": "Preparando…",
+    "description": "Translation for statusPreparing"
+  },
+  "contextProject": {
+    "message": "Projeto",
+    "description": "Translation for contextProject"
+  },
+  "contextChat": {
+    "message": "Chat",
+    "description": "Translation for contextChat"
+  },
+  "freeLimitText": {
+    "message": "$1 de $2 exportações gratuitas restantes hoje",
+    "description": "Translation for freeLimitText"
+  },
+  "freeLimitExhausted": {
+    "message": "Limite diário de exportações gratuitas atingido",
+    "description": "Translation for freeLimitExhausted"
+  },
+  "btnRefresh": {
+    "message": "↺ Atualizar",
+    "description": "Translation for btnRefresh"
+  },
+  "btnRefreshFiles": {
+    "message": "↺ Atualizar arquivos",
+    "description": "Translation for btnRefreshFiles"
+  },
+  "singleChatTitle": {
+    "message": "Chat atual",
+    "description": "Translation for singleChatTitle"
+  },
+  "singleChatPill": {
+    "message": "Chat",
+    "description": "Translation for singleChatPill"
+  },
+  "singleChatMeta": {
+    "message": "$1 mensagens · $2 anexos",
+    "description": "Translation for singleChatMeta"
+  },
+  "exportFormatLabel": {
+    "message": "Formato de exportação",
+    "description": "Translation for exportFormatLabel"
+  },
+  "formatZipAttachments": {
+    "message": "📦 ZIP com anexos (.zip)",
+    "description": "Translation for formatZipAttachments"
+  },
+  "formatMarkdown": {
+    "message": "📄 Markdown (.md)",
+    "description": "Translation for formatMarkdown"
+  },
+  "formatJson": {
+    "message": "📋 JSON (dados brutos .json)",
+    "description": "Translation for formatJson"
+  },
+  "btnDownloadThisChat": {
+    "message": "⬇ Baixar este chat",
+    "description": "Translation for btnDownloadThisChat"
+  },
+  "singleChatTip": {
+    "message": "💡 Dica: Você também pode baixar diretamente na página do chat usando o botão Baixar ao lado de Compartilhar.",
+    "description": "Translation for singleChatTip"
+  },
+  "btnDownloadAllFiles": {
+    "message": "↓ Baixar todos os arquivos",
+    "description": "Translation for btnDownloadAllFiles"
+  },
+  "btnDownloadAllChats": {
+    "message": "💬 Baixar todos os chats",
+    "description": "Translation for btnDownloadAllChats"
+  },
+  "btnDownloadProject": {
+    "message": "⬇ Baixar projeto completo",
+    "description": "Translation for btnDownloadProject"
+  },
+  "archiveNameLabel": {
+    "message": "Nome do arquivo ZIP",
+    "description": "Translation for archiveNameLabel"
+  },
+  "archiveNamePlaceholder": {
+    "message": "claude-project",
+    "description": "Translation for archiveNamePlaceholder"
+  },
+  "archiveNameHint": {
+    "message": "Salvo como name_files.zip / _chats.zip / .zip",
+    "description": "Translation for archiveNameHint"
+  },
+  "fileFormatLabel": {
+    "message": "Formato de exportação de arquivos",
+    "description": "Translation for fileFormatLabel"
+  },
+  "fileFormatNative": {
+    "message": "Nativo (manter extensão original)",
+    "description": "Translation for fileFormatNative"
+  },
+  "fileFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for fileFormatMarkdown"
+  },
+  "chatFormatLabel": {
+    "message": "Formato de exportação de chats",
+    "description": "Translation for chatFormatLabel"
+  },
+  "chatFormatMarkdown": {
+    "message": "Markdown (.md)",
+    "description": "Translation for chatFormatMarkdown"
+  },
+  "chatFormatJson": {
+    "message": "JSON (bruto)",
+    "description": "Translation for chatFormatJson"
+  },
+  "filesHeader": {
+    "message": "Arquivos",
+    "description": "Translation for filesHeader"
+  },
+  "chatsHeader": {
+    "message": "Chats",
+    "description": "Translation for chatsHeader"
+  },
+  "noFilesLoaded": {
+    "message": "Nenhum arquivo carregado ainda.",
+    "description": "Translation for noFilesLoaded"
+  },
+  "openProjectTip": {
+    "message": "Abra um projeto ou chat do Claude e clique em Atualizar.",
+    "description": "Translation for openProjectTip"
+  },
+  "noChatsLoaded": {
+    "message": "Nenhum chat carregado ainda.",
+    "description": "Translation for noChatsLoaded"
+  },
+  "openProjectChatTip": {
+    "message": "Abra um projeto do Claude e clique em Atualizar.",
+    "description": "Translation for openProjectChatTip"
+  },
+  "inpageDownloadBtn": {
+    "message": "Baixar",
+    "description": "Translation for inpageDownloadBtn"
+  },
+  "inpageDownloadTooltip": {
+    "message": "Baixar transcrição do chat (Shift+Clique para alterar formato)",
+    "description": "Translation for inpageDownloadTooltip"
+  },
+  "modalDownloadTitle": {
+    "message": "Baixar Chat",
+    "description": "Translation for modalDownloadTitle"
+  },
+  "modalChooseFormat": {
+    "message": "Escolha o formato de exportação preferido:",
+    "description": "Translation for modalChooseFormat"
+  },
+  "badgeRecommended": {
+    "message": "Recomendado",
+    "description": "Translation for badgeRecommended"
+  },
+  "modalZipDesc": {
+    "message": "Transcrição Markdown completa + todos os anexos (imagens, PDFs, documentos) em um arquivo ZIP.",
+    "description": "Translation for modalZipDesc"
+  },
+  "modalMdDesc": {
+    "message": "Texto limpo e formatado, pronto para Obsidian, Notion ou anotações pessoais.",
+    "description": "Translation for modalMdDesc"
+  },
+  "modalJsonDesc": {
+    "message": "Dados brutos e completos da conversa com a estrutura original da API.",
+    "description": "Translation for modalJsonDesc"
+  },
+  "modalRememberChoice": {
+    "message": "Lembrar minha escolha para futuros downloads em um clique",
+    "description": "Translation for modalRememberChoice"
+  },
+  "modalCancelBtn": {
+    "message": "Cancelar",
+    "description": "Translation for modalCancelBtn"
+  },
+  "modalConfirmBtn": {
+    "message": "⬇ Baixar",
+    "description": "Translation for modalConfirmBtn"
+  },
+  "modalShiftTip": {
+    "message": "💡 Dica: Segure Shift ao clicar em Baixar para alterar este formato a qualquer momento.",
+    "description": "Translation for modalShiftTip"
+  },
+  "howToModalTitle": {
+    "message": "Como usar",
+    "description": "Translation for howToModalTitle"
+  },
+  "howToStep1": {
+    "message": "Acesse claude.ai no seu navegador",
+    "description": "Translation for howToStep1"
+  },
+  "howToStep2": {
+    "message": "Clique em Projetos na barra lateral",
+    "description": "Translation for howToStep2"
+  },
+  "howToStep3": {
+    "message": "Abra o projeto que deseja exportar",
+    "description": "Translation for howToStep3"
+  },
+  "howToStep4": {
+    "message": "Clique no ícone da extensão na barra de ferramentas para abrir este painel lateral",
+    "description": "Translation for howToStep4"
+  },
+  "howToStep5": {
+    "message": "Clique em «↺ Atualizar» para carregar arquivos e chats",
+    "description": "Translation for howToStep5"
+  },
+  "howToStep6": {
+    "message": "Baixe arquivos ou chats individualmente ou o projeto inteiro em ZIP",
+    "description": "Translation for howToStep6"
+  },
+  "btnWatchTutorial": {
+    "message": "▶ Assistir ao vídeo tutorial",
+    "description": "Translation for btnWatchTutorial"
+  },
+  "troubleshootModalTitle": {
+    "message": "Solução de problemas",
+    "description": "Translation for troubleshootModalTitle"
+  },
+  "troubleshootIntro": {
+    "message": "Os arquivos não estão aparecendo? Tente o seguinte:",
+    "description": "Translation for troubleshootIntro"
+  },
+  "troubleshootStep1": {
+    "message": "Clique em «↺ Atualizar arquivos» e aguarde um instante",
+    "description": "Translation for troubleshootStep1"
+  },
+  "troubleshootStep2": {
+    "message": "Recarregue a página e tente novamente",
+    "description": "Translation for troubleshootStep2"
+  },
+  "troubleshootStep3": {
+    "message": "Verifique se a URL é claude.ai/project/[id] (não um chat)",
+    "description": "Translation for troubleshootStep3"
+  },
+  "troubleshootStep4": {
+    "message": "Recarga forçada: CMD/Ctrl + Shift + R",
+    "description": "Translation for troubleshootStep4"
+  },
+  "troubleshootStep5": {
+    "message": "Saia do Claude, faça login novamente e reabra o projeto",
+    "description": "Translation for troubleshootStep5"
+  },
+  "troubleshootStep6": {
+    "message": "Tente usar o Google Chrome caso esteja em outro navegador",
+    "description": "Translation for troubleshootStep6"
+  },
+  "troubleshootFullGuide": {
+    "message": "Ler o guia completo de solução de problemas →",
+    "description": "Translation for troubleshootFullGuide"
+  },
+  "troubleshootStillStuck": {
+    "message": "Ainda precisa de ajuda?",
+    "description": "Translation for troubleshootStillStuck"
+  },
+  "fallbackModalTitle": {
+    "message": "⚡ Alternativa: Pedir ao Claude",
+    "description": "Translation for fallbackModalTitle"
+  },
+  "fallbackIntro": {
+    "message": "Alguns arquivos não podem ser baixados diretamente pela API. Copie o prompt abaixo e cole no seu chat do Claude:",
+    "description": "Translation for fallbackIntro"
+  },
+  "fallbackPromptText": {
+    "message": "I need you to create a downloadable ZIP file containing ALL the files in this project's knowledge base. Do NOT regenerate or modify the content — simply copy each file exactly as-is into a ZIP archive and provide a download link. Include every file regardless of format (documents, spreadsheets, images, PDFs, etc.).",
+    "description": "Translation for fallbackPromptText"
+  },
+  "btnCopyPrompt": {
+    "message": "📋 Copiar prompt para a área de transferência",
+    "description": "Translation for btnCopyPrompt"
+  },
+  "fallbackPromptCopied": {
+    "message": "✅ Copiado!",
+    "description": "Translation for fallbackPromptCopied"
+  },
+  "fallbackPasteHint": {
+    "message": "Cole isso no chat do Claude na página do projeto.",
+    "description": "Translation for fallbackPasteHint"
+  },
+  "haveKeyLabel": {
+    "message": "Já comprou? Cole a sua chave aqui:",
+    "description": "Translation for haveKeyLabel"
+  },
+  "licenseKeyPlaceholder": {
+    "message": "XXXX-XXXX-XXXX-XXXX",
+    "description": "Translation for licenseKeyPlaceholder"
+  },
+  "btnActivate": {
+    "message": "Ativar",
+    "description": "Translation for btnActivate"
+  },
+  "onboardingTitle": {
+    "message": "Claude Project Downloader",
+    "description": "Translation for onboardingTitle"
+  },
+  "onboardingSubtitle": {
+    "message": "Exporte arquivos de projetos e chats em um único clique",
+    "description": "Translation for onboardingSubtitle"
+  },
+  "onboardingKeyFeatures": {
+    "message": "✨ Principais recursos",
+    "description": "Translation for onboardingKeyFeatures"
+  },
+  "featureExportFiles": {
+    "message": "Exportar arquivos",
+    "description": "Translation for featureExportFiles"
+  },
+  "featureExportFilesDesc": {
+    "message": "Baixe todos os documentos individualmente ou em um arquivo ZIP organizado.",
+    "description": "Translation for featureExportFilesDesc"
+  },
+  "featureExportChats": {
+    "message": "Exportar chats",
+    "description": "Translation for featureExportChats"
+  },
+  "featureExportChatsDesc": {
+    "message": "Salve todas as conversas do projeto em formato Markdown ou JSON.",
+    "description": "Translation for featureExportChatsDesc"
+  },
+  "featureWholeProject": {
+    "message": "Projeto completo",
+    "description": "Translation for featureWholeProject"
+  },
+  "featureWholeProjectDesc": {
+    "message": "Reúna arquivos e conversas em um único pacote organizado.",
+    "description": "Translation for featureWholeProjectDesc"
+  },
+  "featureFormatConv": {
+    "message": "Conversão de formatos",
+    "description": "Translation for featureFormatConv"
+  },
+  "featureFormatConvDesc": {
+    "message": "Mantenha as extensões originais ou converta tudo para Markdown.",
+    "description": "Translation for featureFormatConvDesc"
+  },
+  "featureTokenMetrics": {
+    "message": "Métricas de tokens",
+    "description": "Translation for featureTokenMetrics"
+  },
+  "featureTokenMetricsDesc": {
+    "message": "Visualize estimativas de tokens e datas de criação dos arquivos.",
+    "description": "Translation for featureTokenMetricsDesc"
+  },
+  "featurePrivate": {
+    "message": "Privado e seguro",
+    "description": "Translation for featurePrivate"
+  },
+  "featurePrivateDesc": {
+    "message": "Executado 100% no seu navegador com sua sessão do Claude. Sem servidores externos.",
+    "description": "Translation for featurePrivateDesc"
+  },
+  "quickStartTitle": {
+    "message": "🚀 Guia de início rápido",
+    "description": "Translation for quickStartTitle"
+  },
+  "quickStartStep1": {
+    "message": "Acesse claude.ai e abra qualquer projeto.",
+    "description": "Translation for quickStartStep1"
+  },
+  "quickStartStep2": {
+    "message": "Clique no ícone da extensão para carregar arquivos e chats.",
+    "description": "Translation for quickStartStep2"
+  },
+  "quickStartStep3": {
+    "message": "Escolha o formato e clique em Baixar.",
+    "description": "Translation for quickStartStep3"
+  },
+  "quickStartStep4": {
+    "message": "Acabou de instalar? Recarregue as abas do Claude abertas para reconectar.",
+    "description": "Translation for quickStartStep4"
+  },
+  "footerCopyright": {
+    "message": "© 2026 Claude Project Downloader. Todos os direitos reservados.",
+    "description": "Translation for footerCopyright"
+  },
+  "upgradeLink": {
+    "message": "Atualizar para Pro",
+    "description": "Translation for upgradeLink"
+  },
+  "proModalTitle": {
+    "message": "⚡ Atualizar para Pro",
+    "description": "Translation for proModalTitle"
+  },
+  "proIntroText": {
+    "message": "O plano gratuito inclui 5 transferências individuais por dia e uma exportação completa de projeto. O Pro remove ambos os limites e adiciona a função Fazer cópia de segurança de tudo — cada projeto e conversa num único ZIP, a pedido ou automaticamente — além de um indicador de utilização do Claude em tempo real no claude.ai.",
+    "description": "Translation for proIntroText"
+  },
+  "btnUpgradePro": {
+    "message": "Atualizar para Pro",
+    "description": "Translation for btnUpgradePro"
+  },
+  "proViaFreemius": {
+    "message": "Pagamento seguro via Freemius",
+    "description": "Translation for proViaFreemius"
+  },
+  "haveKeyTitle": {
+    "message": "🔑 Já comprou?",
+    "description": "Translation for haveKeyTitle"
+  },
+  "proActive": {
+    "message": "PRO · Acesso ilimitado",
+    "description": "Translation for proActive"
+  },
+  "includeAttachmentsLabel": {
+    "message": "Incluir anexos do chat (ZIP maior)",
+    "description": "Checkbox: pull chat attachments into project exports"
+  },
+  "usageResetsIn": {
+    "message": "reinicia em $1",
+    "description": "v1.15 — usageResetsIn"
+  },
+  "usageSignedOut": {
+    "message": "Inicie sessão em claude.ai para ver os seus limites.",
+    "description": "v1.15 — usageSignedOut"
+  },
+  "usageUnavailable": {
+    "message": "Não foi possível ler os seus limites agora. Abra claude.ai e tente novamente.",
+    "description": "v1.15 — usageUnavailable"
+  },
+  "usageSessionShort": {
+    "message": "Sessão de 5 horas",
+    "description": "v1.15 — usageSessionShort"
+  },
+  "usageWeeklyShort": {
+    "message": "Semanal",
+    "description": "v1.15 — usageWeeklyShort"
+  },
+  "usageWeeklyModel": {
+    "message": "Semanal · $1",
+    "description": "v1.15 — usageWeeklyModel"
+  },
+  "backupExporting": {
+    "message": "A exportar $1",
+    "description": "v1.15 — backupExporting"
+  },
+  "backupStarting": {
+    "message": "A iniciar…",
+    "description": "v1.15 — backupStarting"
+  },
+  "backupProOnly": {
+    "message": "Funcionalidade Pro. Os seus ficheiros ficam em Transferências › Claude Backups.",
+    "description": "v1.15 — backupProOnly"
+  },
+  "backupKeepGoing": {
+    "message": "Pode fechar este painel — a cópia de segurança continua.",
+    "description": "v1.15 — backupKeepGoing"
+  },
+  "backupSignedOut": {
+    "message": "A última cópia de segurança falhou: inicie sessão em claude.ai e tente novamente.",
+    "description": "v1.15 — backupSignedOut"
+  },
+  "backupFailed": {
+    "message": "A última cópia de segurança falhou: $1",
+    "description": "v1.15 — backupFailed"
+  },
+  "backupLast": {
+    "message": "Última cópia $1 · $2 projetos, $3 conversas · Transferências › Claude Backups",
+    "description": "v1.15 — backupLast"
+  },
+  "backupNever": {
+    "message": "Ainda sem cópia de segurança. Guardada em Transferências › Claude Backups.",
+    "description": "v1.15 — backupNever"
+  },
+  "planMonthly": {
+    "message": "Mensal",
+    "description": "v1.15 — planMonthly"
+  },
+  "planLifetime": {
+    "message": "Vitalícia",
+    "description": "v1.15 — planLifetime"
+  },
+  "planRenews": {
+    "message": "Renova a $1. Exportações e cópias de segurança ilimitadas, e o indicador de utilização na página.",
+    "description": "v1.15 — planRenews"
+  },
+  "planProSub": {
+    "message": "Exportações e cópias de segurança ilimitadas, e o indicador de utilização na página.",
+    "description": "v1.15 — planProSub"
+  },
+  "manageLicense": {
+    "message": "Gerir licença",
+    "description": "v1.15 — manageLicense"
+  },
+  "planEnded": {
+    "message": "A sua subscrição Pro terminou",
+    "description": "v1.15 — planEnded"
+  },
+  "planCancelled": {
+    "message": "Esta licença Pro foi cancelada",
+    "description": "v1.15 — planCancelled"
+  },
+  "planEndedSub": {
+    "message": "Está novamente no plano gratuito. As suas exportações e cópias de segurança anteriores continuam suas.",
+    "description": "v1.15 — planEndedSub"
+  },
+  "planRenew": {
+    "message": "Renovar Pro",
+    "description": "v1.15 — planRenew"
+  },
+  "usageSession": {
+    "message": "Sessão atual (5 horas)",
+    "description": "v1.15 — usageSession"
+  },
+  "usageWeekly": {
+    "message": "Limite semanal",
+    "description": "v1.15 — usageWeekly"
+  },
+  "usagePillHide": {
+    "message": "Ocultar",
+    "description": "v1.15 — usagePillHide"
+  },
+  "usageToastMaxTitle": {
+    "message": "Limite da sessão atingido",
+    "description": "v1.15 — usageToastMaxTitle"
+  },
+  "usageToastWarnTitle": {
+    "message": "$1% da sua sessão utilizada",
+    "description": "v1.15 — usageToastWarnTitle"
+  },
+  "usageToastResets": {
+    "message": "Reinicia em $1.",
+    "description": "v1.15 — usageToastResets"
+  },
+  "usagePillTitle": {
+    "message": "Utilização do Claude — clique para ver detalhes",
+    "description": "v1.15 — usagePillTitle"
+  },
+  "proIntroDaily": {
+    "message": "Essas foram as suas 5 transferências gratuitas de hoje. O Pro remove o limite diário — transferências individuais ilimitadas e exportações completas de projeto ilimitadas.",
+    "description": "v1.15 — proIntroDaily"
+  },
+  "proIntroBulk": {
+    "message": "Já utilizou a sua exportação completa de projeto gratuita. O Pro desbloqueia exportações completas ilimitadas — todas as conversas e ficheiros com um clique, sempre que quiser.",
+    "description": "v1.15 — proIntroBulk"
+  },
+  "proIntroBackup": {
+    "message": "Fazer cópia de segurança de tudo é uma funcionalidade Pro: instruções, ficheiros e conversas de cada projeto, mais todas as outras conversas, num único ZIP — a pedido ou automaticamente, todos os dias ou todas as semanas.",
+    "description": "v1.15 — proIntroBackup"
+  },
+  "proIntroUsage": {
+    "message": "O indicador na página é uma funcionalidade Pro: os seus limites do Claude de 5 horas e semanais, no canto do claude.ai, com um aviso aos 80% e 100%.",
+    "description": "v1.15 — proIntroUsage"
+  },
+  "proIntroRenew": {
+    "message": "A sua subscrição Pro terminou. Renove para voltar a ativar exportações e cópias de segurança ilimitadas, e o indicador na página. A sua chave mantém-se a mesma.",
+    "description": "v1.15 — proIntroRenew"
+  },
+  "usageTitle": {
+    "message": "Os seus limites do Claude",
+    "description": "v1.15 — usageTitle"
+  },
+  "usagePillToggle": {
+    "message": "Mostrar o indicador no claude.ai",
+    "description": "v1.15 — usagePillToggle"
+  },
+  "backupTitle": {
+    "message": "Fazer cópia de segurança de tudo",
+    "description": "v1.15 — backupTitle"
+  },
+  "backupDesc": {
+    "message": "Os seus projetos — instruções, ficheiros e conversas — e as suas outras conversas, guardados num único ZIP. Funciona por conta própria, mesmo com este painel fechado.",
+    "description": "v1.15 — backupDesc"
+  },
+  "backupNow": {
+    "message": "⬇ Fazer cópia de segurança agora",
+    "description": "v1.15 — backupNow"
+  },
+  "backupScheduleOff": {
+    "message": "Cópia automática: desativada",
+    "description": "v1.15 — backupScheduleOff"
+  },
+  "backupScheduleDaily": {
+    "message": "Cópia automática: diária",
+    "description": "v1.15 — backupScheduleDaily"
+  },
+  "backupScheduleWeekly": {
+    "message": "Cópia automática: semanal",
+    "description": "v1.15 — backupScheduleWeekly"
+  },
+  "backupCancel": {
+    "message": "Cancelar",
+    "description": "v1.15 — backupCancel"
+  },
+  "usageRefresh": {
+    "message": "Atualizar",
+    "description": "v1.15 — usageRefresh"
+  },
+  "obHeroTitle": {
+    "message": "O seu trabalho no Claude, guardado no seu próprio computador.",
+    "description": "v1.15 welcome page — obHeroTitle"
+  },
+  "obHeroSub": {
+    "message": "Exporte projetos, conversas e ficheiros da sua própria conta Claude, organize conversas em pastas, pesquise dentro de cada mensagem e acompanhe os seus limites de utilização.",
+    "description": "v1.16 welcome page — obHeroSub"
+  },
+  "obOpenClaude": {
+    "message": "Abrir claude.ai",
+    "description": "v1.15 welcome page — obOpenClaude"
+  },
+  "obPinTip": {
+    "message": "Depois clique no ícone da extensão para abrir o painel lateral. Dica: afixe-o no menu em forma de peça de puzzle do Chrome.",
+    "description": "v1.15 welcome page — obPinTip"
+  },
+  "obFeatExportTitle": {
+    "message": "Exportar",
+    "description": "v1.15 welcome page — obFeatExportTitle"
+  },
+  "obFeatExportDesc": {
+    "message": "Ficheiros do projeto, transcrições de chats e artefactos — ou o projeto inteiro num ZIP, em Markdown ou JSON.",
+    "description": "v1.15 welcome page — obFeatExportDesc"
+  },
+  "obFeatBackupDesc": {
+    "message": "Todos os projetos e todos os chats num ZIP — quando quiser ou automaticamente todos os dias ou semanas, mesmo com o painel fechado.",
+    "description": "v1.15 welcome page — obFeatBackupDesc"
+  },
+  "obFeatUsageTitle": {
+    "message": "Medidor de utilização",
+    "description": "v1.15 welcome page — obFeatUsageTitle"
+  },
+  "obFeatUsageDesc": {
+    "message": "Os seus limites do Claude de 5 horas e semanais, com a hora de reposição — no painel lateral e junto ao seletor de modelo em claude.ai.",
+    "description": "v1.15 welcome page — obFeatUsageDesc"
+  },
+  "obCompareTitle": {
+    "message": "Free vs Pro",
+    "description": "v1.15 welcome page — obCompareTitle"
+  },
+  "obColFree": {
+    "message": "Free",
+    "description": "v1.15 welcome page — obColFree"
+  },
+  "obRowSingles": {
+    "message": "Transferências de ficheiros e chats",
+    "description": "v1.15 welcome page — obRowSingles"
+  },
+  "obFiveADay": {
+    "message": "5 por dia",
+    "description": "v1.15 welcome page — obFiveADay"
+  },
+  "obUnlimited": {
+    "message": "Ilimitado",
+    "description": "v1.15 welcome page — obUnlimited"
+  },
+  "obRowProject": {
+    "message": "Exportação do projeto inteiro",
+    "description": "v1.15 welcome page — obRowProject"
+  },
+  "obOneFree": {
+    "message": "1 grátis",
+    "description": "v1.15 welcome page — obOneFree"
+  },
+  "obRowFormats": {
+    "message": "Markdown / JSON, artefactos e anexos",
+    "description": "v1.15 welcome page — obRowFormats"
+  },
+  "obRowLimits": {
+    "message": "Limites de utilização no painel lateral",
+    "description": "v1.15 welcome page — obRowLimits"
+  },
+  "obRowPill": {
+    "message": "Medidor em claude.ai, com avisos a 80% / 100%",
+    "description": "v1.15 welcome page — obRowPill"
+  },
+  "obRowAuto": {
+    "message": "Cópias de segurança automáticas diárias ou semanais",
+    "description": "v1.15 welcome page — obRowAuto"
+  },
+  "obProPitch": {
+    "message": "Mensal ou vitalício — veja planos e preços no nosso site.",
+    "description": "v1.15 welcome page — obProPitch"
+  },
+  "obProActiveTitle": {
+    "message": "O Pro está ativo",
+    "description": "v1.15 welcome page — obProActiveTitle"
+  },
+  "obProActiveDesc": {
+    "message": "Abra o painel lateral para criar uma cópia de tudo ou ativar as cópias automáticas.",
+    "description": "v1.15 welcome page — obProActiveDesc"
+  },
+  "obProMonthly": {
+    "message": "Mensal · renova a $1",
+    "description": "v1.15 welcome page — obProMonthly"
+  },
+  "obProLifetime": {
+    "message": "Licença vitalícia — todas as funcionalidades Pro, para sempre.",
+    "description": "v1.15 welcome page — obProLifetime"
+  },
+  "obKeyPaste": {
+    "message": "Cole a chave de licença do e-mail de compra.",
+    "description": "v1.15 welcome page — obKeyPaste"
+  },
+  "obQuickTitle": {
+    "message": "Primeiros passos",
+    "description": "v1.15 welcome page — obQuickTitle"
+  },
+  "obStep1": {
+    "message": "Abra claude.ai e entre num projeto ou chat.",
+    "description": "v1.15 welcome page — obStep1"
+  },
+  "obStep2": {
+    "message": "Clique no ícone da extensão para abrir o painel lateral. Afixe-o para lhe aceder com um clique.",
+    "description": "v1.15 welcome page — obStep2"
+  },
+  "obStep3": {
+    "message": "Transfira ficheiros, chats ou o projeto inteiro — ou faça uma cópia de tudo de uma vez.",
+    "description": "v1.15 welcome page — obStep3"
+  },
+  "obStep4": {
+    "message": "Acabou de instalar ou atualizar? Recarregue os separadores do Claude que já estavam abertos para voltarem a ligar-se.",
+    "description": "v1.15 welcome page — obStep4"
+  },
+  "obAccess": {
+    "message": "Exporta apenas o que a sua própria conta Claude com sessão iniciada já consegue abrir. O seu conteúdo Claude nunca sai do navegador.",
+    "description": "v1.15 welcome page — obAccess"
+  },
+  "obNeedHelp": {
+    "message": "Precisa de ajuda?",
+    "description": "v1.15 welcome page — obNeedHelp"
+  },
+  "notOnClaude": {
+    "message": "Abra claude.ai para exportar um projeto ou chat. Os seus limites e cópias funcionam em qualquer separador.",
+    "description": "v1.15 welcome page — notOnClaude"
+  },
+  "exportSettings": {
+    "message": "Definições de exportação",
+    "description": "v1.15 — exportSettings"
+  },
+  "backupHowBody": {
+    "message": "Tudo acontece neste computador — nada é enviado para qualquer serviço na nuvem. As cópias são guardadas como ficheiros ZIP em Transferências › Claude Backups. As cópias automáticas são executadas enquanto o seu computador está ligado, o Chrome está aberto e tem sessão iniciada em claude.ai; se uma falhar, é executada na próxima vez que essas condições se verificarem.",
+    "description": "v1.15 — backupHowBody"
+  },
+  "backupHowTitle": {
+    "message": "Como funcionam as cópias de segurança",
+    "description": "v1.15 — backupHowTitle"
+  },
+  "backupLoadingProjects": {
+    "message": "A carregar os seus projetos…",
+    "description": "v1.15 — backupLoadingProjects"
+  },
+  "backupLooseChats": {
+    "message": "Também as conversas fora de projetos",
+    "description": "v1.15 — backupLooseChats"
+  },
+  "backupNeedOne": {
+    "message": "Escolha pelo menos um projeto ou marque conversas fora de projetos.",
+    "description": "v1.15 — backupNeedOne"
+  },
+  "backupNoProjects": {
+    "message": "Ainda não existem projetos nesta conta.",
+    "description": "v1.15 — backupNoProjects"
+  },
+  "backupScopeAll": {
+    "message": "Cópia de segurança: todos os projetos",
+    "description": "v1.15 — backupScopeAll"
+  },
+  "backupScopeSelected": {
+    "message": "Cópia de segurança: os projetos que eu escolher",
+    "description": "v1.15 — backupScopeSelected"
+  },
+  "backupSignIn": {
+    "message": "Inicie sessão em claude.ai para listar os seus projetos.",
+    "description": "v1.15 — backupSignIn"
+  },
+  "backupsTitle": {
+    "message": "Cópias de segurança",
+    "description": "v1.15 — backupsTitle"
+  },
+  "footerLicenseKey": {
+    "message": "🔑 Chave",
+    "description": "v1.15 — footerLicenseKey"
+  },
+  "guideClaude": {
+    "message": "Abra um projeto (Projetos na barra lateral do Claude) ou uma conversa — este painel mostra o que pode descarregar a partir daí.",
+    "description": "v1.15 — guideClaude"
+  },
+  "guideOffsite": {
+    "message": "Abra claude.ai para exportar um projeto ou chat. Os seus limites e cópias funcionam em qualquer separador.",
+    "description": "v1.15 — guideOffsite"
+  },
+  "guideOpenProjects": {
+    "message": "Abrir os meus projetos do Claude",
+    "description": "v1.15 — guideOpenProjects"
+  },
+  "guideProjects": {
+    "message": "👈 Clique em qualquer projeto da lista. Este painel preenche-se com os seus ficheiros e conversas, prontos a descarregar.",
+    "description": "v1.15 — guideProjects"
+  },
+  "obStart": {
+    "message": "Mostre-me como — abrir os meus projetos",
+    "description": "v1.15 — obStart"
+  },
+  "planManageCancel": {
+    "message": "Gerir / cancelar ↗",
+    "description": "v1.15 — planManageCancel"
+  },
+  "planGetLifetime": {
+    "message": "Obter vitalício",
+    "description": "v1.20 — upsell on a subscriber's plan card; opens the pricing page"
+  },
+  "uiModePanel": {
+    "message": "Painel lateral",
+    "description": "v1.15 — uiModePanel"
+  },
+  "uiModePopup": {
+    "message": "Pop-up",
+    "description": "v1.15 — uiModePopup"
+  },
+  "keySectionTitle": {
+    "message": "🔑 Introduza a sua chave de licença",
+    "description": "v1.15 — keySectionTitle"
+  },
+  "keySectionHint": {
+    "message": "Comprou o Pro? Cole a chave do e-mail de compra.",
+    "description": "v1.15 — keySectionHint"
+  },
+  "keySectionEmpty": {
+    "message": "Cole primeiro a sua chave.",
+    "description": "v1.15 — keySectionEmpty"
+  },
+  "keySectionChecking": {
+    "message": "A verificar a chave…",
+    "description": "v1.15 — keySectionChecking"
+  },
+  "keySectionOk": {
+    "message": "Pro ativado. A recarregar…",
+    "description": "v1.15 — keySectionOk"
+  },
+  "planYearly": {
+    "message": "Anual",
+    "description": "v1.15 — planYearly"
+  },
+  "footerHelp": {
+    "message": "Ajuda ↗",
+    "description": "v1.15 — footerHelp"
+  },
+  "libBulkLimitBody": {
+    "message": "Selecionou $1. O Pro move, exporta e elimina qualquer quantidade de uma só vez.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libBulkLimitTitle": {
+    "message": "Plano gratuito: $1 chats por ação em lote",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCancel": {
+    "message": "Cancelar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libCount": {
+    "message": "$1 chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDelete": {
+    "message": "Eliminar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolder": {
+    "message": "Eliminar pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteFolderQ": {
+    "message": "Eliminar a pasta «$1»? As conversas continuam no Claude.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteN": {
+    "message": "Eliminar $1 chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteNote": {
+    "message": "São eliminados em claude.ai e não podem ser restaurados. Exporte-os primeiro se puder vir a precisar deles.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeletePartial": {
+    "message": "$1 eliminados. $2 não puderam ser eliminados e continuam selecionados.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleteQ": {
+    "message": "Eliminar $1 chats da sua conta Claude?",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleted": {
+    "message": "$1 chats eliminados. Recarregue claude.ai para ver a alteração.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libDeleting": {
+    "message": "A eliminar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorBody": {
+    "message": "Verifique a sua ligação e tente novamente.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libErrorTitle": {
+    "message": "Não foi possível aceder a claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExport": {
+    "message": "Exportar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitBody": {
+    "message": "Cada chat exportado conta como uma transferência. O Pro exporta qualquer quantidade de chats, em qualquer dia.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportLimitTitle": {
+    "message": "Restam $1 de 5 transferências gratuitas hoje",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExportPartial": {
+    "message": "$1 exportados. $2 não puderam ser lidos.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExported": {
+    "message": "$1 chats exportados para Transferências",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libExporting": {
+    "message": "A exportar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFiled": {
+    "message": "$1 chats movidos para «$2»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolder": {
+    "message": "Pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderAll": {
+    "message": "Todos os chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderDeleted": {
+    "message": "Pasta «$1» eliminada. Os chats ficaram sem pasta.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyBody": {
+    "message": "Selecione chats em Todos os chats e escolha Pasta, ou arraste-os para esta pasta. Em claude.ai, use + junto à pasta para adicionar o chat aberto.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderEmptyTitle": {
+    "message": "Ainda nada em «$1»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderExists": {
+    "message": "Já existe uma pasta com esse nome.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitBody": {
+    "message": "O Pro oferece pastas ilimitadas. Os seus chats e pastas ficam exatamente como estão.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderLimitTitle": {
+    "message": "Usou 3 de 3 pastas gratuitas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderNamePh": {
+    "message": "Nome da pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libFolderUnfiled": {
+    "message": "Sem pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexFailed": {
+    "message": "$1 não indexados",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexSignedOut": {
+    "message": "Pesquisa em pausa: inicie sessão em claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexUpdate": {
+    "message": "Atualizar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexed": {
+    "message": "$1 chats · pesquisados neste computador",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libIndexing": {
+    "message": "A indexar $1 / $2 chats para a pesquisa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libKeepFirst": {
+    "message": "Usar os primeiros $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMatches": {
+    "message": "$1 chats correspondentes",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveNote": {
+    "message": "Isto altera os chats em claude.ai, tal como movê-los lá.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMovePartial": {
+    "message": "$1 movidos. $2 não puderam ser movidos e continuam selecionados.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToFolderQ": {
+    "message": "Mover $1 chats para uma pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoveToProjectQ": {
+    "message": "Mover $1 chats para um projeto do Claude",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoved": {
+    "message": "$1 chats movidos para «$2»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libMoving": {
+    "message": "A mover",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolder": {
+    "message": "Nova pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderEllipsis": {
+    "message": "Nova pasta…",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNewFolderTip": {
+    "message": "Nova pasta (N)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsBody": {
+    "message": "Os chats que iniciar em claude.ai aparecem aqui.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoChatsTitle": {
+    "message": "Ainda sem chats",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchBody": {
+    "message": "A pesquisa encontra cada palavra escrita. Coloque uma expressão entre aspas para a encontrar exatamente.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchIndexing": {
+    "message": "Ainda a indexar — faltam $1 chats. Os resultados aparecem à medida que são lidos.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoMatchTitle": {
+    "message": "Nenhum chat menciona «$1»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoProjects": {
+    "message": "Esta conta ainda não tem projetos. Crie um primeiro em claude.ai.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabBody": {
+    "message": "Mover e eliminar decorrem no próprio claude.ai, com a sua sessão. Mantenha um separador de claude.ai aberto e tente novamente.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNoTabTitle": {
+    "message": "Abra primeiro claude.ai num separador",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libNotNow": {
+    "message": "Agora não",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenClaude": {
+    "message": "Abrir claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libOpenInTab": {
+    "message": "Abrir num separador",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanFree": {
+    "message": "Plano gratuito",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libPlanPro": {
+    "message": "Pro · sem limites",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libProject": {
+    "message": "Projeto",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRemoveFromFolder": {
+    "message": "Remover da pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRename": {
+    "message": "Renomear",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libRetry": {
+    "message": "Tentar novamente",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedBody": {
+    "message": "O plano gratuito mostra os 5 melhores resultados. O Pro mostra todos os resultados, em todos os chats.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchLockedTitle": {
+    "message": "Mais $1 chats correspondem",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSearchPlaceholder": {
+    "message": "Pesquisar em todas as mensagens",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectAll": {
+    "message": "Selecionar tudo",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelectChat": {
+    "message": "Selecionar «$1»",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSelected": {
+    "message": "$1 selecionados",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libShowMore": {
+    "message": "Mostrar mais $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSidebarToggle": {
+    "message": "Mostrar pastas na barra lateral de claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutBody": {
+    "message": "A Biblioteca lista os chats da sua própria conta Claude, por isso precisa de ter sessão iniciada.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libSignedOutTitle": {
+    "message": "Inicie sessão em claude.ai",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipClear": {
+    "message": "Limpar seleção (Esc)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipDelete": {
+    "message": "Eliminar (Del)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipExport": {
+    "message": "Exportar como Markdown (E)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipFolder": {
+    "message": "Mover para pasta (F)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTipProject": {
+    "message": "Mover para projeto (P)",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libTitle": {
+    "message": "Biblioteca — Claude Project Downloader",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiled": {
+    "message": "$1 chats removidos da pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyBody": {
+    "message": "Todos os chats estão numa pasta.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnfiledEmptyTitle": {
+    "message": "Tudo organizado",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockBulk": {
+    "message": "Desbloquear ações em lote",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockExports": {
+    "message": "Desbloquear exportações ilimitadas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockFolders": {
+    "message": "Desbloquear pastas ilimitadas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUnlockSearch": {
+    "message": "Desbloquear pesquisa completa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledChat": {
+    "message": "Chat sem título",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "libUntitledProject": {
+    "message": "Projeto sem título",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddChat": {
+    "message": "Adicionar este chat a $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbAddProject": {
+    "message": "Adicionar este projeto a $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbEmpty": {
+    "message": "Agrupe chats e projetos em pastas. Prima + para começar.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolderEmpty": {
+    "message": "Vazia. Abra um chat e prima + nesta pasta.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbFolders": {
+    "message": "Pastas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbInFolder": {
+    "message": "Já está em $1",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbLimit": {
+    "message": "O plano gratuito inclui 3 pastas.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbNewFolder": {
+    "message": "Nova pasta",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbShowAll": {
+    "message": "Mostrar todos os $1 na Biblioteca",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "sbUnlock": {
+    "message": "Desbloquear pastas ilimitadas",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabExport": {
+    "message": "Exportar",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "tabLibrary": {
+    "message": "Biblioteca",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageChatMessages": {
+    "message": "$1 mensagens · estimativa",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageLongChat": {
+    "message": "Chat longo: cada mensagem volta a enviar todo o histórico. Um chat novo faz o seu limite durar mais.",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "usageThisChat": {
+    "message": "Contexto deste chat",
+    "description": "v1.16 Library / sidebar folders"
+  },
+  "obFeatLibraryTitle": {
+    "message": "Pastas e pesquisa",
+    "description": "v1.16 welcome page — obFeatLibraryTitle"
+  },
+  "obFeatLibraryDesc": {
+    "message": "Organize conversas em pastas diretamente na barra lateral do Claude, pesquise dentro de cada mensagem e mova, exporte ou elimine conversas em massa.",
+    "description": "v1.16 welcome page — obFeatLibraryDesc"
+  },
+  "obRowFolders": {
+    "message": "Pastas para conversas e projetos",
+    "description": "v1.16 welcome page — obRowFolders"
+  },
+  "obRowSearch": {
+    "message": "Pesquisa dentro de cada conversa",
+    "description": "v1.16 welcome page — obRowSearch"
+  },
+  "obTopFive": {
+    "message": "Os 5 melhores resultados",
+    "description": "v1.16 welcome page — obTopFive"
+  },
+  "obAllResults": {
+    "message": "Todos os resultados",
+    "description": "v1.16 welcome page — obAllResults"
+  },
+  "obRowBulk": {
+    "message": "Mover, exportar e eliminar em massa",
+    "description": "v1.16 welcome page — obRowBulk"
+  },
+  "obFiveAtOnce": {
+    "message": "5 de cada vez",
+    "description": "v1.16 welcome page — obFiveAtOnce"
+  },
+  "obRowContext": {
+    "message": "Quanto contexto a conversa aberta reenvia",
+    "description": "v1.16 welcome page — obRowContext"
+  }
+}

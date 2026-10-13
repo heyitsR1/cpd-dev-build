@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="libTitle">Library — Claude Project Downloader</title>
+  <link rel="stylesheet" href="library.css" />
+  <link rel="stylesheet" href="../lib/report.css" />
+</head>
+<body>
+  <!-- v1.16 Library: every chat in the account, with folders, full-text
+       search, and bulk actions. Shares the side panel with the export screen
+       (popup/popup.html) through the tab strip below. -->
+  <nav class="tabs" aria-label="Sections">
+    <a class="tabs__tab" id="tabExport" href="../popup/popup.html" data-i18n="tabExport">Export</a>
+    <a class="tabs__tab is-active" id="tabLibrary" href="library.html" aria-current="page" data-i18n="tabLibrary">Library</a>
+    <span class="tabs__spacer"></span>
+    <button type="button" class="report-btn" id="reportBtn" title="Something not working? Tell us — most fixes ship within 24 hours."><span class="report-btn__icon" aria-hidden="true">⚑</span>Report a problem</button>
+    <button class="icon-btn" id="openTabBtn" data-i18n-title="libOpenInTab" title="Open in a tab" aria-label="Open in a tab"></button>
+  </nav>
+
+  <main class="lib">
+    <div class="search">
+      <span class="search__icon" aria-hidden="true"></span>
+      <input class="search__input" id="searchInput" type="search" autocomplete="off" spellcheck="false"
+        data-i18n-placeholder="libSearchPlaceholder" placeholder="Search every message" aria-label="Search chats" />
+      <kbd class="search__kbd" aria-hidden="true">/</kbd>
+    </div>
+
+    <div class="index-line" id="indexLine" aria-live="polite">
+      <span id="indexText"></span>
+      <button class="link-btn" id="indexSyncBtn" hidden data-i18n="libIndexUpdate">Update</button>
+    </div>
+
+    <div class="folders" id="folderBar" role="tablist" aria-label="Folders"></div>
+    <div class="folder-tools" id="folderTools" hidden></div>
+    <div id="limitSlot"></div>
+
+    <div class="list-head" id="listHead" hidden>
+      <label class="check">
+        <input type="checkbox" id="selectAll" data-i18n-aria="libSelectAll" aria-label="Select all" />
+      </label>
+      <span class="list-head__label" id="listLabel"></span>
+    </div>
+    <div class="list" id="list" role="list"></div>
+    <div id="lockedSlot"></div>
+    <button class="btn btn--ghost btn--block" id="moreBtn" hidden></button>
+  </main>
+
+  <div class="bulkbar" id="bulkBar" hidden>
+    <div class="bulkbar__row" id="bulkMain">
+      <span class="bulkbar__count" id="bulkCount"></span>
+      <button class="btn btn--sm" id="bulkFolderBtn" data-i18n-title="libTipFolder" title="Move to folder (F)"></button>
+      <button class="btn btn--sm" id="bulkProjectBtn" data-i18n-title="libTipProject" title="Move to project (P)"></button>
+      <button class="btn btn--sm" id="bulkExportBtn" data-i18n-title="libTipExport" title="Export as Markdown (E)"></button>
+      <button class="btn btn--sm btn--danger" id="bulkDeleteBtn" data-i18n-title="libTipDelete" title="Delete (Del)"></button>
+      <button class="icon-btn" id="bulkClearBtn" data-i18n-title="libTipClear" title="Clear selection (Esc)" aria-label="Clear selection"></button>
+    </div>
+    <div class="bulkbar__panel" id="bulkPanel" hidden></div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <footer class="foot">
+    <label class="toggle">
+      <input type="checkbox" id="sidebarToggle" />
+      <span data-i18n="libSidebarToggle">Show folders in the claude.ai sidebar</span>
+    </label>
+    <span class="foot__plan" id="planLine"></span>
+  </footer>
+
+  <script src="../lib/i18n.js"></script>
+  <script src="../lib/zip.js"></script>
+  <script src="../lib/chat-format.js"></script>
+  <script src="../lib/usage.js"></script>
+  <script src="../lib/folders.js"></script>
+  <script src="../lib/search-index.js"></script>
+  <script src="../lib/bulk.js"></script>
+  <script type="module" src="library.js"></script>
+</body>
+</html>
